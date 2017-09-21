@@ -1,0 +1,3040 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" C:\Users\lsanderson\Downloads\orphanwells-pctest.fmw
+#          --SourceDataset_XLSXR "C:\Users\lsanderson\Downloads\AER_Licence_Details_Report.xlsx"
+#          --DestDataset_XLSXW "C:\Users\lsanderson\Downloads\Inspect Oil Wells.xlsx"
+#          --SourceDataset_ESRISHAPE "C:\Users\lsanderson\Downloads\V4-1_LSD.shp"
+#          --DestDataset_ESRISHAPE "C:\Users\lsanderson\Downloads"
+#    
+#    
+#!   SOURCE="NONE"
+#!   TITLE="RCaller-Wells-Windows"
+#!   MARKDOWN_USAGE=""
+#!   LAST_SAVE_DATE="2017-07-28T12:53:14"
+#!   HISTORY=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   MAX_LOG_FEATURES="200"
+#!   FME_DOCUMENT_GUID="fe3f3dac-6054-467f-8388-c4917c586844"
+#!   VIEW_POSITION="-5453.18 1331.26"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   WORKSPACE_VERSION="1"
+#!   TERMINATE_REJECTED="NO"
+#!   DESCRIPTION=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.0 (20170725 - Build 17610 - WIN64)"
+#!   FME_BUILD_NUM="17610"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   USE_MARKDOWN=""
+#!   SHOW_ANNOTATIONS="true"
+#!   ZOOM_SCALE="100"
+#!   DOC_EXTENTS="5383.94 2605.52"
+#!   USAGE=""
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   IGNORE_READER_FAILURE="No"
+#!   DOC_TOP_LEFT="-5356.5 -1402.26"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   PYTHON_COMPATIBILITY="27"
+#!   PASSWORD=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   FME_DOCUMENT_PRIORGUID="b39870aa-50d5-4392-8d64-a53404e0c4a0,b3b1937a-36ea-451b-a1df-c11e3a2bbc03,7c50b485-2cb7-42a5-b941-3904ade337ec,1e134516-999e-4380-9801-80d36354d874"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   END_PYTHON=""
+#!   CATEGORY=""
+#!   BEGIN_TCL=""
+#!   DESTINATION="NONE"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   FME_SERVER_SERVICES=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   SHOW_INFO_NODES="true"
+#!   END_TCL=""
+#!   BEGIN_PYTHON=""
+#!   LOG_FILE=""
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="XLSXR"
+#!   DATASET="$(SourceDataset_XLSXR)"
+#!   KEYWORD="XLSXR_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="xlsx_start_row &quot;&quot; xlsx_end_row &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) multi_reader_id number(11,0) fme_secondary_axis number(31,15) xlsx_row_id number(11,0) multi_reader_full_id number(11,0) fme_text_string char(50) fme_dataset char(50) fme_sweep_angle number(31,15) fme_geometry fme_char(50) fme_rotation number(31,15) fme_color char(50) fme_text_size number(31,15) multi_reader_keyword char(50) fme_primary_axis number(31,15) fme_fill_color char(50) fme_basename char(50) fme_type char(50) fme_feature_type char(50) multi_reader_type char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP xlsx_table_settings_group xlsx_start_row%xlsx_end_row Table&quot; &quot;&quot; &quot;GUI FORCE_DEFS OPTIONAL INTEGER xlsx_start_row Start Row:&quot; &quot;&quot; &quot;GUI FORCE_DEFS OPTIONAL INTEGER xlsx_end_row End Row:&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="17530"
+#!   MIN_FEATURES=""
+#!   MAX_FEATURES=""
+#!   FEATURE_TYPES=""
+#!   COORDSYS=""
+#!   START_FEATURE=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/vnd.ms-excel ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Sheet"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Excel file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="XLSXR_IN_READ_BLANK_AS XLSXR_IN_EXPAND_MERGED_CELLS XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="xlsx file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="ESRISHAPE"
+#!   DATASET="$(SourceDataset_ESRISHAPE)"
+#!   KEYWORD="ESRISHAPE_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_start_angle double multi_reader_id long fme_secondary_axis double multi_reader_full_id long fme_text_string char(50) fme_dataset char(50) fme_sweep_angle double fme_geometry fme_char(50) fme_rotation double fme_color char(50) fme_text_size double fme_primary_axis double multi_reader_keyword char(50) fme_fill_color char(50) fme_basename char(50) shape_geometry_error{} char(254) shape_measures char(254) fme_type char(50) SHAPE_GEOMETRY char(50) fme_feature_type char(50) multi_reader_type char(50)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="17610"
+#!   MIN_FEATURES=""
+#!   MAX_FEATURES=""
+#!   FEATURE_TYPES=""
+#!   COORDSYS="LL84"
+#!   START_FEATURE=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ESRISHAPE_IN_ENCODING ESRISHAPE_IN_TRIM_PRECEDING_SPACES ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY ESRISHAPE_IN_MEASURES_AS_Z ESRISHAPE_IN_DISSOLVE_HOLES ESRISHAPE_IN_REPORT_BAD_GEOMETRY ESRISHAPE_OUT_STRICT_COMPATIBILITY ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE ESRISHAPE_OUT_MEASURES_AS_Z"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shape_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="XLSXW"
+#!   DATASET="$(DestDataset_XLSXW)"
+#!   KEYWORD="XLSXW_1"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="255"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="xlsx_drop_sheet No xlsx_trunc_sheet No xlsx_sheet_order &quot;&quot; xlsx_freeze_end_row &quot;&quot; xlsx_names_are_positions No xlsx_field_names_out Yes xlsx_start_col &quot;&quot; xlsx_start_row &quot;&quot; xlsx_offset_col &quot;&quot; xlsx_offset_row &quot;&quot; xlsx_raster_type PNG xlsx_table_writer_mode Insert xlsx_row_id_column &quot;&quot; xlsx_protect_sheet &quot;NO&quot; xlsx_protect_sheet_level &quot;&lt;Unused&gt;&quot; xlsx_protect_sheet_password &quot;&lt;Unused&gt;&quot; xlsx_protect_sheet_permissions &quot;&lt;Unused&gt;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_start_angle number(width,xlsx_col_props) fme_secondary_axis number(width,xlsx_col_props) xlsx_row_id number(width,xlsx_col_props) fme_text_string string(50) fme_dataset string(50) fme_db_operation string(width,xlsx_col_props) fme_sweep_angle number(width,xlsx_col_props) fme_geometry fme_char(50) fme_rotation number(width,xlsx_col_props) fme_color string(50) fme_text_size number(width,xlsx_col_props) fme_primary_axis number(width,xlsx_col_props) fme_fill_color string(50) xlsx_raster_scale_factor number(width,xlsx_col_props) fme_basename string(50) xlsx_raster_height number(width,xlsx_col_props) fme_type string(50) xlsx_col_id number(width,xlsx_col_props) fme_feature_type string(50) xlsx_raster_width number(width,xlsx_col_props)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP xlsx_layer_group xlsx_table_writer_mode%xlsx_field_names_out%xlsx_names_are_positions%xlsx_row_id_column%xlsx_truncate_group%xlsx_table_group%xlsx_rowcolumn_group%xlsx_protect_sheet%xlsx_advanced_group Sheet Settings&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP xlsx_truncate_group xlsx_row_id%xlsx_drop_sheet%xlsx_trunc_sheet Drop/Truncate&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP xlsx_rowcolumn_group xlsx_start_col%xlsx_start_row%xlsx_offset_col%xlsx_offset_row Start Position&quot; &quot;&quot; &quot;GUI ACTIVEDISCLOSUREGROUP xlsx_protect_sheet xlsx_protect_sheet_password%xlsx_protect_sheet_level%xlsx_protect_sheet_permissions Protect Sheet&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP xlsx_advanced_group xlsx_sheet_order%xlsx_freeze_end_row%xlsx_raster_type Advanced&quot; &quot;&quot; &quot;GUI CHOICE xlsx_drop_sheet Yes%No Drop Existing Sheet/Named Range:&quot; No &quot;GUI CHOICE xlsx_trunc_sheet Yes%No Truncate Existing Sheet/Named Range:&quot; No &quot;GUI OPTIONAL INTEGER xlsx_sheet_order Sheet Order (1 - n):&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER xlsx_freeze_end_row Freeze First Row(s) (1 - n):&quot; &quot;&quot; &quot;GUI CHOICE xlsx_field_names_out Yes%No Output Field Names:&quot; Yes &quot;GUI CHOICE xlsx_names_are_positions Yes%No Use Attribute Names As Column Positions:&quot; No &quot;GUI OPTIONAL TEXT xlsx_start_col Named Range Start Column:&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER xlsx_start_row Named Range Start Row:&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT xlsx_offset_col Start Column:&quot; &quot;&quot; &quot;GUI OPTIONAL INTEGER xlsx_offset_row Start Row:&quot; &quot;&quot; &quot;GUI CHOICE xlsx_raster_type BMP%JPEG%PNG Raster Format:&quot; PNG &quot;GUI OPTIONAL PASSWORD_ENCODED xlsx_protect_sheet_password Password:&quot; &lt;Unused&gt; &quot;GUI ACTIVECHOICE_LOOKUP xlsx_protect_sheet_level Select&lt;space&gt;Only&lt;space&gt;Permissions,PROT_DEFAULT,xlsx_protect_sheet_permissions%View&lt;space&gt;Only&lt;space&gt;Permissions,PROT_ALL,xlsx_protect_sheet_permissions%Specific&lt;space&gt;Permissions Protection Level:&quot; &lt;Unused&gt; &quot;GUI OPTIONAL LOOKUP_LISTBOX xlsx_protect_sheet_permissions Select&lt;space&gt;locked&lt;space&gt;cells,PROT_SEL_LOCKED_CELLS%Select&lt;space&gt;unlocked&lt;space&gt;cells,PROT_SEL_UNLOCKED_CELLS%Format&lt;space&gt;cells,PROT_FORMAT_CELLS%Format&lt;space&gt;columns,PROT_FORMAT_COLUMNS%Format&lt;space&gt;rows,PROT_FORMAT_ROWS%Insert&lt;space&gt;columns,PROT_INSERT_COLUMNS%Insert&lt;space&gt;rows,PROT_INSERT_ROWS%Add&lt;space&gt;hyperlinks&lt;space&gt;to&lt;space&gt;unlocked&lt;space&gt;cells,PROT_INSERT_HYPERLINKS%Delete&lt;space&gt;unlocked&lt;space&gt;columns,PROT_DELETE_COLUMNS%Delete&lt;space&gt;unlocked&lt;space&gt;rows,PROT_DELETE_ROWS%Sort&lt;space&gt;unlocked&lt;space&gt;cells/rows/columns\,PROT_SORT%Use&lt;space&gt;Autofilter&lt;space&gt;on&lt;space&gt;unlocked&lt;space&gt;cells,PROT_AUTOFILTER%Use&lt;space&gt;PivotTable&lt;space&gt;&amp;&lt;space&gt;PivotChart&lt;space&gt;on&lt;space&gt;unlocked&lt;space&gt;cells,PROT_PIVOTTABLES%Edit&lt;space&gt;unlocked&lt;space&gt;objects,PROT_OBJECTS%Edit&lt;space&gt;unprotected&lt;space&gt;scenarios,PROT_SCENARIOS Specific Permissions:&quot; &lt;Unused&gt; &quot;GUI ACTIVECHOICE xlsx_table_writer_mode Insert,+xlsx_row_id_column+%Update,+xlsx_row_id_column+xlsx_row_id%Delete,+xlsx_row_id_column+xlsx_row_id Writer Mode:&quot; Insert &quot;GUI OPTIONAL ATTR xlsx_row_id_column ALLOW_NEW Row Number Attribute:&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS="\\&quot;*{}$"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="17610"
+#!   COORDSYS=""
+#!   FANOUT_GROUP="NO"
+#!   FANOUT_EXPRESSION=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Microsoft Excel file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/vnd.ms-excel ADD_DISPOSITION"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_READER"
+#!   VALUE="XLSXR"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Sheet"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_ATTR_TYPE"
+#!   VALUE="auto"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="USER_ATTRIBUTES_COLUMNS"
+#!   VALUE="Width,Cell Width%Precision,Formatting"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="xlsx file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Sheet1"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ALLOW_DATASET_CONFLICT"
+#!   VALUE="YES"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="ESRISHAPE"
+#!   DATASET="$(DestDataset_ESRISHAPE)"
+#!   KEYWORD="ESRISHAPE_2"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="10"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY} shape_dimension auto"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_type char(50) fme_text_size double fme_color char(50) fme_primary_axis double fme_rotation double fme_start_angle double fme_text_string char(50) fme_dataset char(50) fme_sweep_angle double fme_fill_color char(50) fme_secondary_axis double fme_geometry fme_char(50) SHAPE_GEOMETRY char(50) fme_basename char(50) shape_measures char(254) fme_feature_type char(50)"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP shape_layer_group shape_dimension Shapefile&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE shape_dimension Dimension&lt;space&gt;From&lt;space&gt;First&lt;space&gt;Feature,auto%2D,2d%2D&lt;space&gt;+&lt;space&gt;Measures,2dm%3D&lt;space&gt;+&lt;space&gt;Measures,3dm Output Dimension:&quot; auto "
+#!   ATTR_INDEX_TYPES="Indexed"
+#!   ATTR_NAME_INVALID_CHARS=". -%[]&quot;!?*&apos;&amp;\/{}"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILEDIR"
+#!   GENERATE_FME_BUILD_NUM="17610"
+#!   COORDSYS=""
+#!   FANOUT_GROUP="NO"
+#!   FANOUT_EXPRESSION=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ESRISHAPE_IN_ENCODING ESRISHAPE_IN_TRIM_PRECEDING_SPACES ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY ESRISHAPE_IN_MEASURES_AS_Z ESRISHAPE_IN_DISSOLVE_HOLES ESRISHAPE_IN_REPORT_BAD_GEOMETRY ESRISHAPE_OUT_STRICT_COMPATIBILITY ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE ESRISHAPE_OUT_MEASURES_AS_Z"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="shp file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DEFAULT_GEOMETRY_TYPE"
+#!   VALUE="shape_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Shapefile1"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="x_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="y_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="z_coordinate"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="XLSXR"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string(width,xlsx_col_props)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="auto(width,xlsx_col_props)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime(width,xlsx_col_props)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="time(width,xlsx_col_props)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date(width,xlsx_col_props)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,xlsx_col_props)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean(width,xlsx_col_props)"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="XLSXW"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(254)"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="double"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="short"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="long"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="XLSXR"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_first_feature"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xlsx_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="XLSXW"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_point"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polyline"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_multipatch"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_first_feature"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_polygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="shape_null"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="ESRISHAPE"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="Well Licences"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="2"
+#!   FEAT_GEOMTYPE="xlsx_none"
+#!   POSITION="-5315.68 338.756"
+#!   BOUNDING_RECT="-5315.68 338.756 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="XLSXR_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   READ_SELECT_ATTRS="true"
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Company" ATTR_TYPE="char(41)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Licence Number" ATTR_TYPE="char(7)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Licence Status" ATTR_TYPE="char(11)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Surface Location" ATTR_TYPE="char(15)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="UWI" ATTR_TYPE="char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Field/Area Name" ATTR_TYPE="char(17)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Pool/Deposit Name" ATTR_TYPE="char(22)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Final Total Depth, m" ATTR_TYPE="number(7,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Volumetric Activity Date" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Annual Oil Prod, m³" ATTR_TYPE="number(6,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Annual Gas Prod, 10³m³" ATTR_TYPE="number(8,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Annual Water Prod, m³" ATTR_TYPE="number(8,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <NON_GUI_DEFLINE_PARM VALUE="xlsx_schema_start_row,1;xlsx_schema_end_col,0;xlsx_header_row,0;xlsx_schema_start_col,0;xlsx_schema_end_row,0"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_table_settings_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_end_row" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_start_row" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="Well Licences"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="3"
+#!   FEAT_GEOMTYPE="xlsx_none"
+#!   POSITION="-3314.28 -298.248"
+#!   BOUNDING_RECT="-3314.28 -298.248 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="XLSXW_1"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Company" ATTR_TYPE="string(41,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Licence Number" ATTR_TYPE="string(7,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Licence Status" ATTR_TYPE="string(11,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Surface Location" ATTR_TYPE="string(15,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="UWI" ATTR_TYPE="string(20,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Field/Area Name" ATTR_TYPE="string(17,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Pool/Deposit Name" ATTR_TYPE="string(22,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Final Total Depth, m" ATTR_TYPE="number(7,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Volumetric Activity Date" ATTR_TYPE="date(20,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Annual Oil Prod, m³" ATTR_TYPE="number(6,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Annual Gas Prod, 10³m³" ATTR_TYPE="number(8,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last Annual Water Prod, m³" ATTR_TYPE="number(8,version;1;number_format_string;;font;;font_color;;background_color;;pattern_color;;pattern_style;;text_alignment;NO;horizontal_alignment;;vertical_alignment;;indent;;text_orientation;;text_control;;cell_protection;NO;hide_cells;;lock_cells;)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_protect_sheet" PARM_VALUE="NO"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_offset_col" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_start_row" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_freeze_end_row" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_sheet_order" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_table_writer_mode" PARM_VALUE="Insert"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_rowcolumn_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_offset_row" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_row_id_column" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_protect_sheet_password" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_raster_type" PARM_VALUE="PNG"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_start_col" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_drop_sheet" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_truncate_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_protect_sheet_level" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_protect_sheet_permissions" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_names_are_positions" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_field_names_out" PARM_VALUE="Yes"/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_trunc_sheet" PARM_VALUE="No"/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="V4-1_LSD"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="29"
+#!   FEAT_GEOMTYPE="shape_polygon"
+#!   POSITION="-3041.54 -923.757"
+#!   BOUNDING_RECT="-3041.54 -923.757 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="ESRISHAPE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="PID" ATTR_TYPE="char(15)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="FILE_NAME" ATTR_TYPE="char(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TRM" ATTR_TYPE="char(6)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="M" ATTR_TYPE="short" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RGE" ATTR_TYPE="short" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="TWP" ATTR_TYPE="short" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="SEC" ATTR_TYPE="short" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="QS" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="LS" ATTR_TYPE="short" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="DESCRIPTOR" ATTR_TYPE="char(50)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="RA" ATTR_TYPE="char(2)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="OrphanWells"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="35"
+#!   FEAT_GEOMTYPE="shape_polygon"
+#!   POSITION="-674.158 -1064.88"
+#!   BOUNDING_RECT="-674.158 -1064.88 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="true"
+#!   KEYWORD="ESRISHAPE_2"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Company" ATTR_TYPE="char(41)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Licence_Nu" ATTR_TYPE="char(7)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Licence_St" ATTR_TYPE="char(11)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Surface_Lo" ATTR_TYPE="char(15)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="UWI" ATTR_TYPE="char(20)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Field_Area" ATTR_TYPE="char(17)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Pool_Depos" ATTR_TYPE="char(22)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Final_Tota" ATTR_TYPE="number(7,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last_Volum" ATTR_TYPE="date" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last_Annua" ATTR_TYPE="number(6,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last_Ann00" ATTR_TYPE="number(8,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Last_Ann01" ATTR_TYPE="number(8,1)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="shape_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="shape_dimension" PARM_VALUE="auto"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_XLSXR Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Workbook_Pre_2007(*.xls)|*.xls|All_files(*)|* Source Microsoft Excel File(s):"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)AER_Licence_Details_Report.xlsx"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_XLSXW Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|All_files(*)|* Destination Microsoft Excel File:"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)Inspect Oil Wells.xlsx"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):"
+#!   DEFAULT_VALUE="$(FME_MF_DIR)V4-1_LSD.shp"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI DIRNAME DestDataset_ESRISHAPE Destination Esri Shapefile Folder:"
+#!   DEFAULT_VALUE="C:\Users\lsanderson\Downloads"
+#!   IS_STAND_ALONE="false"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="42"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Well Licences: AER_Licence_Details_Report [XLSXR]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-5351.43 479.756"
+#!   TOP_LEFT="-5351.43 479.756"
+#!   BOTTOM_RIGHT="-5352.43 480.756"
+#!   BOUNDING_RECT="-5351.43 479.756 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="2"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="43"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creates a png file then plots a scatterplot using the four variables in the input. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-4778.17 970.883"
+#!   TOP_LEFT="-4778.17 970.883"
+#!   BOTTOM_RIGHT="-4150.24 784.631"
+#!   BOUNDING_RECT="-4778.17 970.883 627.935 186.252"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0.666667,0,1,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="5"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="44"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;PNG format&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-3885.29 548.379"
+#!   TOP_LEFT="-3885.29 548.379"
+#!   BOTTOM_RIGHT="-3886.29 549.379"
+#!   BOUNDING_RECT="-3885.29 548.379 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0.666667,0,1,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="6"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="46"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tests to see if OilProduction has a value. Null or missing values sent to the Failed output port&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-3989.79 -191.622"
+#!   TOP_LEFT="-3989.79 -191.622"
+#!   BOTTOM_RIGHT="-3562.54 -465.375"
+#!   BOUNDING_RECT="-3989.79 -191.622 427.257 273.752"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0.666667,0,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="8"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="47"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Well Licences: Inspect Oil Wells [XLSXW]&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Null or missing values written to an Excel File to review later&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-3507.04 -421.373"
+#!   TOP_LEFT="-3507.04 -421.373"
+#!   BOTTOM_RIGHT="-2728.15 -651.375"
+#!   BOUNDING_RECT="-3507.04 -421.373 778.892 230.002"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0.666667,0,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="48"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Optional: Sorts by AreaName and then by TotalProduction to cluser areas together&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-2688.14 -333.872"
+#!   TOP_LEFT="-2688.14 -333.872"
+#!   BOTTOM_RIGHT="-2278.88 -651.375"
+#!   BOUNDING_RECT="-2688.14 -333.872 409.259 317.503"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0.666667,0,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="17"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="49"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Splits SurafaceLocation into its individual parts by the delimeter - &lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creates _list{}, which contains LSD, SEC, TWP, RGE, and M (unlabled)&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;To reveal the individual list parts, right click on _list{} and click Expose Elements, then Select Elements from _list{} enter 0-3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1660.04 809.514"
+#!   TOP_LEFT="-1660.04 809.514"
+#!   BOTTOM_RIGHT="-823.401 360.76"
+#!   BOUNDING_RECT="-1660.04 809.514 836.639 448.754"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0,1,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="21"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="50"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;RGE and M were not seperated by the delimeter, so they need to be extracted.&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Extract RGE by the Start Index of 0 and the End Index of 1. For the Result Attribute call it RGE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-783.03 643.887"
+#!   TOP_LEFT="-783.03 643.887"
+#!   BOTTOM_RIGHT="-244.137 238.884"
+#!   BOUNDING_RECT="-783.03 643.887 538.892 405.004"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0,1,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="51"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;For M (Meridian), it has a coordinate direction associated with it, since we are only working with Alberta data we do not require this. Extract only the number by a Start Index of 3 and an End Index of 3. For the Result Attribute call it M&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-843.758 129.006"
+#!   TOP_LEFT="-843.758 129.006"
+#!   BOTTOM_RIGHT="27.4412 -188.497"
+#!   BOUNDING_RECT="-843.758 129.006 871.2 317.503"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0,1,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="25"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="52"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rename:&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;_list{0} = LSD&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;_list{1} = SEC&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;_list{2} = TWP&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove: &lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;_list{3}&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-853.134 -377.37"
+#!   TOP_LEFT="-853.134 -377.37"
+#!   BOTTOM_RIGHT="-854.134 -376.37"
+#!   BOUNDING_RECT="-853.134 -377.37 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0,1,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="27"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="53"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;V4-1_LSD: V4-1_LSD [ESRISHAPE]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-3246.04 -754.631"
+#!   TOP_LEFT="-3246.04 -754.631"
+#!   BOTTOM_RIGHT="-3247.04 -753.631"
+#!   BOUNDING_RECT="-3246.04 -754.631 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="29"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="54"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove RA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-2283.53 -785.631"
+#!   TOP_LEFT="-2283.53 -785.631"
+#!   BOTTOM_RIGHT="-2284.53 -784.631"
+#!   BOUNDING_RECT="-2283.53 -785.631 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="30"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="55"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Merge the Well Licences with the LSD file. Matching attributes LS = LSD, leave everything else as the defaults&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-2122.03 -1128.5"
+#!   TOP_LEFT="-2122.03 -1128.5"
+#!   BOTTOM_RIGHT="-1515.12 -1402.26"
+#!   BOUNDING_RECT="-2122.03 -1128.5 606.905 273.752"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="32"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="56"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;OrphanWells: Downloads [ESRISHAPE]&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Geometry: shape_polygon&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-796.883 -867.506"
+#!   TOP_LEFT="-796.883 -867.506"
+#!   BOTTOM_RIGHT="-797.883 -866.506"
+#!   BOUNDING_RECT="-796.883 -867.506 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="35"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="57"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:13pt; font-weight:600;&quot;&gt;Note:&lt;/span&gt;&lt;span style=&quot; font-size:13pt;&quot;&gt; This workspace will &lt;/span&gt;&lt;span style=&quot; font-size:13pt; font-weight:600;&quot;&gt;only&lt;/span&gt;&lt;span style=&quot; font-size:13pt;&quot;&gt; run on windows. &lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:13pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;To run on Mac/Linux change the file naming convention in the first Rcaller and the FeatureReader to:&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;RCaller - png(filename=&amp;quot;/Users/YourUserName/Desktop/OrphanWells.png&amp;quot;)&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;FeatureReader Dataset - /Users/YourUserName/Desktop/OrphanWells.png&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-4854.43 -1084.75"
+#!   TOP_LEFT="-4854.43 -1084.75"
+#!   BOTTOM_RIGHT="-3341.91 -1292.88"
+#!   BOUNDING_RECT="-4854.43 -1084.75 1512.52 208.127"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,0.666667,0,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="58"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;R Script that removes Rows 2127-2133 which contain copy right information, that will affect our analysis.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creates a new variable called TotalProduction which adds OilProduction, GasProduction and WaterProduction&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Creates a new column in wells with TotalProduction&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Aggregates the data based on AreaName and adds the TotalProduction for each area.&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Finds all Areas with a combined TotalProduction less than 10 and puts it into a new variable called Remove&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The data frame then outputs Remove. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-2703.99 1203.27"
+#!   TOP_LEFT="-2703.99 1203.27"
+#!   BOTTOM_RIGHT="-1712.52 360.76"
+#!   BOUNDING_RECT="-2703.99 1203.27 991.475 842.508"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="0,0.666667,0,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="9"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="45"
+#!   COMMENT_VALUE="&lt;b&gt;AttributeRenamer&amp;nbsp;[AttributeRenamer]&lt;/b&gt;&lt;br&gt;Attributes&amp;nbsp;To&amp;nbsp;Rename:&lt;table border=0 cellspacing=0&gt;&lt;tr&gt;&lt;td valign=middle&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;&lt;td&gt;&lt;table border=1 cellspacing=0 cellpadding=2&gt;&lt;tr&gt;&lt;td&gt;Input&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Output&amp;nbsp;Attribute&lt;/td&gt;&lt;td&gt;Default&amp;nbsp;Value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Company&lt;/td&gt;&lt;td&gt;Company&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Field/Area&amp;nbsp;Name&lt;/td&gt;&lt;td&gt;AreaName&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Final&amp;nbsp;Total&amp;nbsp;Depth,&amp;nbsp;m&lt;/td&gt;&lt;td&gt;TotalDepth&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Last&amp;nbsp;Annual&amp;nbsp;Gas&amp;nbsp;Prod,&amp;nbsp;10³m³&lt;/td&gt;&lt;td&gt;GasProduction&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Last&amp;nbsp;Annual&amp;nbsp;Oil&amp;nbsp;Prod,&amp;nbsp;m³&lt;/td&gt;&lt;td&gt;OilProduction&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Last&amp;nbsp;Annual&amp;nbsp;Water&amp;nbsp;Prod,&amp;nbsp;m³&lt;/td&gt;&lt;td&gt;WaterProduction&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Last&amp;nbsp;Volumetric&amp;nbsp;Activity&amp;nbsp;Date&lt;/td&gt;&lt;td&gt;ActivityDate&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Licence&amp;nbsp;Number&lt;/td&gt;&lt;td&gt;LicenceNumber&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Licence&amp;nbsp;Status&lt;/td&gt;&lt;td&gt;LicenceStatus&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pool/Deposit&amp;nbsp;Name&lt;/td&gt;&lt;td&gt;DepositName&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Surface&amp;nbsp;Location&lt;/td&gt;&lt;td&gt;SurfaceLocation&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;UWI&lt;/td&gt;&lt;td&gt;UWI&lt;/td&gt;&lt;td&gt;&amp;lt;not&amp;nbsp;set&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
+#!   POSITION="-5356.5 -2.24731"
+#!   TOP_LEFT="-5356.5 -2.24731"
+#!   BOTTOM_RIGHT="-5357.5 -1.24731"
+#!   BOUNDING_RECT="-5356.5 -2.24731 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="true"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="4"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="37"
+#!   NAME="Create a PNG of a Scatterplot"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-4039.79 1062.51"
+#!   BOTTOM_RIGHT="-2768.78 323.632"
+#!   BOUNDING_RECT="-4039.79 1062.51 1271.02 738.879"
+#!   STICKY="true"
+#!   COLOUR="0.666667,0,1"
+#!   CONTENTS="5 6 15 7 13 44 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="40"
+#!   NAME="Remove missing values and determine wells with low production"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-4063.79 204.006"
+#!   BOTTOM_RIGHT="-2228.91 -715.632"
+#!   BOUNDING_RECT="-4063.79 204.006 1834.89 919.638"
+#!   STICKY="true"
+#!   COLOUR="0,0.666667,0"
+#!   CONTENTS="9 8 18 3 38 19 48 47 16 46 17 39 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="41"
+#!   NAME="Extract LSD, SEC, TWP, RGE and M from SurfaceLocation"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-2130.4 204.006"
+#!   BOTTOM_RIGHT="-923.787 -772.994"
+#!   BOUNDING_RECT="-2130.4 204.006 1206.61 977"
+#!   STICKY="true"
+#!   COLOUR="0,0,1"
+#!   CONTENTS="27 28 23 21 25 26 24 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="4"
+#!   TYPE="AttributeRenamer"
+#!   VERSION="4"
+#!   POSITION="-4697.92 338.756"
+#!   BOUNDING_RECT="-4697.92 338.756 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17530"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ActivityDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LicenceNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LicenceStatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DepositName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="UWI" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Company Company RENAME_SET_DEFAULT  Field&lt;solidus&gt;Area&lt;space&gt;Name AreaName RENAME_SET_DEFAULT  Final&lt;space&gt;Total&lt;space&gt;Depth&lt;comma&gt;&lt;space&gt;m TotalDepth RENAME_SET_DEFAULT  Last&lt;space&gt;Annual&lt;space&gt;Gas&lt;space&gt;Prod&lt;comma&gt;&lt;space&gt;10&lt;u00b3&gt;m&lt;u00b3&gt; GasProduction RENAME_SET_DEFAULT  Last&lt;space&gt;Annual&lt;space&gt;Oil&lt;space&gt;Prod&lt;comma&gt;&lt;space&gt;m&lt;u00b3&gt; OilProduction RENAME_SET_DEFAULT  Last&lt;space&gt;Annual&lt;space&gt;Water&lt;space&gt;Prod&lt;comma&gt;&lt;space&gt;m&lt;u00b3&gt; WaterProduction RENAME_SET_DEFAULT  Last&lt;space&gt;Volumetric&lt;space&gt;Activity&lt;space&gt;Date ActivityDate RENAME_SET_DEFAULT  Licence&lt;space&gt;Number LicenceNumber RENAME_SET_DEFAULT  Licence&lt;space&gt;Status LicenceStatus RENAME_SET_DEFAULT  Pool&lt;solidus&gt;Deposit&lt;space&gt;Name DepositName RENAME_SET_DEFAULT  Surface&lt;space&gt;Location SurfaceLocation RENAME_SET_DEFAULT  UWI UWI RENAME_SET_DEFAULT "/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="5"
+#!   TYPE="RCaller"
+#!   VERSION="0"
+#!   POSITION="-3989.79 926.508"
+#!   BOUNDING_RECT="-3989.79 926.508 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17530"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="pathname" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="R_SCRIPT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="QUERY_SCHEMA" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TABLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TABLE_DEF" PARM_VALUE="wells,GasProduction&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;OilProduction&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;WaterProduction&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;TotalDepth&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_SCHEMA" PARM_VALUE="pathname"/>
+#!     <XFORM_PARM PARM_NAME="QUERY_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_SCHEMA_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="QUERY_DEF" PARM_VALUE="Output,#Add&lt;space&gt;your&lt;space&gt;inputs&lt;space&gt;here&lt;space&gt;by&lt;space&gt;dragging&lt;space&gt;in&lt;space&gt;from&lt;space&gt;the&lt;space&gt;data&lt;space&gt;frame&lt;space&gt;list&lt;space&gt;on&lt;space&gt;the&lt;space&gt;left.&lt;lf&gt;#Populate&lt;space&gt;the&lt;space&gt;columns&lt;space&gt;of&lt;space&gt;the&lt;space&gt;fmeOutput&lt;space&gt;data&lt;space&gt;frame&lt;space&gt;with&lt;space&gt;your&lt;space&gt;desired&lt;space&gt;script&lt;space&gt;output.&lt;lf&gt;#The&lt;space&gt;columns&lt;space&gt;of&lt;space&gt;the&lt;space&gt;fmeOutput&lt;space&gt;Data&lt;space&gt;frame&lt;space&gt;will&lt;space&gt;be&lt;space&gt;converted&lt;space&gt;to&lt;space&gt;attributes&lt;space&gt;on&lt;space&gt;output&lt;space&gt;features.&lt;lf&gt;#For&lt;space&gt;example:&lt;lf&gt;#fmeOutput&lt;lt&gt;-data.frame&lt;openparen&gt;numbers=c&lt;openparen&gt;1&lt;comma&gt;2&lt;comma&gt;3&lt;closeparen&gt;&lt;comma&gt;letters=c&lt;openparen&gt;&lt;apos&gt;A&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;B&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;C&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;png&lt;openparen&gt;filename=&lt;quote&gt;C:&lt;backslash&gt;&lt;backslash&gt;Users&lt;backslash&gt;&lt;backslash&gt;lsanderson&lt;backslash&gt;&lt;backslash&gt;Documents&lt;backslash&gt;&lt;backslash&gt;OrphanPlot.png&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;plot&lt;openparen&gt;wells&lt;closeparen&gt;&lt;lf&gt;dev.off&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;fmeOutput&lt;lt&gt;-data.frame&lt;openparen&gt;1&lt;closeparen&gt;,pathname"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RCaller"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="6"
+#!   TYPE="FeatureReader"
+#!   VERSION="9"
+#!   POSITION="-3423.66 926.508"
+#!   BOUNDING_RECT="-3423.66 926.508 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17530"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="pathname" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="pathname" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="pathname" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="C:&lt;backslash&gt;Users&lt;backslash&gt;lsanderson&lt;backslash&gt;Documents&lt;backslash&gt;OrphanPlot.png"/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#!     <XFORM_PARM PARM_NAME="PNGRASTER_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceREADER_META_ATTRIBUTES&lt;comma&gt;&lt;quote&gt;fme_dataset&lt;space&gt;fme_basename&lt;quote&gt;&lt;comma&gt;SourceGROUP_BY_DATASET&lt;comma&gt;No&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourcePNGRASTER_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO,METAFILE,PNGRASTER"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
+#!     <XFORM_PARM PARM_NAME="PNGRASTER_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PNGRASTER_PNGRASTER_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="PNGRASTER_GROUP_BY_DATASET,&quot;OPTIONAL LOOKUP_CHOICE &quot;&quot;From Format Name&quot;&quot;,No%&quot;&quot;From File Name(s)&quot;&quot;,Yes&quot;,PNGRASTER&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Name&lt;openparen&gt;s&lt;closeparen&gt;:,PNGRASTER_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,PNGRASTER&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,PNGRASTER_PNGRASTER_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS PNGRASTER%Source&quot;,PNGRASTER&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,PNGRASTER_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP PNGRASTER_EXPOSE_FORMAT_ATTRS&quot;,PNGRASTER&lt;space&gt;Schema&lt;space&gt;Attributes,PNGRASTER_READER_META_ATTRIBUTES,&quot;OPTIONAL NO_EDIT TEXT&quot;,PNGRASTER&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PNGRASTER_READER_META_ATTRIBUTES" PARM_VALUE="fme_dataset fme_basename"/>
+#!     <XFORM_PARM PARM_NAME="PNGRASTER_GROUP_BY_DATASET" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="PNGRASTER"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="-3441.54 476.506"
+#!   BOUNDING_RECT="-3441.54 476.506 574.511 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17530"
+#! >
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader__Generic_"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="8"
+#!   TYPE="Tester"
+#!   VERSION="2"
+#!   POSITION="-3989.79 67.1308"
+#!   BOUNDING_RECT="-3989.79 67.1308 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ActivityDate" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LicenceNumber" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LicenceStatus" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DepositName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="UWI" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ActivityDate" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LicenceNumber" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LicenceStatus" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="DepositName" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="UWI" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;OilProduction&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="9"
+#!   TYPE="RCaller"
+#!   VERSION="0"
+#!   POSITION="-3354.91 67.1308"
+#!   BOUNDING_RECT="-3354.91 67.1308 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="R_SCRIPT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="QUERY_SCHEMA" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TABLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TABLE_DEF" PARM_VALUE="wells,Company&lt;comma&gt;varchar&lt;openparen&gt;41&lt;closeparen&gt;&lt;comma&gt;AreaName&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;TotalDepth&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;GasProduction&lt;comma&gt;&lt;quote&gt;real&lt;openparen&gt;200&lt;comma&gt;10&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;OilProduction&lt;comma&gt;&lt;quote&gt;real&lt;openparen&gt;200&lt;comma&gt;10&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;WaterProduction&lt;comma&gt;&lt;quote&gt;real&lt;openparen&gt;200&lt;comma&gt;10&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;ActivityDate&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;LicenceNumber&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;LicenceStatus&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;DepositName&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;SurfaceLocation&lt;comma&gt;varchar&lt;openparen&gt;200&lt;closeparen&gt;&lt;comma&gt;UWI&lt;comma&gt;varchar&lt;openparen&gt;20&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_SCHEMA" PARM_VALUE="AreaName Company SurfaceLocation TotalDepth GasProduction OilProduction WaterProduction TotalProduction"/>
+#!     <XFORM_PARM PARM_NAME="QUERY_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_SCHEMA_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="QUERY_DEF" PARM_VALUE="Output,#Add&lt;space&gt;your&lt;space&gt;inputs&lt;space&gt;here&lt;space&gt;by&lt;space&gt;dragging&lt;space&gt;in&lt;space&gt;from&lt;space&gt;the&lt;space&gt;data&lt;space&gt;frame&lt;space&gt;list&lt;space&gt;on&lt;space&gt;the&lt;space&gt;left.&lt;lf&gt;#Populate&lt;space&gt;the&lt;space&gt;columns&lt;space&gt;of&lt;space&gt;the&lt;space&gt;fmeOutput&lt;space&gt;data&lt;space&gt;frame&lt;space&gt;with&lt;space&gt;your&lt;space&gt;desired&lt;space&gt;script&lt;space&gt;output.&lt;lf&gt;#The&lt;space&gt;columns&lt;space&gt;of&lt;space&gt;the&lt;space&gt;fmeOutput&lt;space&gt;Data&lt;space&gt;frame&lt;space&gt;will&lt;space&gt;be&lt;space&gt;converted&lt;space&gt;to&lt;space&gt;attributes&lt;space&gt;on&lt;space&gt;output&lt;space&gt;features.&lt;lf&gt;#For&lt;space&gt;example:&lt;lf&gt;#fmeOutput&lt;lt&gt;-data.frame&lt;openparen&gt;numbers=c&lt;openparen&gt;1&lt;comma&gt;2&lt;comma&gt;3&lt;closeparen&gt;&lt;comma&gt;letters=c&lt;openparen&gt;&lt;apos&gt;A&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;B&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;C&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;wells&lt;space&gt;&lt;lt&gt;-&lt;space&gt;wells&lt;openbracket&gt;-c&lt;openparen&gt;2127:2133&lt;comma&gt;&lt;space&gt;drop=FALSE&lt;closeparen&gt;&lt;comma&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;TotalProduction&lt;space&gt;&lt;lt&gt;-&lt;space&gt;wells&lt;dollar&gt;OilProduction&lt;space&gt;+&lt;space&gt;&lt;space&gt;wells&lt;dollar&gt;GasProduction&lt;space&gt;+&lt;space&gt;wells&lt;dollar&gt;WaterProduction&lt;lf&gt;wells&lt;dollar&gt;TotalProduction&lt;space&gt;&lt;lt&gt;-&lt;space&gt;TotalProduction&lt;lf&gt;listFieldName&lt;space&gt;&lt;lt&gt;-&lt;space&gt;aggregate&lt;openparen&gt;wells&lt;dollar&gt;TotalProduction&lt;comma&gt;&lt;space&gt;by=list&lt;openparen&gt;FieldName=wells&lt;dollar&gt;AreaName&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;FUN=sum&lt;closeparen&gt;&lt;lf&gt;Remove&lt;space&gt;&lt;lt&gt;-&lt;space&gt;wells&lt;openbracket&gt;wells&lt;dollar&gt;TotalProduction&lt;space&gt;&lt;lt&gt;&lt;space&gt;10&lt;comma&gt;&lt;closebracket&gt;&lt;lf&gt;fmeOutput&lt;lt&gt;-data.frame&lt;openparen&gt;Remove&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;,AreaName Company SurfaceLocation TotalDepth GasProduction OilProduction WaterProduction TotalProduction"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RCaller_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="17"
+#!   TYPE="Sorter"
+#!   VERSION="2"
+#!   POSITION="-2750.91 -120.371"
+#!   BOUNDING_RECT="-2750.91 -120.371 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="SORTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="AreaName ALPHA ASCENDING TotalProduction NUMERIC DESCENDING"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="21"
+#!   TYPE="AttributeSplitter"
+#!   VERSION="3"
+#!   POSITION="-2056.4 114.006"
+#!   BOUNDING_RECT="-2056.4 114.006 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{1}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{2}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{3}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="DELIMITER" PARM_VALUE="-"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_list"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="SurfaceLocation"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRIM_OPTION" PARM_VALUE="Both"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeSplitter"/>
+#!     <XFORM_PARM PARM_NAME="DROP_EMPTY_PARTS" PARM_VALUE="No"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="SubstringExtractor"
+#!   VERSION="2"
+#!   POSITION="-1433.65 30.1335"
+#!   BOUNDING_RECT="-1433.65 30.1335 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{1}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{2}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{3}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="START" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="RESULT_ATTR" PARM_VALUE="RGE"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="END" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_STRING" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;3&lt;closecurly&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SubstringExtractor"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="25"
+#!   TYPE="SubstringExtractor"
+#!   VERSION="2"
+#!   POSITION="-1435.91 -244.869"
+#!   BOUNDING_RECT="-1435.91 -244.869 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{1}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{2}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{3}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="START" PARM_VALUE="3"/>
+#!     <XFORM_PARM PARM_NAME="RESULT_ATTR" PARM_VALUE="M"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="END" PARM_VALUE="3"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_STRING" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_list&lt;opencurly&gt;3&lt;closecurly&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SubstringExtractor_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="27"
+#!   TYPE="AttributeManager"
+#!   VERSION="1"
+#!   POSITION="-1419.41 -510.497"
+#!   BOUNDING_RECT="-1419.41 -510.497 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LSD" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SEC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TWP" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="AreaName AreaName  NO_OP Company Company  NO_OP SurfaceLocation SurfaceLocation  NO_OP TotalDepth TotalDepth  NO_OP GasProduction GasProduction  NO_OP OilProduction OilProduction  NO_OP WaterProduction WaterProduction  NO_OP TotalProduction TotalProduction  NO_OP _list&lt;opencurly&gt;&lt;closecurly&gt; _list&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP _list&lt;opencurly&gt;0&lt;closecurly&gt; LSD  RENAME_SET_VALUE _list&lt;opencurly&gt;1&lt;closecurly&gt; SEC  RENAME_SET_VALUE _list&lt;opencurly&gt;2&lt;closecurly&gt; TWP  RENAME_SET_VALUE _list&lt;opencurly&gt;3&lt;closecurly&gt; _list&lt;opencurly&gt;3&lt;closecurly&gt;  REMOVE RGE RGE  NO_OP M M  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="30"
+#!   TYPE="AttributeRemover"
+#!   VERSION="1"
+#!   POSITION="-2354.15 -923.757"
+#!   BOUNDING_RECT="-2354.15 -923.757 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="PID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TWP" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SEC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="QS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DESCRIPTOR" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRemover"/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="RA"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="32"
+#!   TYPE="FeatureMerger"
+#!   VERSION="17"
+#!   POSITION="-1419.41 -867.506"
+#!   BOUNDING_RECT="-1419.41 -867.506 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17610"
+#!   INPUT_FT_ORDER="SUPPLIER%REQUESTOR"
+#! >
+#!     <OUTPUT_FEAT NAME="MERGED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="PID" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="FILE_NAME" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TRM" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TWP" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SEC" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="QS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LS" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DESCRIPTOR" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="LSD" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMERGED_REQUESTOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="PID" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="FILE_NAME" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TRM" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="TWP" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="SEC" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="QS" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="LS" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="DESCRIPTOR" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="USED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="LSD" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="SEC" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="TWP" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="numReferences" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="UNUSED_SUPPLIER"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="LSD" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="SEC" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="TWP" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="PID" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="FILE_NAME" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="TRM" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="M" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="RGE" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="TWP" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="SEC" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="QS" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="LS" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="DESCRIPTOR" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="AreaName" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="Company" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="SurfaceLocation" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="TotalDepth" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="GasProduction" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="OilProduction" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="WaterProduction" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="TotalProduction" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_list{}" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="LSD" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;M&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;M&lt;closeparen&gt; AUTO &lt;at&gt;Value&lt;openparen&gt;RGE&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;RGE&lt;closeparen&gt; AUTO &lt;at&gt;Value&lt;openparen&gt;SEC&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;SEC&lt;closeparen&gt; AUTO &lt;at&gt;Value&lt;openparen&gt;TWP&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;TWP&lt;closeparen&gt; AUTO &lt;at&gt;Value&lt;openparen&gt;LS&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;LSD&lt;closeparen&gt; AUTO"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="38"
+#!   TYPE="Inspector"
+#!   VERSION="5"
+#!   POSITION="-2797.78 35.5063"
+#!   BOUNDING_RECT="-2797.78 35.5063 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="false"
+#!   LAST_PARM_EDIT="17610"
+#! >
+#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RCaller_2_Output"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="10"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="31"
+#!   SOURCE_NODE="29"
+#!   TARGET_NODE="30"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="11"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 wells"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="12"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="8"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="13"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="19"
+#!   SOURCE_NODE="8"
+#!   TARGET_NODE="9"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 wells"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="18"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="17"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="39"
+#!   SOURCE_NODE="9"
+#!   TARGET_NODE="38"
+#!   SOURCE_PORT_DESC="fo 0 Output"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="17"
+#!   TARGET_NODE="21"
+#!   SOURCE_PORT_DESC="fo 0 SORTED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="21"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="26"
+#!   SOURCE_NODE="23"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="28"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="27"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="33"
+#!   SOURCE_NODE="27"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 SUPPLIER"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="34"
+#!   SOURCE_NODE="30"
+#!   TARGET_NODE="32"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 1 REQUESTOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="36"
+#!   SOURCE_NODE="32"
+#!   TARGET_NODE="35"
+#!   SOURCE_PORT_DESC="fo 0 MERGED"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="6"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;OTHER&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="16"
+#!   SOURCE_NODE="8"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 1 FAILED"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE SourceDataset_XLSXR_1,XLSXR_IN_ADVANCED_XLSXR_1,XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1,XLSXR_IN_READ_BLANK_AS_XLSXR_1,XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1,XLSXR_IN_EXPOSE_ATTRS_GROUP_XLSXR_1,XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1,SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,DestDataset_XLSXW_1,XLSXW_OUT_OVERWRITE_FILE_XLSXW_1,XLSXW_OUT_TEMPLATEFILE_XLSXW_1,TEMPLATE_SHEET_XLSXW_1,DestDataset_ESRISHAPE_2,ESRISHAPE_OUT_ENCODING_ESRISHAPE_2,ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_2,ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_2,ESRISHAPE_OUT_ADVANCED_ESRISHAPE_2,ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_2,ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_2,ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_2,ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_2
+DEFAULT_MACRO SourceDataset_XLSXR $(FME_MF_DIR)AER_Licence_Details_Report.xlsx
+GUI MULTIFILE SourceDataset_XLSXR Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Workbook_Pre_2007(*.xls)|*.xls|All_files(*)|* Source Microsoft Excel File(s):
+DEFAULT_MACRO DestDataset_XLSXW $(FME_MF_DIR)Inspect Oil Wells.xlsx
+GUI FILENAME DestDataset_XLSXW Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|All_files(*)|* Destination Microsoft Excel File:
+DEFAULT_MACRO SourceDataset_ESRISHAPE $(FME_MF_DIR)V4-1_LSD.shp
+GUI MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
+DEFAULT_MACRO DestDataset_ESRISHAPE C:\Users\lsanderson\Downloads
+GUI DIRNAME DestDataset_ESRISHAPE Destination Esri Shapefile Folder:
+INCLUDE [ if {{$(SourceDataset_XLSXR)} == {}} { puts_real {Parameter 'SourceDataset_XLSXR' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_XLSXW)} == {}} { puts_real {Parameter 'DestDataset_XLSXW' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_ESRISHAPE)} == {}} { puts_real {Parameter 'SourceDataset_ESRISHAPE' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_ESRISHAPE)} == {}} { puts_real {Parameter 'DestDataset_ESRISHAPE' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+MULTI_READER_TYPE{0} XLSXR
+MULTI_READER_KEYWORD{0} XLSXR_1
+MULTI_READER_GEN_DIRECTIVES{0} CASE_SENSITIVE_FEATURE_TYPES,YES,READ_BLANK_AS,Missing,SCHEMA,Well<lt>space<gt>Licences<comma>0<lt>comma<gt>Company<lt>comma<gt>char<lt>comma<gt>41<lt>comma<gt><lt>comma<gt><lt>comma<gt>1<lt>comma<gt><lt>quote<gt>Licence<lt>space<gt>Number<lt>quote<gt><lt>comma<gt>char<lt>comma<gt>7<lt>comma<gt><lt>comma<gt><lt>comma<gt>2<lt>comma<gt><lt>quote<gt>Licence<lt>space<gt>Status<lt>quote<gt><lt>comma<gt>char<lt>comma<gt>11<lt>comma<gt><lt>comma<gt><lt>comma<gt>3<lt>comma<gt><lt>quote<gt>Surface<lt>space<gt>Location<lt>quote<gt><lt>comma<gt>char<lt>comma<gt>15<lt>comma<gt><lt>comma<gt><lt>comma<gt>4<lt>comma<gt>UWI<lt>comma<gt>char<lt>comma<gt>20<lt>comma<gt><lt>comma<gt><lt>comma<gt>5<lt>comma<gt><lt>quote<gt>Field<lt>solidus<gt>Area<lt>space<gt>Name<lt>quote<gt><lt>comma<gt>char<lt>comma<gt>17<lt>comma<gt><lt>comma<gt><lt>comma<gt>6<lt>comma<gt><lt>quote<gt>Pool<lt>solidus<gt>Deposit<lt>space<gt>Name<lt>quote<gt><lt>comma<gt>char<lt>comma<gt>22<lt>comma<gt><lt>comma<gt><lt>comma<gt>7<lt>comma<gt><lt>quote<gt>Final<lt>space<gt>Total<lt>space<gt>Depth<lt>comma<gt><lt>space<gt>m<lt>quote<gt><lt>comma<gt>number<lt>comma<gt>7<lt>comma<gt>1<lt>comma<gt><lt>comma<gt>8<lt>comma<gt><lt>quote<gt>Last<lt>space<gt>Volumetric<lt>space<gt>Activity<lt>space<gt>Date<lt>quote<gt><lt>comma<gt>date<lt>comma<gt><lt>comma<gt><lt>comma<gt><lt>comma<gt>9<lt>comma<gt><lt>quote<gt>Last<lt>space<gt>Annual<lt>space<gt>Oil<lt>space<gt>Prod<lt>comma<gt><lt>space<gt>m<lt>u00b3<gt><lt>quote<gt><lt>comma<gt>number<lt>comma<gt>6<lt>comma<gt>1<lt>comma<gt><lt>comma<gt>10<lt>comma<gt><lt>quote<gt>Last<lt>space<gt>Annual<lt>space<gt>Gas<lt>space<gt>Prod<lt>comma<gt><lt>space<gt>10<lt>u00b3<gt>m<lt>u00b3<gt><lt>quote<gt><lt>comma<gt>number<lt>comma<gt>8<lt>comma<gt>1<lt>comma<gt><lt>comma<gt>11<lt>comma<gt><lt>quote<gt>Last<lt>space<gt>Annual<lt>space<gt>Water<lt>space<gt>Prod<lt>comma<gt><lt>space<gt>m<lt>u00b3<gt><lt>quote<gt><lt>comma<gt>number<lt>comma<gt>8<lt>comma<gt>1<lt>comma<gt><comma>1<lt>comma<gt><lt>comma<gt><lt>comma<gt><comma>NO<lt>comma<gt>NO<lt>comma<gt>1<lt>comma<gt>C:<lt>solidus<gt>Users<lt>solidus<gt>lsanderson<lt>solidus<gt>Downloads<lt>solidus<gt>AER_Licence_Details_Report.xlsx<lt>comma<gt><lt>quote<gt>0<lt>comma<gt>0<lt>comma<gt>11<lt>comma<gt>4173<lt>quote<gt><lt>comma<gt><lt>comma<gt>NO,USE_SCHEMA_OTHER_FILES,No,_MERGE_SCHEMAS,YES,CONFIGURATION_DATASET,C:<solidus>Users<solidus>lsanderson<solidus>Downloads<solidus>AER_Licence_Details_Report.xlsx,EXCEL_COL_NAMES,YES,TABLELIST,<quote>Well<space>Licences<quote>,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,EXPAND_MERGED_CELLS,Yes,ALLOW_DOLLAR_SIGNS,YES,FORCE_DATETIME,NO,SCAN_SCHEMA_IF_DYNAMIC,No,EXPOSE_ATTRS_GROUP,,ADVANCED,,XLSXR_EXPOSE_FORMAT_ATTRS,
+MULTI_READER_TYPE{1} ESRISHAPE
+MULTI_READER_KEYWORD{1} ESRISHAPE_1
+MULTI_READER_GEN_DIRECTIVES{1} SEARCH_ENVELOPE_COORDINATE_SYSTEM,,UPPER_CASE_ATTR_NAMES,No,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MAXX,0,CLIP_TO_ENVELOPE,NO,SEARCH_ENVELOPE_MINY,0,SEARCH_ENVELOPE_MAXY,0,REPORT_BAD_GEOMETRY,no,ENCODING,,DISSOLVE_HOLES,no,GEOMETRY,,MEASURES_AS_Z,no,CHECK_NUMERIC_FIELDS,yes,EXPOSE_ATTRS_GROUP,,SIMPLE_DONUT_GEOMETRY,simple,ESRISHAPE_EXPOSE_FORMAT_ATTRS,,_MERGE_SCHEMAS,YES,READER_PARAMETERS,,ADVANCED,,TRIM_PRECEDING_SPACES,yes,USE_SEARCH_ENVELOPE,NO
+
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} XLSXW
+MULTI_WRITER_KEYWORD{0} XLSXW_1
+MULTI_WRITER_TYPE{1} ESRISHAPE
+MULTI_WRITER_KEYWORD{1} ESRISHAPE_2
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "XLSXR_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER XLSXR XLSXR_1
+# ============================================================================
+# First get the dataset for the database. For Excel, it's the file name.
+# For now we'll use whatever they had when they generated this mapping file,
+# and not reprompt
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_XLSXR_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER XLSXR XLSXR_1
+DEFAULT_MACRO SourceDataset_XLSXR_1 $(SourceDataset_XLSXR)
+GUI MULTIFILE SourceDataset_XLSXR_1 Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Workbook_Pre_2007(*.xls)|*.xls|All_files(*)|* Source Microsoft Excel File(s):
+#GUI GROUP TABLELIST Constraints
+# TABLELIST is not shown in GUI, but is required for infrastructure
+# to not show the Table List popup
+DEFAULT_MACRO XLSXR_IN_CONFIGURATION_DATASET_XLSXR_1 C:/Users/lsanderson/Downloads/AER_Licence_Details_Report.xlsx
+XLSXR_1_CONFIGURATION_DATASET "$(XLSXR_IN_CONFIGURATION_DATASET_XLSXR_1)"
+# Flag to switch from old naming scheme of col_1, col_2 etc. to a, b, etc.
+# To better match up with Excel files
+DEFAULT_MACRO XLSXR_IN_EXCEL_COL_NAMES_XLSXR_1 YES
+XLSXR_1_EXCEL_COL_NAMES "$(XLSXR_IN_EXCEL_COL_NAMES_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_FORCE_DATETIME_XLSXR_1 NO
+XLSXR_1_FORCE_DATETIME "$(XLSXR_IN_FORCE_DATETIME_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_ADVANCED_XLSXR_1 
+GUI OPTIONAL DISCLOSUREGROUP XLSXR_IN_ADVANCED_XLSXR_1 XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1%XLSXR_IN_USE_SCHEMA_OTHER_FILES%XLSXR_IN_READ_BLANK_AS_XLSXR_1%XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1 Advanced
+DEFAULT_MACRO XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1 No
+XLSXR_1_SCAN_SCHEMA_IF_DYNAMIC "$(XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1)"
+GUI OPTIONAL CHECKBOX XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC_XLSXR_1 Yes%No Scan Schema in Dynamic Workflow:
+DEFAULT_MACRO XLSXR_IN_USE_SCHEMA_OTHER_FILES_XLSXR_1 No
+XLSXR_1_USE_SCHEMA_OTHER_FILES "$(XLSXR_IN_USE_SCHEMA_OTHER_FILES_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_READ_BLANK_AS_XLSXR_1 Missing
+XLSXR_1_READ_BLANK_AS "$(XLSXR_IN_READ_BLANK_AS_XLSXR_1)"
+GUI CHOICE XLSXR_IN_READ_BLANK_AS_XLSXR_1 Missing%Null Read blank cells as:
+DEFAULT_MACRO XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1 Yes
+XLSXR_1_EXPAND_MERGED_CELLS "$(XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1)"
+GUI OPTIONAL CHECKBOX XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1 Yes%No Expand Merged Cells:
+DEFAULT_MACRO XLSXR_IN_EXPOSE_ATTRS_GROUP_XLSXR_1 
+XLSXR_1_EXPOSE_ATTRS_GROUP "$(XLSXR_IN_EXPOSE_ATTRS_GROUP_XLSXR_1)"
+GUI OPTIONAL DISCLOSUREGROUP XLSXR_IN_EXPOSE_ATTRS_GROUP_XLSXR_1 XLSXR_IN_XLSXR_EXPOSE_FORMAT_ATTRS Schema Attributes
+DEFAULT_MACRO XLSXR_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_XLSXR_1 Yes
+XLSXR_1_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(XLSXR_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_CASE_SENSITIVE_FEATURE_TYPES_XLSXR_1 YES
+XLSXR_1_CASE_SENSITIVE_FEATURE_TYPES "$(XLSXR_IN_CASE_SENSITIVE_FEATURE_TYPES_XLSXR_1)"
+DEFAULT_MACRO XLSXR_IN_ALLOW_DOLLAR_SIGNS_XLSXR_1 YES
+XLSXR_1_ALLOW_DOLLAR_SIGNS "$(XLSXR_IN_ALLOW_DOLLAR_SIGNS_XLSXR_1)"
+# ===========================================================================
+DEFAULT_MACRO XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1 
+XLSXR_1_NETWORK_AUTHENTICATION "$(XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1)"
+GUI OPTIONAL AUTHENTICATOR XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO XLSXR_IN_ATTRIBUTE_READING_XLSXR_1 DEFLINE
+XLSXR_1_ATTRIBUTE_READING "$(XLSXR_IN_ATTRIBUTE_READING_XLSXR_1)"
+XLSXR_1_DATASET "$(SourceDataset_XLSXR_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ESRISHAPE_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_1
+# ============================================================================
+# The following GUI line prompts for the source shapefiles
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_ESRISHAPE_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER ESRISHAPE ESRISHAPE_1
+DEFAULT_MACRO SourceDataset_ESRISHAPE_1 $(SourceDataset_ESRISHAPE)
+GUI MULTIFILE SourceDataset_ESRISHAPE_1 Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
+# =====================================================================
+# Provide some control over what attributes have the user-selected
+# encoding applied. Normally all attributes are updated after being
+# read, but the following lines exclude from this treatment all
+# attributes whose names start with fme_ or shape_.
+ESRISHAPE_1_UNENCODED_ATTR_PREFIX fme_ shape_
+#Added default value for dissolve holes so that default for DI is consistent with workbench
+DEFAULT_MACRO ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1 no
+ESRISHAPE_1_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1)"
+# ============================================================================
+# Determines whether the attribute names should be uppercased, or whether they
+# should stay as specified in the shapefile. Once the mapping file/workspace
+# has been generated, the value for this keyword should not be changed.
+DEFAULT_MACRO ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_1 No
+ESRISHAPE_1_UPPER_CASE_ATTR_NAMES "$(ESRISHAPE_IN_UPPER_CASE_ATTR_NAMES_ESRISHAPE_1)"
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for reading the shapefile, overrides dbf file LDID or .cpg
+# file if present.
+DEFAULT_MACRO ESRISHAPE_IN_ENCODING_ESRISHAPE_1 
+ESRISHAPE_1_ENCODING "$(ESRISHAPE_IN_ENCODING_ESRISHAPE_1)"
+GUI OPTIONAL ENCODING ESRISHAPE_IN_ENCODING_ESRISHAPE_1 ANSI%SYSTEM%BIG5%EUC%HKBIG5%ISO%OEM%SJIS%UTF-8%CP437%CP708%CP720%CP737%CP775%CP850%CP852%CP855%CP857%CP860%CP861%CP862%CP863%CP864%CP865%CP866%CP869%CP874%CP932%CP936%CP950%CP1250%CP1251%CP1252%CP1253%CP1254%CP1255%CP1256%CP1257%CP1258%ISO8859-1%ISO8859-2%ISO8859-3%ISO8859-4%ISO8859-5%ISO8859-6%ISO8859-7%ISO8859-8%ISO8859-9%ISO-8859-11%ISO8859-13%ISO8859-15%WINDOWS-874 Character Encoding
+#Note: Using the search envelope requires the shape index files (.sbnand.sbx)
+DEFAULT_MACRO ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_1 
+ESRISHAPE_1_EXPOSE_ATTRS_GROUP "$(ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_1)"
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_EXPOSE_ATTRS_GROUP_ESRISHAPE_1 ESRISHAPE_IN_ESRISHAPE_EXPOSE_FORMAT_ATTRS Schema Attributes
+# Include this file in source setting section to add native search envelope processing
+# Zero as a default means we don't do any search -- this makes workbench happier
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1 Minimum X:
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1 Minimum Y:
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1 Maximum X:
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1 0
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1)"
+GUI OPTIONAL FLOAT ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1 Maximum Y:
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1 
+ESRISHAPE_1_SEARCH_ENVELOPE "$(ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1)"
+GUI OPTIONAL COORDSYS ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1 Search Envelope Coordinate System:
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1 NO
+ESRISHAPE_1_CLIP_TO_ENVELOPE "$(ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1 YES%NO Clip to Search Envelope
+DEFAULT_MACRO ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_1 yes
+ESRISHAPE_1_CHECK_NUMERIC_FIELDS "$(ESRISHAPE_IN_CHECK_NUMERIC_FIELDS_ESRISHAPE_1)"
+DEFAULT_MACRO ESRISHAPE_IN_ADVANCED_ESRISHAPE_1 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_ADVANCED_ESRISHAPE_1 ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1%ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1 Advanced
+DEFAULT_MACRO ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1 yes
+ESRISHAPE_1_TRIM_PRECEDING_SPACES "$(ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1 yes%no Trim Preceding Spaces
+DEFAULT_MACRO ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1 ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1%ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1%ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1%ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1 Geometry
+# ============================================================================
+# Option to use simple donut geometry creation, which is faster than the
+# original creation method, but less meticulous at detecting and correcting
+# geometric anomalies (i.e.holeswithinholes)
+DEFAULT_MACRO ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1 simple
+ESRISHAPE_1_SIMPLE_DONUT_GEOMETRY "$(ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1)"
+GUI LOOKUP_CHOICE ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1 "\"Orientation Only\",simple"%"\"Orientation and Spatial Relationship\",complex" Donut Geometry Detection
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1 no
+ESRISHAPE_1_MEASURES_AS_Z "$(ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1 yes%no Treat Measures as Elevation
+# ============================================================================
+# The following keyword sets whether the reader dissolves holes in donuts.
+ESRISHAPE_1_DISSOLVE_HOLES "$(ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1 yes%no Dissolve Adjacent Holes
+# ============================================================================
+# The following keyword sets whether bad geometry should be reported via
+# the shape_geometry_error{} list attribute.
+DEFAULT_MACRO ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1 no
+ESRISHAPE_1_REPORT_BAD_GEOMETRY "$(ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1)"
+GUI CHOICE ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1 yes%no Report Geometry Anomalies
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1 
+ESRISHAPE_1_NETWORK_AUTHENTICATION "$(ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1)"
+GUI OPTIONAL AUTHENTICATOR ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_1 ALL
+ESRISHAPE_1_ATTRIBUTE_READING "$(ESRISHAPE_IN_ATTRIBUTE_READING_ESRISHAPE_1)"
+ESRISHAPE_1_DATASET "$(SourceDataset_ESRISHAPE_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "XLSXW_1"
+#! END_WB_HEADER
+#! START_DEST_HEADER XLSXW XLSXW_1
+# ============================================================================
+# First get the dataset for the database. For Excel, it's the file name.
+# For now we'll use whatever they had when they generated this mapping file,
+# and not reprompt
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_XLSXW_1 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER XLSXW XLSXW_1
+DEFAULT_MACRO DestDataset_XLSXW_1 $(DestDataset_XLSXW)
+GUI FILENAME DestDataset_XLSXW_1 Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|All_files(*)|* Destination Microsoft Excel File:
+# ============================================================================
+# Whether or not to overwrite the file
+DEFAULT_MACRO XLSXW_OUT_OVERWRITE_FILE_XLSXW_1 No
+XLSXW_1_OVERWRITE_FILE "$(XLSXW_OUT_OVERWRITE_FILE_XLSXW_1)"
+GUI ACTIVECHOICE XLSXW_OUT_OVERWRITE_FILE_XLSXW_1 Yes%No,XLSXW_OUT_TEMPLATEFILE_XLSXW_1,XLSXW_OUT_TEMPLATE_SHEET,XLSXW_OUT_+TEMPLATEFILE+<Unused> Overwrite Existing File:
+# Template file option
+DEFAULT_MACRO XLSXW_OUT_TEMPLATEFILE_XLSXW_1 
+XLSXW_1_TEMPLATEFILE "$(XLSXW_OUT_TEMPLATEFILE_XLSXW_1)"
+GUI OPTIONAL FILENAME_MUSTEXIST XLSXW_OUT_TEMPLATEFILE_XLSXW_1 Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Workbook_Pre_2007(*.xls)|*.xls|All_files(*)|* Template File:
+# ============================================================================
+# Parameters whose values will be percolated to the feature types, but will not
+# remain as writer level settings
+# Default to not drop feature type first
+DEFAULT_MACRO XLSXW_OUT_DROP_TABLE_XLSXW_1 No
+XLSXW_1_DROP_TABLE "$(XLSXW_OUT_DROP_TABLE_XLSXW_1)"
+# Default to not truncate feature type first (removeallcelldata,retainformatting/headers,etc.)
+DEFAULT_MACRO XLSXW_OUT_TRUNCATE_TABLE_XLSXW_1 No
+XLSXW_1_TRUNCATE_TABLE "$(XLSXW_OUT_TRUNCATE_TABLE_XLSXW_1)"
+# Default to write out the field names
+DEFAULT_MACRO XLSXW_OUT_FIELD_NAMES_OUT_XLSXW_1 Yes
+XLSXW_1_FIELD_NAMES_OUT "$(XLSXW_OUT_FIELD_NAMES_OUT_XLSXW_1)"
+# Default writer mode
+DEFAULT_MACRO XLSXW_OUT_WRITER_MODE_XLSXW_1 Insert
+XLSXW_1_WRITER_MODE "$(XLSXW_OUT_WRITER_MODE_XLSXW_1)"
+# Default raster writing type
+DEFAULT_MACRO XLSXW_OUT_RASTER_FORMAT_XLSXW_1 PNG
+XLSXW_1_RASTER_FORMAT "$(XLSXW_OUT_RASTER_FORMAT_XLSXW_1)"
+# ============================================================================
+# Choose excel file protection mode
+DEFAULT_MACRO XLSXW_OUT_PROTECT_SHEET_XLSXW_1 NO
+XLSXW_1_PROTECT_SHEET "$(XLSXW_OUT_PROTECT_SHEET_XLSXW_1)"
+# Whether or not to enable sheet password protection
+DEFAULT_MACRO XLSXW_OUT_PROTECT_SHEET_PASSWORD_XLSXW_1 <Unused>
+XLSXW_1_PROTECT_SHEET_PASSWORD "$(XLSXW_OUT_PROTECT_SHEET_PASSWORD_XLSXW_1)"
+# Which kind of protection level
+DEFAULT_MACRO XLSXW_OUT_PROTECT_SHEET_LEVEL_XLSXW_1 <Unused>
+XLSXW_1_PROTECT_SHEET_LEVEL "$(XLSXW_OUT_PROTECT_SHEET_LEVEL_XLSXW_1)"
+# Which kind of specific permissions will be enabled
+DEFAULT_MACRO XLSXW_OUT_PROTECT_SHEET_PERMISSIONS_XLSXW_1 <Unused>
+XLSXW_1_PROTECT_SHEET_PERMISSIONS "$(XLSXW_OUT_PROTECT_SHEET_PERMISSIONS_XLSXW_1)"
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO XLSXW_OUT_DESTINATION_DATASETTYPE_VALIDATION_XLSXW_1 Yes
+XLSXW_1_DESTINATION_DATASETTYPE_VALIDATION "$(XLSXW_OUT_DESTINATION_DATASETTYPE_VALIDATION_XLSXW_1)"
+# Add a new text field for the navigation tree in WB. More detail in BUG51426.
+DEFAULT_MACRO TEMPLATE_SHEET_XLSXW_1 
+GUI OPTIONAL TEXT TEMPLATE_SHEET_XLSXW_1 Template Sheet:
+XLSXW_1_TEMPLATE_SHEET "$(TEMPLATE_SHEET_XLSXW_1)"
+XLSXW_1_DATASET "$(DestDataset_XLSXW_1)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "ESRISHAPE_2"
+#! END_WB_HEADER
+#! START_DEST_HEADER ESRISHAPE ESRISHAPE_2
+# ============================================================================
+# The following GUI line prompts for a folder to be used as the
+# the destination for the Esri Shapefiles.
+# The user input is stored in a macro, which is then used to define
+# the dataset to be written.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_ESRISHAPE_2 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER ESRISHAPE ESRISHAPE_2
+DEFAULT_MACRO DestDataset_ESRISHAPE_2 $(DestDataset_ESRISHAPE)
+GUI DIRNAME DestDataset_ESRISHAPE_2 Destination Esri Shapefile Folder:
+ESRISHAPE_2_COORDINATE_SYSTEM_GRANULARITY FEATURE_TYPE
+# ============================================================================
+# Determines whether the attribute names should be uppercased, or whether they
+# should stay as specified in the shapefile. The default will be Yes for
+# backwards compatibility. Once the mapping file/workspace has been generated,
+# the value for this keyword should not be changed.
+DEFAULT_MACRO ESRISHAPE_OUT_UPPER_CASE_ATTR_NAMES_ESRISHAPE_2 No
+ESRISHAPE_2_UPPER_CASE_ATTR_NAMES "$(ESRISHAPE_OUT_UPPER_CASE_ATTR_NAMES_ESRISHAPE_2)"
+# ============================================================================
+# The following keyword allows the user to choose what encoding to
+# use for outputting the shapefile
+# BUG31194: For backwards compatibility and not outputting a .cpg file
+# we have chosen to make the writer default encoding system (ANSI)
+DEFAULT_MACRO ESRISHAPE_OUT_ENCODING_ESRISHAPE_2 SYSTEM
+ESRISHAPE_2_ENCODING "$(ESRISHAPE_OUT_ENCODING_ESRISHAPE_2)"
+GUI OPTIONAL ENCODING ESRISHAPE_OUT_ENCODING_ESRISHAPE_2 ANSI%SYSTEM%BIG5%EUC%HKBIG5%ISO%OEM%SJIS%UTF-8%CP437%CP708%CP720%CP737%CP775%CP850%CP852%CP855%CP857%CP860%CP861%CP862%CP863%CP864%CP865%CP866%CP869%CP874%CP932%CP936%CP950%CP1250%CP1251%CP1252%CP1253%CP1254%CP1255%CP1256%CP1257%CP1258%ISO8859-1%ISO8859-2%ISO8859-3%ISO8859-4%ISO8859-5%ISO8859-6%ISO8859-7%ISO8859-8%ISO8859-9%ISO-8859-11%ISO8859-13%ISO8859-15%WINDOWS-874 Character Encoding
+# ============================================================================
+# PR2557: Specifies whether or not the reader will generate spatial index files
+DEFAULT_MACRO ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_2 No
+ESRISHAPE_2_WRITE_SPATIAL_INDEX "$(ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_2)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_OUT_WRITE_SPATIAL_INDEX_ESRISHAPE_2 Yes%No Write Spatial Index
+DEFAULT_MACRO ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_2 No
+ESRISHAPE_2_COMPRESSED_SHAPE_FILE "$(ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_2)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_OUT_COMPRESSED_SHAPE_FILE_ESRISHAPE_2 Yes%No Create Compressed Shapefile (.shz)
+DEFAULT_MACRO ESRISHAPE_OUT_DIMENSION_ESRISHAPE_2 auto
+ESRISHAPE_2_DIMENSION "$(ESRISHAPE_OUT_DIMENSION_ESRISHAPE_2)"
+DEFAULT_MACRO ESRISHAPE_OUT_ADVANCED_ESRISHAPE_2 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_OUT_ADVANCED_ESRISHAPE_2 ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_2%ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_2 Advanced
+# ============================================================================
+# BUG31474: Add an Strict compatibility flag to prevent some apps from
+# crashing when record lengths are too long. By default, we want to write
+# compatible files going forward.
+DEFAULT_MACRO ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_2 Yes
+ESRISHAPE_2_STRICT_COMPATIBILITY "$(ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_2)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_OUT_STRICT_COMPATIBILITY_ESRISHAPE_2 Yes%No Strict Compatibility
+DEFAULT_MACRO ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_2 
+GUI OPTIONAL DISCLOSUREGROUP ESRISHAPE_OUT_GEOMETRY_ESRISHAPE_2 ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_2%ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE%ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_2 Geometry
+# ============================================================
+# BUG39095: Add an option to preserve input ring vertex order.
+DEFAULT_MACRO ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_2 No
+ESRISHAPE_2_PRESERVE_RING_VERTEX_ORDER "$(ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_2)"
+GUI OPTIONAL CHECKBOX ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER_ESRISHAPE_2 Yes%No Preserve Ring Vertex Order
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO ESRISHAPE_OUT_DESTINATION_DATASETTYPE_VALIDATION_ESRISHAPE_2 Yes
+ESRISHAPE_2_DESTINATION_DATASETTYPE_VALIDATION "$(ESRISHAPE_OUT_DESTINATION_DATASETTYPE_VALIDATION_ESRISHAPE_2)"
+# ============================================================================
+# The following GUI line sets whether measure values in the shapefiles should
+# be treated as elevations.
+DEFAULT_MACRO ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_2 no
+ESRISHAPE_2_MEASURES_AS_Z "$(ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_2)"
+GUI CHOICE ESRISHAPE_OUT_MEASURES_AS_Z_ESRISHAPE_2 yes%no Treat Measures as Elevation
+ESRISHAPE_2_ENCODING $(ESRISHAPE_OUT_ENCODING_ESRISHAPE_2)
+ESRISHAPE_2_DATASET "$(DestDataset_ESRISHAPE_2)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)orphanwells-pctest.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+MAPPING_FILE_ID RCaller-Wells-Windows
+LOG_TIMINGS YES
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_XLSXR_1 XLSXR_1
+DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
+DEFAULT_MACRO DATASET_KEYWORD_XLSXW_1 XLSXW_1
+DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_2 ESRISHAPE_2
+# -------------------------------------------------------------------------
+
+XLSXR_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+ESRISHAPE_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+ESRISHAPE_1_COORDINATE_SYSTEM LL84
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME orphanwells-pctest
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
+MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
+MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
+MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
+# -------------------------------------------------------------------------
+ESRISHAPE_1_DEF V4-1_LSD   SHAPE_GEOMETRY               shape_polygon   PID                          char(15)   FILE_NAME                    char(6)   TRM                          char(6)   M                            short   RGE                          short   TWP                          short   SEC                          short   QS                           char(2)   LS                           short   DESCRIPTOR                   char(50)   RA                           char(2)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE XLSXR "XLSXR_1::Well Licences" multi_reader_keyword,$(DATASET_KEYWORD_XLSXR_1) TO FME_GENERIC "::Well Licences" ALIAS_GEOMETRY    ROUTE ESRISHAPE ESRISHAPE_1::V4-1_LSD multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::V4-1_LSD ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+XLSXR_1_MERGE_DEF "XLSXR_1::Well Licences" EXACT Well<space>Licences DEFLINE xlsx_start_row,,xlsx_end_row,,xlsx_schema_start_row,1,xlsx_schema_end_col,0,xlsx_header_row,0,xlsx_schema_end_row,0,xlsx_schema_start_col,0,fme_attribute_reading,defined,Company,char<openparen>41<closeparen>,Licence<space>Number,char<openparen>7<closeparen>,Licence<space>Status,char<openparen>11<closeparen>,Surface<space>Location,char<openparen>15<closeparen>,UWI,char<openparen>20<closeparen>,Field<solidus>Area<space>Name,char<openparen>17<closeparen>,Pool<solidus>Deposit<space>Name,char<openparen>22<closeparen>,Final<space>Total<space>Depth<comma><space>m,number<openparen>7<comma>1<closeparen>,Last<space>Volumetric<space>Activity<space>Date,date,Last<space>Annual<space>Oil<space>Prod<comma><space>m<u00b3>,number<openparen>6<comma>1<closeparen>,Last<space>Annual<space>Gas<space>Prod<comma><space>10<u00b3>m<u00b3>,number<openparen>8<comma>1<closeparen>,Last<space>Annual<space>Water<space>Prod<comma><space>m<u00b3>,number<openparen>8<comma>1<closeparen>
+ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::V4-1_LSD EXACT V4-1_LSD
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Well Licences (XLSXR_1) Splitter"    INPUT FEATURE_TYPE "Well Licences"    OUTPUT FEATURE_TYPE "Well Licences_XLSXR_1"
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "V4-1_LSD (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE V4-1_LSD    OUTPUT FEATURE_TYPE V4-1_LSD_ESRISHAPE_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+INCLUDE [    set macroLine "MACRO AttributeRemover_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRemover    INPUT  FEATURE_TYPE V4-1_LSD_ESRISHAPE_1    OUTPUT FEATURE_TYPE AttributeRemover_OUTPUT        @RemoveAttributes(fme_encoded,RA)        @RemoveAttributes(fme_pcre_match"$(AttributeRemover_LIST_EXP)")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeRenamer    INPUT  FEATURE_TYPE "Well Licences_XLSXR_1" 	 ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV 	 ATTR_ACTION { "Company" "Company" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Field<solidus>Area<space>Name" "AreaName" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Final<space>Total<space>Depth<comma><space>m" "TotalDepth" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Last<space>Annual<space>Gas<space>Prod<comma><space>10<u00b3>m<u00b3>" "GasProduction" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Last<space>Annual<space>Oil<space>Prod<comma><space>m<u00b3>" "OilProduction" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Last<space>Annual<space>Water<space>Prod<comma><space>m<u00b3>" "WaterProduction" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Last<space>Volumetric<space>Activity<space>Date" "ActivityDate" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Licence<space>Number" "LicenceNumber" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Licence<space>Status" "LicenceStatus" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Pool<solidus>Deposit<space>Name" "DepositName" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "Surface<space>Location" "SurfaceLocation" "RENAME_SET_DEFAULT" "" }      ATTR_ACTION { "UWI" "UWI" "RENAME_SET_DEFAULT" "" }    OUTPUT OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRenamer OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeRenamer_OUTPUT   OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT_0_JV5u6+unT2I=   OUTPUT FEATURE_TYPE AttributeRenamer_OUTPUT_1_zxgSiKgnAxI=
+# -------------------------------------------------------------------------
+FACTORY_DEF * InlineQueryFactory FACTORY_NAME RCaller EXCLUDE_FEATURE_CONTENT Yes TABLE_DEF wells GasProduction<comma>varchar<openparen>200<closeparen><comma>OilProduction<comma>varchar<openparen>200<closeparen><comma>WaterProduction<comma>varchar<openparen>200<closeparen><comma>TotalDepth<comma>varchar<openparen>200<closeparen> QUERY_DEF Output R_SCRIPT @EvaluateExpression(STRING_ENCODED,#Add<space>your<space>inputs<space>here<space>by<space>dragging<space>in<space>from<space>the<space>data<space>frame<space>list<space>on<space>the<space>left.<lf>#Populate<space>the<space>columns<space>of<space>the<space>fmeOutput<space>data<space>frame<space>with<space>your<space>desired<space>script<space>output.<lf>#The<space>columns<space>of<space>the<space>fmeOutput<space>Data<space>frame<space>will<space>be<space>converted<space>to<space>attributes<space>on<space>output<space>features.<lf>#For<space>example:<lf>#fmeOutput<lt>-data.frame<openparen>numbers=c<openparen>1<comma>2<comma>3<closeparen><comma>letters=c<openparen><apos>A<apos><comma><apos>B<apos><comma><apos>C<apos><closeparen><closeparen><lf>png<openparen>filename=<quote>C:<backslash><backslash>Users<backslash><backslash>lsanderson<backslash><backslash>Documents<backslash><backslash>OrphanPlot.png<quote><closeparen><lf>plot<openparen>wells<closeparen><lf>dev.off<openparen><closeparen><lf>fmeOutput<lt>-data.frame<openparen>1<closeparen>,RCaller) INPUT wells FEATURE_TYPE AttributeRenamer_OUTPUT_0_JV5u6+unT2I= OUTPUT Output FEATURE_TYPE RCaller_Output
+# -------------------------------------------------------------------------
+MACRO FeatureReader_OUTPUT_PORTS_ENCODED 
+MACRO FeatureReader_DIRECTIVES GROUP_BY_DATASET,No,USE_SEARCH_ENVELOPE,NO,READER_META_ATTRIBUTES,fme_dataset<space>fme_basename
+
+# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
+INCLUDE [if { ( {NONE} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "NONE"};          }         ]
+# Consolidate the attribute merge options to what the factory expects
+DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
+INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS RESULT_ONLY";       };    ]
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE RCaller_Output    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         PNGRASTER    READER_DATASET      "C:<backslash>Users<backslash>lsanderson<backslash>Documents<backslash>OrphanPlot.png"    QUERYFCT_IDS        ""    READER_DIRECTIVES META_MACROS,SourceREADER_META_ATTRIBUTES<comma><quote>fme_dataset<space>fme_basename<quote><comma>SourceGROUP_BY_DATASET<comma>No<comma>SourceEXPOSE_ATTRS_GROUP<comma><comma>SourcePNGRASTER_EXPOSE_FORMAT_ATTRS<comma><comma>SourceUSE_SEARCH_ENVELOPE<comma>NO<comma>SourceSEARCH_ENVELOPE_MINX<comma>0<comma>SourceSEARCH_ENVELOPE_MINY<comma>0<comma>SourceSEARCH_ENVELOPE_MAXX<comma>0<comma>SourceSEARCH_ENVELOPE_MAXY<comma>0<comma>SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM<comma><comma>SourceCLIP_TO_ENVELOPE<comma>NO,METAFILE,PNGRASTER    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE FeatureReader_<OTHER>
+
+# -------------------------------------------------------------------------
+
+# Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
+DEFAULT_MACRO WORKSPACE_TEMP_DIR
+FACTORY_DEF * InspectorFactory    FACTORY_NAME FeatureReader__Generic__Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE FeatureReader_<OTHER>    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX FeatureReader__Generic_    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+# Now route all the features into the recorder, changing their
+# feature type to the transformer name so that they view nicely
+
+DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
+DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
+# [PR#45549] The Data Inspector will limit the maximum number of features
+# it reads on WIN32, so we will correspondingly limit the number of
+# features we record here using the MAX_FEATURES_TO_RECORD directive.
+
+FACTORY_DEF * RecorderFactory    FACTORY_NAME FeatureReader__Generic__Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT_1_zxgSiKgnAxI=    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OilProduction<closeparen>,Tester) ATTRIBUTE_HAS_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_FAILED
+# -------------------------------------------------------------------------
+FACTORY_DEF * InlineQueryFactory FACTORY_NAME RCaller_2 EXCLUDE_FEATURE_CONTENT Yes TABLE_DEF wells Company<comma>varchar<openparen>41<closeparen><comma>AreaName<comma>varchar<openparen>200<closeparen><comma>TotalDepth<comma>varchar<openparen>200<closeparen><comma>GasProduction<comma><quote>real<openparen>200<comma>10<closeparen><quote><comma>OilProduction<comma><quote>real<openparen>200<comma>10<closeparen><quote><comma>WaterProduction<comma><quote>real<openparen>200<comma>10<closeparen><quote><comma>ActivityDate<comma>varchar<openparen>200<closeparen><comma>LicenceNumber<comma>varchar<openparen>200<closeparen><comma>LicenceStatus<comma>varchar<openparen>200<closeparen><comma>DepositName<comma>varchar<openparen>200<closeparen><comma>SurfaceLocation<comma>varchar<openparen>200<closeparen><comma>UWI<comma>varchar<openparen>20<closeparen> QUERY_DEF Output R_SCRIPT @EvaluateExpression(STRING_ENCODED,#Add<space>your<space>inputs<space>here<space>by<space>dragging<space>in<space>from<space>the<space>data<space>frame<space>list<space>on<space>the<space>left.<lf>#Populate<space>the<space>columns<space>of<space>the<space>fmeOutput<space>data<space>frame<space>with<space>your<space>desired<space>script<space>output.<lf>#The<space>columns<space>of<space>the<space>fmeOutput<space>Data<space>frame<space>will<space>be<space>converted<space>to<space>attributes<space>on<space>output<space>features.<lf>#For<space>example:<lf>#fmeOutput<lt>-data.frame<openparen>numbers=c<openparen>1<comma>2<comma>3<closeparen><comma>letters=c<openparen><apos>A<apos><comma><apos>B<apos><comma><apos>C<apos><closeparen><closeparen><lf>wells<space><lt>-<space>wells<openbracket>-c<openparen>2127:2133<comma><space>drop=FALSE<closeparen><comma><closebracket><lf><lf>TotalProduction<space><lt>-<space>wells<dollar>OilProduction<space>+<space><space>wells<dollar>GasProduction<space>+<space>wells<dollar>WaterProduction<lf>wells<dollar>TotalProduction<space><lt>-<space>TotalProduction<lf>listFieldName<space><lt>-<space>aggregate<openparen>wells<dollar>TotalProduction<comma><space>by=list<openparen>FieldName=wells<dollar>AreaName<closeparen><comma><space>FUN=sum<closeparen><lf>Remove<space><lt>-<space>wells<openbracket>wells<dollar>TotalProduction<space><lt><space>10<comma><closebracket><lf>fmeOutput<lt>-data.frame<openparen>Remove<closeparen><lf><lf>,RCaller) INPUT wells FEATURE_TYPE Tester_PASSED OUTPUT Output FEATURE_TYPE RCaller_2_Output
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RCaller_2 Output Splitter"   INPUT FEATURE_TYPE RCaller_2_Output   OUTPUT FEATURE_TYPE RCaller_2_Output_0_0v15Y4sn18E=   OUTPUT FEATURE_TYPE RCaller_2_Output_1_xiYVDEkT5ow=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * SortFactory    FACTORY_NAME Sorter    INPUT  FEATURE_TYPE RCaller_2_Output_0_0v15Y4sn18E=    SORT_BY AreaName ALPHA ASCENDING TotalProduction NUMERIC DESCENDING    OUTPUT SORTED FEATURE_TYPE Sorter_SORTED
+
+# -------------------------------------------------------------------------
+
+Tcl2 set AttributeSplitter_2de0930c_c8ef_4a02_a1ff_f8790f9c7a4014_splitDelim [FME_DecodeText {-}];      if { [regexp {^([1-9][0-9]*s)+$} [set AttributeSplitter_2de0930c_c8ef_4a02_a1ff_f8790f9c7a4014_splitDelim]] }      {         set AttributeSplitter_2de0930c_c8ef_4a02_a1ff_f8790f9c7a4014_splitWidths [split [regsub -all {s$} {-} {}] s];         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_2de0930c_c8ef_4a02_a1ff_f8790f9c7a4014_splitWidths;            set source [FME_GetAttribute [FME_DecodeText {SurfaceLocation}]];            set attrNum 0;            set listName [FME_DecodeText {_list}];            set attrPos 0;            set keepEmptyParts [string equal {No} {No}];            foreach width [set AttributeSplitter_2de0930c_c8ef_4a02_a1ff_f8790f9c7a4014_splitWidths]            {               set endPos [expr $attrPos + $width - 1];               set bit [string range $source $attrPos $endPos];               set part [string trim $bit];               if { $keepEmptyParts || $part != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $part;                  incr attrNum;               };               incr attrPos $width;            };         };      }      else      {         proc AttributeSplitter_doSplit {}         {            global AttributeSplitter_2de0930c_c8ef_4a02_a1ff_f8790f9c7a4014_splitDelim;            set delim [set AttributeSplitter_2de0930c_c8ef_4a02_a1ff_f8790f9c7a4014_splitDelim];            set delimLength [string length $delim];            set source [FME_GetAttribute [FME_DecodeText {SurfaceLocation}]];            set keepEmptyParts [string equal {No} {No}];            set bits {};            set startIndex 0;            set nextIndex [string first $delim $source $startIndex];            while {$nextIndex >= 0} {              lappend bits [string range $source $startIndex [expr $nextIndex-1]];              set startIndex [expr $nextIndex + $delimLength];              set nextIndex [string first $delim $source $startIndex];            };            lappend bits [string range $source $startIndex end];            set listName [FME_DecodeText {_list}];            set attrNum 0;            foreach bit $bits            {               set trimmedPart [string trim $bit];               if { $keepEmptyParts || $trimmedPart != \"\" } {                  FME_SetAttribute "$listName{$attrNum}" $trimmedPart;                  incr attrNum;               };            }          }       }
+FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeSplitter    INPUT  FEATURE_TYPE Sorter_SORTED    OUTPUT FEATURE_TYPE AttributeSplitter_OUTPUT         @Tcl2(AttributeSplitter_doSplit)
+
+# -------------------------------------------------------------------------
+
+# Since the Tcl "END" index specification starts at -1 for the second
+# last character, and we've defined -1 to be the last charater, we've got
+# small bit of fiddling to do
+
+Tcl2 proc SubstringExtractor_fixLastIndex {lastValue} {     if {$lastValue < -1} {         incr lastValue;         return "end$lastValue";     }     elseif {$lastValue == -1} {         return "end";     }     else {         return $lastValue;     } }
+Tcl2 proc SubstringExtractor_extract {startIdx endIdx} {     FME_SetAttribute [FME_DecodeText RGE]         [string range [FME_DecodeTextOrAttr @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_list<opencurly>3<closecurly><closeparen>,SubstringExtractor)]                       [SubstringExtractor_fixLastIndex $startIdx]                       [SubstringExtractor_fixLastIndex $endIdx]]     }
+FACTORY_DEF * TeeFactory    FACTORY_NAME SubstringExtractor    INPUT  FEATURE_TYPE AttributeSplitter_OUTPUT    OUTPUT FEATURE_TYPE SubstringExtractor_OUTPUT         @Tcl2("SubstringExtractor_extract 0 1")
+
+# -------------------------------------------------------------------------
+
+# Since the Tcl "END" index specification starts at -1 for the second
+# last character, and we've defined -1 to be the last charater, we've got
+# small bit of fiddling to do
+
+Tcl2 proc SubstringExtractor_2_fixLastIndex {lastValue} {     if {$lastValue < -1} {         incr lastValue;         return "end$lastValue";     }     elseif {$lastValue == -1} {         return "end";     }     else {         return $lastValue;     } }
+Tcl2 proc SubstringExtractor_2_extract {startIdx endIdx} {     FME_SetAttribute [FME_DecodeText M]         [string range [FME_DecodeTextOrAttr @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_list<opencurly>3<closecurly><closeparen>,SubstringExtractor_2)]                       [SubstringExtractor_2_fixLastIndex $startIdx]                       [SubstringExtractor_2_fixLastIndex $endIdx]]     }
+FACTORY_DEF * TeeFactory    FACTORY_NAME SubstringExtractor_2    INPUT  FEATURE_TYPE SubstringExtractor_OUTPUT    OUTPUT FEATURE_TYPE SubstringExtractor_2_OUTPUT         @Tcl2("SubstringExtractor_2_extract 3 3")
+
+# -------------------------------------------------------------------------
+
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE SubstringExtractor_2_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "_list<opencurly>0<closecurly>" "LSD" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "_list<opencurly>1<closecurly>" "SEC" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "_list<opencurly>2<closecurly>" "TWP" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "_list<opencurly>3<closecurly>" "_list<opencurly>3<closecurly>" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+
+# -------------------------------------------------------------------------
+
+INCLUDE [if { {ATTRIBUTES} == {ATTRIBUTES} } {                puts "MACRO FeatureMerger_REFERENCE_INFO ATTRIBUTES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {POLYGONS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_POLYS";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {AGGREGATES}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} && {<Unused>} == {LINESFROMPOINTS}} {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_LINES_FROM_POINTS";             }          elseif { {ATTRIBUTES} == {GEOM_BUILD} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_BUILD_AGGREGATES";             }          elseif { {ATTRIBUTES} == {GEOM_AND_ATTRS} } {                puts "MACRO FeatureMerger_REFERENCE_INFO GEOM_AND_ATTR_BUILD_AGGREGATES";             }          else {}; ]
+
+FACTORY_DEF {*} ReferenceFactory    FACTORY_NAME FeatureMerger    INPUT REFERENCER FEATURE_TYPE AttributeRemover_OUTPUT    INPUT REFERENCEE FEATURE_TYPE AttributeManager_OUTPUT    REFERENCE_INFO $(FeatureMerger_REFERENCE_INFO)    REFERENCE_TABLE @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>M<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>M<closeparen>,FeatureMerger) AUTO @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>RGE<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>RGE<closeparen>,FeatureMerger) AUTO @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>SEC<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>SEC<closeparen>,FeatureMerger) AUTO @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>TWP<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>TWP<closeparen>,FeatureMerger) AUTO @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LS<closeparen>,FeatureMerger) @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>LSD<closeparen>,FeatureMerger) AUTO    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "REQUESTOR_IF_CONFLICT"    IGNORE_NULLS "No"    HANDLE_NULL_MISSING_KEYS_LIKE_FME2013 No    LIST_ATTRS_TO_INCLUDE { <Unused> }    LIST_ATTRS_TO_INCLUDE_MODE <Unused>    MERGE_ATTRIBUTES Yes    MANAGE_FME_TYPE Yes    MODE COMPLETE    PROCESS_DUPLICATE_REFERENCEES No    REFERENCEES_FIRST No    REJECT_INVALID_GEOM YES    OUTPUT COMPLETE FEATURE_TYPE FeatureMerger_MERGED
+
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "RCaller_2_Output (Disabled) Nuker"   INPUT FEATURE_TYPE RCaller_2_Output_1_xiYVDEkT5ow=
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC FeatureMerger_MERGED TO ESRISHAPE __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>OrphanWells<closeparen> GEOMETRY    ROUTE FME_GENERIC Tester_FAILED TO XLSXW __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>Well<lt>space<gt>Licences<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
+FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
+# -------------------------------------------------------------------------
+XLSXW_1_DEF "Well Licences"   xlsx_drop_sheet              No   xlsx_trunc_sheet             No   xlsx_sheet_order             ""   xlsx_freeze_end_row          ""   xlsx_names_are_positions     No   xlsx_field_names_out         Yes   xlsx_start_col               ""   xlsx_start_row               ""   xlsx_offset_col              ""   xlsx_offset_row              ""   xlsx_raster_type             PNG   xlsx_table_writer_mode       Insert   xlsx_row_id_column           ""   xlsx_protect_sheet           NO   xlsx_protect_sheet_level     <Unused>   xlsx_protect_sheet_password  <Unused>   xlsx_protect_sheet_permissions <Unused>   Company                      string(41,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Licence Number"             string(7,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Licence Status"             string(11,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Surface Location"           string(15,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   UWI                          string(20,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Field/Area Name"            string(17,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Pool/Deposit Name"          string(22,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Final Total Depth, m"       number(7,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Last Volumetric Activity Date" date(20,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Last Annual Oil Prod, m³"   number(6,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Last Annual Gas Prod, 10³m³" number(8,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)   "Last Annual Water Prod, m³" number(8,version<semicolon>1<semicolon>number_format_string<semicolon><semicolon>font<semicolon><semicolon>font_color<semicolon><semicolon>background_color<semicolon><semicolon>pattern_color<semicolon><semicolon>pattern_style<semicolon><semicolon>text_alignment<semicolon>NO<semicolon>horizontal_alignment<semicolon><semicolon>vertical_alignment<semicolon><semicolon>indent<semicolon><semicolon>text_orientation<semicolon><semicolon>text_control<semicolon><semicolon>cell_protection<semicolon>NO<semicolon>hide_cells<semicolon><semicolon>lock_cells<semicolon>)
+# -------------------------------------------------------------------------
+ESRISHAPE_2_DEF OrphanWells   SHAPE_GEOMETRY               shape_polygon   shape_dimension              auto   Company                      char(41)   Licence_Nu                   char(7)   Licence_St                   char(11)   Surface_Lo                   char(15)   UWI                          char(20)   Field_Area                   char(17)   Pool_Depos                   char(22)   Final_Tota                   number(7,1)   Last_Volum                   date   Last_Annua                   number(6,1)   Last_Ann00                   number(8,1)   Last_Ann01                   number(8,1)
