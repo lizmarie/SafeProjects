@@ -1,0 +1,166 @@
+2017-08-16 16:43:01|   0.1|  0.1|INFORM|FME 2017.1.0.0 (20170731 - Build 17539 - WIN64)
+2017-08-16 16:43:01|   0.1|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2017-08-16 16:43:01|   0.1|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2017-08-16 16:43:01|   0.1|  0.0|INFORM|Permanent License.
+2017-08-16 16:43:01|   0.1|  0.0|INFORM|Machine host name is: kc-ls-windows1
+2017-08-16 16:43:01|   0.1|  0.0|INFORM|START - ProcessID: 9140, peak process memory usage: 32052 kB, current process memory usage: 32052 kB
+2017-08-16 16:43:01|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/lsanderson/Documents/Articles/A360\wb-xlate-1502926980618_8904' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{ab85304b-03a5-4338-b5da-996e745bc7c7}' `DEBUG_PORT' `58410'
+2017-08-16 16:43:01|   0.2|  0.1|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\lsanderson\Documents\FME\Plugins\R\Formats;C:\Users\lsanderson\Documents\FME\Formats
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Shared folders for transformers are : C:\Program Files\FME\transformers;C:\Users\lsanderson\Documents\FME\Plugins\R\Transformers;C:\Users\lsanderson\Documents\FME\Transformers;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystems;C:\Users\lsanderson\Documents\FME\CoordinateSystems
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemExceptions;C:\Users\lsanderson\Documents\FME\CoordinateSystemExceptions
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemGridOverrides;C:\Users\lsanderson\Documents\FME\CoordinateSystemGridOverrides
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CsmapTransformationExceptions;C:\Users\lsanderson\Documents\FME\CsmapTransformationExceptions
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\lsanderson\Documents\FME\Plugins\R\TransformerCategories;C:\Users\lsanderson\Documents\FME\TransformerCategories
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\lsanderson\Documents\Articles\A360'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\LSANDE~1\AppData\Local\Temp\2', set from environment variable `TEMP'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\lsanderson\Documents\Articles\A360/'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'GISandCADWorkflows.fmw'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.0.0'
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|System Status: 118.35 GB of disk space available in the FME temporary folder (C:\Users\LSANDE~1\AppData\Local\Temp\2)
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 10 Server 4.0 64-bit  (Build 14393)
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Platform: WIN64
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Locale: en_US
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Process limit is 4.00 GB of physical memory
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 12.00 GB of virtual memory
+2017-08-16 16:43:01|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 9.00 GB of virtual memory
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME\plugins/NULL.dll'
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|Creating reader for format: 
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding MITAB Reader with keyword MITAB_1
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding ACAD Reader with keyword ACAD_1
+2017-08-16 16:43:01|   0.3|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2017-08-16 16:43:02|   0.4|  0.1|INFORM|Creating reader for format: MapInfo TAB (MITAB)
+2017-08-16 16:43:02|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `MITAB'
+2017-08-16 16:43:02|   0.4|  0.0|INFORM|Loaded module 'MITAB' from file 'C:\Program Files\FME\plugins/mitab_fme.dll'
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|FME API version of module 'MITAB' matches current internal version (3.8 20170315)
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|Using MapInfo (MITAB) Native Reader to open dataset `C:\FMEData2017\Data\Transportation\Parking\'
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|Loaded module 'BreakpointFactory' from file 'C:\Program Files\FME\plugins/BreakpointFactory.dll'
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|Feature Inspection module initialized. Workbench@58410 and FME@60561
+2017-08-16 16:43:02|   0.5|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-08-16 16:43:02|   0.7|  0.2|INFORM|... Last line repeated 14 times ...
+2017-08-16 16:43:02|   0.7|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\Program Files\FME\plugins/PythonFactory.dll'
+2017-08-16 16:43:02|   0.7|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20170315)
+2017-08-16 16:43:02|   0.7|  0.0|INFORM|Using Python interpreter from `C:\Program Files\FME\fmepython27\python27.dll' with PYTHONHOME `C:\Program Files\FME\fmepython27'
+2017-08-16 16:43:02|   0.7|  0.0|INFORM|Python version 2.7 loaded successfully
+2017-08-16 16:43:02|   0.9|  0.1|INFORM|Set encoding 'fme-system' from input feature
+2017-08-16 16:43:02|   0.9|  0.0|INFORM|Opened native MapInfo file `C:\FMEData2017\Data\Transportation\Parking\\Meters.tab'
+2017-08-16 16:43:03|   1.2|  0.3|INFORM|The OGC definition of the FME coordinate system 'UTM83-10' is 'Earth Projection 8, 74, "m", -123, 0, 0.9996, 500000, 0'
+2017-08-16 16:43:03|   1.2|  0.0|INFORM|MITAB_1 Reader: Creating Enhanced Geometry
+2017-08-16 16:43:03|   1.2|  0.0|INFORM|MITAB_1 Reader: Preserving degenerate geometry types
+2017-08-16 16:43:03|   1.2|  0.0|INFORM|FME Configuration: Source coordinate system for reader MITAB_1[MITAB] set to `UTM83-10' as read from input data
+2017-08-16 16:43:03|   1.2|  0.0|INFORM|Coordinate System `UTM83-10' parameters: CS_NAME=`UTM83-10' DESC_NM=`UTM with NAD83 datum, Zone 10, Meter; Central Meridian 123d W' DT_NAME=`NAD83' GROUP=`UTM83' MAP_SCL=`1' MAX_LAT=`86.93333333333334' MAX_LNG=`-119.25' MIN_LAT=`25.416666666666668' MIN_LNG=`-126.75' PARM1=`-123' PROJ=`TM' QUAD=`1' SCL_RED=`0.9996' SOURCE=`Snyder, J.P, 1987, Map Projections - A Working Manual' UNIT=`METER' X_OFF=`500000.0' Y_OFF=`0.0' 
+2017-08-16 16:43:03|   1.2|  0.0|INFORM|Creating writer for format: 
+2017-08-16 16:43:03|   1.2|  0.0|INFORM|Using MultiWriter with keyword `FeatureWriter' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2017-08-16 16:43:03|   1.5|  0.3|INFORM|Creating writer for format: Autodesk AutoCAD DWG/DXF
+2017-08-16 16:43:03|   1.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `ACAD'
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|Loaded module 'ACAD' from file 'C:\Program Files\FME\plugins/ACAD.dll'
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|FME API version of module 'ACAD' matches current internal version (3.8 20170315)
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|FME API version of module 'ACAD' matches current internal version (3.8 20170315)
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|Writer `FeatureWriter_0' of type `ACAD' using group definition keyword `FeatureWriter_0_DEF'
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|FME API version of module 'ACAD' matches current internal version (3.8 20170315)
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|AutoCAD Writer: Opening dataset 'RoadNetwork.dwg'...
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|No AutoCAD Template file specified
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|AutoCAD Writer will produce an AutoCAD Release2013 compatible file
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|No AutoCAD font folder specified. All Text and Multi-Text entities will use the default font file 'default.shx'
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `UTM83-10'
+2017-08-16 16:43:03|   1.6|  0.0|INFORM|Dynamically creating layer `Parking Meters'
+2017-08-16 16:43:04|   2.4|  0.8|INFORM|Reading source feature # 2500
+2017-08-16 16:43:05|   3.2|  0.8|INFORM|Reading source feature # 5000
+2017-08-16 16:43:06|   4.0|  0.8|INFORM|Reading source feature # 7500
+2017-08-16 16:43:06|   4.4|  0.4|INFORM|Closing native MapInfo reader
+2017-08-16 16:43:06|   4.4|  0.0|INFORM|Potentially retrieving dataset 'fme://autodesk-a360/TrafficSignals.dwg?id=a.cGVyc29uYWw6dWUyYjA1NTAyIzIwMTcwODE2ODgyNjE1MzE%2Fitems%2Furn%3Aadsk.wipprod%3Adm.lineage%3AzZE1VelIT6-TrXADgggX2A&connection=lsanderson%20Autodesk%20A360&connection=lsanderson%20Autodesk%20A360' for reader ACAD_1
+2017-08-16 16:43:12|   8.0|  3.6|INFORM|Retrieved file C:/Users/LSANDE~1/AppData/Local/Temp/2/FME_TempFileStore_1502926986497_9140/TrafficSignals.dwg for reader ACAD_1
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|Creating reader for format: Autodesk AutoCAD DWG/DXF
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `ACAD'
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|FME API version of module 'ACAD' matches current internal version (3.8 20170315)
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|ACAD_1 Reader: Using rich geometry.
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|AutoCAD Reader: Features for feature type '0' will be skipped based on the feature types requested
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|AutoCAD Reader: Successfully opened the 'Release2013' AutoCAD file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\FME_TempFileStore_1502926986497_9140\TrafficSignals.dwg'
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2017-08-16 16:43:12|   8.0|  0.0|INFORM|Dynamically creating layer `Traffic Signals'
+2017-08-16 16:43:13|   8.8|  0.9|INFORM|Reading source feature # 10000
+2017-08-16 16:43:13|   9.2|  0.3|INFORM|MULTI_READER(MULTI_READER): Done reading 10547 features from 2 readers
+2017-08-16 16:43:13|   9.2|  0.0|INFORM|Emptying factory pipeline
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Source Feature Router(BranchingFactory): Branched 10547 input features -- 10547 features routed to the target factory, and 0 features routed to the fallback factory.
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Source Catcher 0(TeeFactory): Cloned 8602 input feature(s) into 8602 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Source Brancher 0(BranchingFactory): Branched 8602 input features -- 8602 features routed to the target factory, and 0 features routed to the fallback factory.
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Source Catcher 1(TeeFactory): Cloned 1945 input feature(s) into 1945 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |ACAD_1RenameAutocadExtendedAttrs(TeeFactory): Cloned 1945 input feature(s) into 1945 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Source Brancher 1(BranchingFactory): Branched 1945 input features -- 1945 features routed to the target factory, and 0 features routed to the fallback factory.
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Branching Catcher(TeeFactory): Cloned 10547 input feature(s) into 10547 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 10547 input feature(s), wrote 10547 output feature(s): 10547 matched merge filters, 10547 were routed to output, 0 could not be routed.
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Collector (ACAD_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |TrafficSignals (ACAD_1) Splitter(TeeFactory): Cloned 1945 input feature(s) into 1945 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Secondary (ACAD_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Other (ACAD_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |NonCity (ACAD_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Residential (ACAD_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Arterial (ACAD_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Private (ACAD_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |Meters (MITAB_1) Splitter(TeeFactory): Cloned 8602 input feature(s) into 8602 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |DWGStyler_3(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |DWGStyler_5(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |DWGStyler_4(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |DWGStyler_5_DWGStyled_-__FeatureWriter_Layer1(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |DWGStyler_2(TeeFactory): Cloned 1945 input feature(s) into 1945 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|STATS |DWGStyler(TeeFactory): Cloned 8602 input feature(s) into 8602 output feature(s)
+2017-08-16 16:43:13|   9.2|  0.0|INFORM|AutoCAD Writer: Performing database audit...
+2017-08-16 16:43:13|   9.2|  0.0|INFORM|AutoCAD Writer: Audit fixed 0 of 0 error(s) found before saving destination dataset
+2017-08-16 16:43:13|   9.3|  0.0|INFORM|AutoCAD Writer: Performing database write to dataset...
+2017-08-16 16:43:13|   9.3|  0.0|INFORM|Processing AutoCAD File...
+2017-08-16 16:43:13|   9.3|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:13|   9.3|  0.0|INFORM|Feature output statistics for `ACAD' writer using keyword `FeatureWriter_0':
+2017-08-16 16:43:13|   9.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:13|   9.3|  0.0|STATS |                               Features Written
+2017-08-16 16:43:13|   9.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:13|   9.3|  0.0|STATS |Parking Meters                                                            8602
+2017-08-16 16:43:13|   9.3|  0.0|STATS |Traffic Signals                                                           1945
+2017-08-16 16:43:13|   9.3|  0.0|STATS |==============================================================================
+2017-08-16 16:43:13|   9.3|  0.0|STATS |Total Features Written                                                   10547
+2017-08-16 16:43:13|   9.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:13|   9.3|  0.0|INFORM|AutoDeskA360Connector: Uploading file "RoadNetwork.dwg" to AutoDesk A360
+2017-08-16 16:43:19|   9.4|  0.1|STATS |AutodeskA360Connector_CATCHER(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2017-08-16 16:43:19|   9.4|  0.0|STATS |AutodeskA360Connector_ROUTER(TestFactory): Tested 1 input feature(s) -- 1 feature(s) passed and 0 feature(s) failed
+2017-08-16 16:43:19|   9.4|  0.0|STATS |AutodeskA360Connector OUTPUT Output Nuker(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:19|   9.4|  0.0|STATS |AutodeskA360Connector_<REJECTED> Feature Counter -1 2147680315(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:19|   9.4|  0.0|STATS |AutodeskA360Connector_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:19|   9.4|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2017-08-16 16:43:19|   9.4|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-08-16 16:43:19|   9.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:19|   9.4|  0.0|STATS |                            Features Read Summary
+2017-08-16 16:43:19|   9.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:19|   9.4|  0.0|STATS |Meters                                                                    8602
+2017-08-16 16:43:19|   9.4|  0.0|STATS |TrafficSignals                                                            1945
+2017-08-16 16:43:19|   9.4|  0.0|STATS |==============================================================================
+2017-08-16 16:43:19|   9.4|  0.0|STATS |Total Features Read                                                      10547
+2017-08-16 16:43:19|   9.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:19|   9.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:19|   9.4|  0.0|STATS |                           Features Written Summary
+2017-08-16 16:43:19|   9.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:19|   9.5|  0.0|STATS |==============================================================================
+2017-08-16 16:43:19|   9.5|  0.0|STATS |Total Features Written                                                       0
+2017-08-16 16:43:19|   9.5|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-08-16 16:43:19|   9.5|  0.0|INFORM|Translation was SUCCESSFUL with 0 warning(s) (0 feature(s) output)
+2017-08-16 16:43:19|   9.5|  0.0|INFORM|FME Session Duration: 18.2 seconds. (CPU: 8.0s user, 1.3s system)
+2017-08-16 16:43:19|   9.5|  0.0|INFORM|END - ProcessID: 9140, peak process memory usage: 292232 kB, current process memory usage: 283728 kB

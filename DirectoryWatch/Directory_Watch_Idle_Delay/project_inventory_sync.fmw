@@ -1,0 +1,1558 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" C:\Users\lsanderson\Downloads\5389-directory-watch-idle-delay\Directory_Watch_Idle_Delay\project_inventory_sync.fmw
+#          --Seconds "300"
+#          --GoogleToken "token"
+#    
+#    
+#!   USE_MARKDOWN=""
+#!   LAST_SAVE_DATE="2017-09-13T08:50:16"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   FME_BUILD_NUM="17539"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   END_PYTHON=""
+#!   FME_SERVER_SERVICES=""
+#!   WORKSPACE_VERSION="1"
+#!   END_TCL=""
+#!   TERMINATE_REJECTED="NO"
+#!   VIEW_POSITION="-1409.74 1906.27"
+#!   MARKDOWN_DESCRIPTION=""
+#!   BEGIN_TCL=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   SHOW_INFO_NODES="true"
+#!   FME_DOCUMENT_GUID="67b4771c-bbea-484a-90f1-b9d1b3756366"
+#!   USAGE=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   PASSWORD=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   MAX_LOG_FEATURES="200"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   HISTORY=""
+#!   DESTINATION="NONE"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   LOG_FILE=""
+#!   CATEGORY=""
+#!   MARKDOWN_USAGE=""
+#!   DESCRIPTION=""
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   DOC_EXTENTS="5565.86 2041.76"
+#!   ZOOM_SCALE="90"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   BEGIN_PYTHON=""
+#!   SOURCE="NONE"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   DESTINATION_ROUTING_FILE=""
+#!   SHOW_ANNOTATIONS="true"
+#!   IGNORE_READER_FAILURE="No"
+#!   PYTHON_COMPATIBILITY="27"
+#!   DOC_TOP_LEFT="-524.449 -513.973"
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_DOCUMENT_PRIORGUID="1378f041-5360-4be0-aa08-d57b62e7a600,f70a7941-6948-4ec8-b2ce-7b75410b7b74,0ed7ceb7-1730-47e3-9e65-70d9440cc46a,04a3e4fb-2891-424e-a436-9ccbbdfa25f9,42189b33-1b09-46a6-9d16-f4527553ceda,36066ce3-c58c-442a-a8d5-ab45851b8fa2,50042a19-1549-4945-bde5-f8e1c5a6f3ef,d7fe8285-671e-4e5e-a444-35ca8fd2e252,2d06377d-9842-4ec6-91f4-8371debe6ed6,fb57dbf6-d0b4-4883-b599-36b7e6852d10,6baca971-6d18-4eb5-82ae-ba78b43a12d7,c27d6ca0-af9d-4aca-aa28-89fa66b7f61a,ec3c3154-74b5-416d-b316-7ca037262f0f,e5e6253a-ac60-4775-b3b0-a18fb371d88d"
+#!   TITLE=""
+#! >
+#! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#!   DATASET=""
+#!   KEYWORD="GOOGLEFUSIONTABLES_DB_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="googlefusiontables_type {FME_GEN_GEOMETRY} googlefusiontables_sql_where_clause &quot;&quot; googlefusiontables_sql_statement &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_rotation number fme_start_angle number fme_color text multi_reader_id number googlefusiontables_type text fme_primary_axis number multi_reader_type text fme_basename text fme_text_size number fme_sweep_angle number fme_secondary_axis number multi_reader_keyword text fme_geometry fme_char(50) fme_feature_type text fme_dataset text fme_text_string text multi_reader_full_id number fme_fill_color text fme_type text"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP googlefusiontables_layer_group googlefusiontables_sql_where_clause%googlefusiontables_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG googlefusiontables_sql_where_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG googlefusiontables_sql_statement MODE,SQL SELECT Statement&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="NONE"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   COORDSYS=""
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES=""
+#!   START_FEATURE=""
+#!   MAX_FEATURES=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GOOGLEFUSIONTABLES_DB_IN_BEGIN_SQL{0} GOOGLEFUSIONTABLES_DB_IN_END_SQL{0} GOOGLEFUSIONTABLES_DB_OUT_TRANSACTION_INTERVAL GOOGLEFUSIONTABLES_DB_OUT_WRITER_MODE GOOGLEFUSIONTABLES_DB_OUT_BEGIN_SQL{0} GOOGLEFUSIONTABLES_DB_OUT_END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#!   DATASET=""
+#!   KEYWORD="GOOGLEFUSIONTABLES_DB_2"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="256"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="true"
+#!   DEFLINE_TEMPLATE="googlefusiontables_type {FME_GEN_GEOMETRY} googlefusiontables_drop_table NO googlefusiontables_truncate_table NO googlefusiontables_mode INHERIT_FROM_WRITER googlefusiontables_update_key_columns &quot;&quot;"
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="googlefusiontables_type text fme_sweep_angle number fme_basename text fme_text_size number fme_db_operation text fme_geometry fme_char(50) fme_where text fme_text_string text fme_secondary_axis number fme_rotation number fme_color text fme_primary_axis number fme_start_angle number fme_feature_type text fme_dataset text fme_type text fme_fill_color text"
+#!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP googlefusiontables_layer_group googlefusiontables_mode%googlefusiontables_truncdrop_group%googlefusiontables_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP googlefusiontables_truncdrop_group googlefusiontables_drop_table%googlefusiontables_truncate_table Truncate/Drop&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP googlefusiontables_advanced_group googlefusiontables_update_key_columns Advanced&quot; &quot;&quot; &quot;GUI FORCE_DEFS WHOLE_LINE CHOICE googlefusiontables_drop_table Yes%No Drop Existing Table&quot; No &quot;GUI FORCE_DEFS WHOLE_LINE CHOICE googlefusiontables_truncate_table Yes%No Truncate Existing Table&quot; No &quot;GUI FORCE_DEFS WHOLE_LINE CHOICE googlefusiontables_mode INHERIT_FROM_WRITER%INSERT%UPDATE%DELETE Writer Mode&quot; INHERIT_FROM_WRITER &quot;GUI OPTIONAL TEXT_ENCODED googlefusiontables_update_key_columns Update Key Column(s)&quot; &quot;&quot; "
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS="\\&quot;{}[]"
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="NONE"
+#!   GENERATE_FME_BUILD_NUM="17539"
+#!   FANOUT_GROUP="NO"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="GOOGLEFUSIONTABLES_DB_IN_BEGIN_SQL{0} GOOGLEFUSIONTABLES_DB_IN_END_SQL{0} GOOGLEFUSIONTABLES_DB_OUT_TRANSACTION_INTERVAL GOOGLEFUSIONTABLES_DB_OUT_WRITER_MODE GOOGLEFUSIONTABLES_DB_OUT_BEGIN_SQL{0} GOOGLEFUSIONTABLES_DB_OUT_END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_PROXY"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="NETWORK_AUTHENTICATION"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="PARAMS_TO_NOT_PROPAGATE_ON_INSPECT"
+#!   VALUE="BEGIN_SQL{0} END_SQL{0}"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="Table1"
+#! />
+#! </DATASET>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="location"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="number"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="datetime"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="location"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="googlefusiontables_no_geom"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="GOOGLEFUSIONTABLES_DB"
+#! />
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="project_inventory_file_status"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="1"
+#!   FEAT_GEOMTYPE="googlefusiontables_no_geom"
+#!   POSITION="-317.365 -34"
+#!   BOUNDING_RECT="-317.365 -34 687.016 71"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="GOOGLEFUSIONTABLES_DB_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="false"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="file_path" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="last_modify_date" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="updated" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_sql_statement" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_sql_where_clause" PARM_VALUE=""/>
+#! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="project_inventory_file_status"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="true"
+#!   IDENTIFIER="13"
+#!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
+#!   POSITION="4211.56 -76.28"
+#!   BOUNDING_RECT="4211.56 -76.28 829.827 71"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="GOOGLEFUSIONTABLES_DB_2"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="file_path" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="last_modify_date" ATTR_TYPE="text" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="updated" ATTR_TYPE="text" ATTR_HAS_PORT="false" ATTR_VALUE="true"/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_truncate_table" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_advanced_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_update_key_columns" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_layer_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_drop_table" PARM_VALUE="No"/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_truncdrop_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="googlefusiontables_mode" PARM_VALUE="INHERIT_FROM_WRITER"/>
+#! </FEATURE_TYPE>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <SERVICES>
+#! <SERVICE
+#!   NAME="fmejobsubmitter"
+#! >
+#! <PROPERTIES>
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="ADVANCED"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="FAILURE_TOPICS"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="HTTP_DATASET"
+#!   VALUE="GOOGLEFUSIONTABLES_DB_1"
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="NOTIFICATION_WRITER"
+#!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="SUCCESS_TOPICS"
+#!   VALUE=""
+#! />
+#! </PROPERTIES>
+#! </SERVICE>
+#! </SERVICES>
+#! <REPOSITORY
+#!   NAME="DWNew"
+#! />
+#! <ITEM
+#!   NAME="project_inventory_sync.fmw"
+#! />
+#! <MODIFICATIONS>
+#! <MODIFICATION
+#!   UID=":WBDoc:LOG_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
+#!   VALUE=""
+#! />
+#! </MODIFICATIONS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI OPTIONAL INTEGER_OR_ATTR Seconds Seconds to Wait:"
+#!   DEFAULT_VALUE="300"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI LITERAL TEXT GoogleToken Enter your Google Fusion Table Refresh Token:"
+#!   DEFAULT_VALUE="token"
+#!   IS_STAND_ALONE="true"
+#! />
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="32"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;project_inventory_file_status: [GOOGLEFUSIONTABLES_DB]&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Enter your Google Fusion Refresh Token in the User Parameter&lt;span style=&quot; font-weight:600;&quot;&gt; $(GoogleToken)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-451.5 302.141"
+#!   TOP_LEFT="-451.5 302.141"
+#!   BOTTOM_RIGHT="369.675 28.389"
+#!   BOUNDING_RECT="-451.5 302.141 821.175 273.752"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="1"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="33"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Add the connection to your FMEServer, select the repository that you have uploaded your workspaces. Then select project_inventory_map.fmw &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2706.9 348.057"
+#!   TOP_LEFT="2706.9 348.057"
+#!   BOTTOM_RIGHT="3555.6 118.055"
+#!   BOUNDING_RECT="2706.9 348.057 848.703 230.002"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="6"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="34"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;project_inventory_file_status: [GOOGLEFUSIONTABLES_DB]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="4263.64 114.721"
+#!   TOP_LEFT="4263.64 114.721"
+#!   BOTTOM_RIGHT="5041.41 -159.031"
+#!   BOUNDING_RECT="4263.64 114.721 777.77 273.752"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="13"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="35"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Workspace #3:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workspace is used to check the Google Fusion Table project_inventory_file_status for modified files and then send them to be processed. If &amp;quot;updated&amp;quot; is set to false, the workspace will run, as well as run project_inventory_map.fmw and then set &amp;quot;updated&amp;quot; to true once complete. &lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; text-decoration: underline;&quot;&gt;Tasks:&lt;/span&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1) Paste your Google Fusion Table Refresh Token in to the user parameter $(GoogleToken)&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2) Connect to your FME Server in the FMEServerJobSubmitter and select the respository that the workspaces have been uploaded to, and select project_inventory_map.fmw. Then click the refresh icon in the lower left corner to bring in the parameters. &lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;3) Upload to FME Server and register with the Job Submitter&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-524.449 1527.79"
+#!   TOP_LEFT="-524.449 1527.79"
+#!   BOTTOM_RIGHT="1045.01 1210.29"
+#!   BOUNDING_RECT="-524.449 1527.79 1569.46 317.503"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,0,1,0.192157"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="28"
+#!   NAME="Test the idle time against current time for each Record"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="541 56"
+#!   BOTTOM_RIGHT="1642 -243"
+#!   BOUNDING_RECT="541 56 1101 299"
+#!   STICKY="true"
+#!   COLOUR="0.109804,0.0509804,0.94902"
+#!   CONTENTS="8 7 4 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="29"
+#!   NAME="Format FilePath"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="1680 45"
+#!   BOTTOM_RIGHT="2789 -378.476"
+#!   BOUNDING_RECT="1680 45 1109 423.476"
+#!   STICKY="true"
+#!   COLOUR="0.286275,0.964706,0.894118"
+#!   CONTENTS="20 21 18 14 16 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="30"
+#!   NAME="Backup Data"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="2807.58 45.3335"
+#!   BOTTOM_RIGHT="3555.59 -437.505"
+#!   BOUNDING_RECT="2807.58 45.3335 748.008 482.838"
+#!   STICKY="true"
+#!   COLOUR="0.631373,0.164706,0.866667"
+#!   CONTENTS="6 "
+#! />
+#! <BOOKMARK
+#!   IDENTIFIER="31"
+#!   NAME="Update Tracking Database"
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="3579.16 45.3335"
+#!   BOTTOM_RIGHT="4147.83 -383.002"
+#!   BOUNDING_RECT="3579.16 45.3335 568.67 428.336"
+#!   STICKY="true"
+#!   COLOUR="0.631373,0.839216,0.0156863"
+#!   CONTENTS="12 27 25 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="4"
+#!   TYPE="TimeStamper"
+#!   VERSION="1"
+#!   POSITION="615 -34"
+#!   BOUNDING_RECT="615 -34 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="_timestamp"/>
+#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="^s"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="Tester"
+#!   VERSION="2"
+#!   POSITION="1162 -37"
+#!   BOUNDING_RECT="1162 -37 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="15468"
+#! >
+#!     <OUTPUT_FEAT NAME="PASSED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;_timestamp&lt;closeparen&gt; &gt; &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;last_modify_date&lt;closeparen&gt;&lt;space&gt;+&lt;space&gt;$(Seconds)&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="6"
+#!   TYPE="FMEServerJobSubmitter"
+#!   VERSION="3"
+#!   POSITION="2895.47 -76.28"
+#!   BOUNDING_RECT="2895.47 -76.28 562.016 71"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="JOB_SUCCEEDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="JOB_FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="SUMMARY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_submitted_job_ids{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_succeeded_job_ids{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_failed_job_ids{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_message" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="USERNAME" PARM_VALUE="admin"/>
+#!     <XFORM_PARM PARM_NAME="PROCESSING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PASSWORD" PARM_VALUE="fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz0IxO5N5ui7HMIouhk0317a5W70g8xPs8E+/bCuhcuuik1HY+jDIIcIPCQog6lPuXyBFQN7BfZk8qlEDdzsPAIv4CNCNOBFjpqgByHUAfTEWcjesDmVGWqFj3mQBM7xI5jODx40HjaSzw5UHP4seC9FbE2jZBgtyyjCeWR+tGshIkSkT6S8wppPzw9NG5CH4ikdtc6BwuIsD4PfrNryFSSzmjoTy/h8yU/blzeCSoXKGaWfQxgxxgdHDmO7BLdWYvrbwaWAQs7ZCYBubXo9++xHQUkCMK0GgvD0ALVf7xyV4VVtGRa5QUIxKpSjk4ytZZ1ipwNdzgzVUU8MysrBYIqEj7eROsH9Tr)"/>
+#!     <XFORM_PARM PARM_NAME="PROCESSING_MODE" PARM_VALUE="In Sequence"/>
+#!     <XFORM_PARM PARM_NAME="EMBED_CONNECTION_GROUP" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="SERVER_NAME" PARM_VALUE="localhost"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_NAME" PARM_VALUE="project_inventory_to_map.fmw"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FMEServerJobSubmitter"/>
+#!     <XFORM_PARM PARM_NAME="CONNECTION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPOSITORY" PARM_VALUE="DWNew"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TM_TAG" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TM_TTL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TM_TTC" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SERVER_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="BLOCKING" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_PARAMETERS" PARM_VALUE="SourceDataset_XLSXR list &lt;backslash&gt;&lt;backslash&gt;KC-LS-WINDOWS1&lt;backslash&gt;DW_Resources&lt;backslash&gt;Project&lt;space&gt;Inventory.xlsx GoogleToken string 1&lt;solidus&gt;FD4bwTWolDX_iEdzT591KuwGciT5J55dJ1aoZ68geIk"/>
+#!     <XFORM_PARM PARM_NAME="PRIORITY" PARM_VALUE="100"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="3653.16 -237.002"
+#!   BOUNDING_RECT="3653.16 -237.002 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_db_operation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_where" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; fme_db_operation SET_TO update  fme_where SET_TO file_path&lt;space&gt;=&lt;space&gt;&lt;apos&gt;&lt;at&gt;Value&lt;openparen&gt;file_path&lt;closeparen&gt;&lt;apos&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="14"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="2299 -53"
+#!   BOUNDING_RECT="2299 -53 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="file:&lt;solidus&gt;&lt;solidus&gt;&lt;solidus&gt;&lt;solidus&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="source_data_path"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;backslash&gt;&lt;backslash&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="AttributeCreator"
+#!   VERSION="8"
+#!   POSITION="1754 -45"
+#!   BOUNDING_RECT="1754 -45 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; source_data_path SET_TO &lt;at&gt;Value&lt;openparen&gt;file_path&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="16"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="2309 -222"
+#!   BOUNDING_RECT="2309 -222 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;solidus&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="source_data_path"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_2"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;backslash&gt;"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="23"
+#!   TYPE="Terminator"
+#!   VERSION="2"
+#!   POSITION="2954.5 -513.973"
+#!   BOUNDING_RECT="2954.5 -513.973 0 0"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="14305"
+#! >
+#!     <XFORM_PARM PARM_NAME="MESSAGE" PARM_VALUE="Translation Terminated"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Terminator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="25"
+#!   TYPE="StringReplacer"
+#!   VERSION="4"
+#!   POSITION="3667.83 -44.6665"
+#!   BOUNDING_RECT="3667.83 -44.6665 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="source_data_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="last_modify_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_job_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_numFeaturesOutput" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_priority" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterHost" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_requesterResultPort" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_statusMessage" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeFinished" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeRequested" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_timeStarted" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;backslash&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="file_path"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_3"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;backslash&gt;&lt;backslash&gt;"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="5"
+#!   SOURCE_NODE="1"
+#!   TARGET_NODE="4"
+#!   SOURCE_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="8"
+#!   SOURCE_NODE="4"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="24"
+#!   SOURCE_NODE="6"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 JOB_SUCCEEDED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="19"
+#!   SOURCE_NODE="7"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="15"
+#!   SOURCE_NODE="12"
+#!   TARGET_NODE="13"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="21"
+#!   SOURCE_NODE="14"
+#!   TARGET_NODE="16"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="22"
+#!   SOURCE_NODE="16"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="20"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="14"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="27"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="26"
+#!   SOURCE_NODE="6"
+#!   TARGET_NODE="23"
+#!   SOURCE_PORT_DESC="fo 3 &lt;lt&gt;REJECTED&lt;gt&gt;"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+GUI IGNORE GOOGLEFUSIONTABLES_DB_IN_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_1,GOOGLEFUSIONTABLES_DB_IN_WHERE_CLAUSE_GOOGLEFUSIONTABLES_DB_1,GOOGLEFUSIONTABLES_DB_IN_EXPOSE_ATTRS_GROUP_GOOGLEFUSIONTABLES_DB_1,GOOGLEFUSIONTABLES_DB_IN_ADVANCED_GOOGLEFUSIONTABLES_DB_1,GOOGLEFUSIONTABLES_DB_IN_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_1,GOOGLEFUSIONTABLES_DB_IN_END_SQL{0}_GOOGLEFUSIONTABLES_DB_1,GOOGLEFUSIONTABLES_DB_OUT_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_2,GOOGLEFUSIONTABLES_DB_OUT_ADVANCED_GOOGLEFUSIONTABLES_DB_2,GOOGLEFUSIONTABLES_DB_OUT_TRANSACTION_INTERVAL_GOOGLEFUSIONTABLES_DB_2,GOOGLEFUSIONTABLES_DB_OUT_WRITER_MODE_GOOGLEFUSIONTABLES_DB_2,GOOGLEFUSIONTABLES_DB_OUT_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_2,GOOGLEFUSIONTABLES_DB_OUT_END_SQL{0}_GOOGLEFUSIONTABLES_DB_2
+DEFAULT_MACRO Seconds 300
+GUI OPTIONAL INTEGER Seconds Seconds to Wait:
+DEFAULT_MACRO GoogleToken token
+GUI TEXT GoogleToken Enter your Google Fusion Table Refresh Token:
+INCLUDE [ if {{$(GoogleToken)} == {}} { puts_real {Parameter 'GoogleToken' must be given a value.}; exit 1; }; ]
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE GOOGLEFUSIONTABLES_DB
+READER_KEYWORD GOOGLEFUSIONTABLES_DB_1
+READER_GEN_DIRECTIVES REFRESH_TOKEN,1<solidus>zm-obBtkfW_Xu4XzOVbGXtII3Pjkf8QNojX8kNvBFIA,_MERGE_SCHEMAS,YES,END_SQL<opencurly>0<closecurly>,,ADVANCED,,FME_CONNECTION_GROUP,,CLIENT_ID,,WHERE_CLAUSE,updated<lt>space<gt>=<lt>space<gt><lt>apos<gt>false<lt>apos<gt>,CLIENT_SECRET,,BEGIN_SQL<opencurly>0<closecurly>,,EXPOSE_ATTRS_GROUP,,UPDATE_FEATURE_TYPES,no,GOOGLEFUSIONTABLES_DB_EXPOSE_FORMAT_ATTRS,,TABLELIST,project_inventory_file_status
+
+WRITER_TYPE MULTI_WRITER
+MULTI_WRITER_DATASET_ORDER BY_ID
+MULTI_WRITER_FIRST_WRITER_ID 0
+MULTI_WRITER_TYPE{0} GOOGLEFUSIONTABLES_DB
+MULTI_WRITER_KEYWORD{0} GOOGLEFUSIONTABLES_DB_2
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+MACRO WB_KEYWORD "GOOGLEFUSIONTABLES_DB_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER GOOGLEFUSIONTABLES_DB GOOGLEFUSIONTABLES_DB_1
+# ============================================================================
+# Just fake out a macro; it's not used
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_GOOGLEFUSIONTABLES_DB_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER GOOGLEFUSIONTABLES_DB GOOGLEFUSIONTABLES_DB_1
+DEFAULT_MACRO SourceDataset_GOOGLEFUSIONTABLES_DB_1 NULL
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_1 $(GoogleToken)
+GOOGLEFUSIONTABLES_DB_1_REFRESH_TOKEN "$(GOOGLEFUSIONTABLES_DB_IN_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_1)"
+GUI OPTIONAL OAUTH GOOGLEFUSIONTABLES_DB_IN_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_1 api_project,googlefusiontables,url,https:<solidus><solidus>accounts.google.com<solidus>o<solidus>oauth2<solidus>auth?response_type=code<amp>scope=https:<solidus><solidus>www.googleapis.com<solidus>auth<solidus>fusiontables<amp>redirect_uri=urn:ietf:wg:oauth:2.0:oob<amp>client_id=111883858131.apps.googleusercontent.com Refresh Token:
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_CLIENT_ID_GOOGLEFUSIONTABLES_DB_1 
+GOOGLEFUSIONTABLES_DB_1_CLIENT_ID "$(GOOGLEFUSIONTABLES_DB_IN_CLIENT_ID_GOOGLEFUSIONTABLES_DB_1)"
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_CLIENT_SECRET_GOOGLEFUSIONTABLES_DB_1 
+GOOGLEFUSIONTABLES_DB_1_CLIENT_SECRET "$(GOOGLEFUSIONTABLES_DB_IN_CLIENT_SECRET_GOOGLEFUSIONTABLES_DB_1)"
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_WHERE_CLAUSE_GOOGLEFUSIONTABLES_DB_1 updated<space>=<space><apos>false<apos>
+GOOGLEFUSIONTABLES_DB_1_WHERE_CLAUSE "$(GOOGLEFUSIONTABLES_DB_IN_WHERE_CLAUSE_GOOGLEFUSIONTABLES_DB_1)"
+GUI OPTIONAL TEXT_EDIT_SQL GOOGLEFUSIONTABLES_DB_IN_WHERE_CLAUSE_GOOGLEFUSIONTABLES_DB_1 Where Clause:
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_EXPOSE_ATTRS_GROUP_GOOGLEFUSIONTABLES_DB_1 
+GOOGLEFUSIONTABLES_DB_1_EXPOSE_ATTRS_GROUP "$(GOOGLEFUSIONTABLES_DB_IN_EXPOSE_ATTRS_GROUP_GOOGLEFUSIONTABLES_DB_1)"
+GUI OPTIONAL DISCLOSUREGROUP GOOGLEFUSIONTABLES_DB_IN_EXPOSE_ATTRS_GROUP_GOOGLEFUSIONTABLES_DB_1 GOOGLEFUSIONTABLES_DB_IN_GOOGLEFUSIONTABLES_DB_EXPOSE_FORMAT_ATTRS Schema Attributes
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_ADVANCED_GOOGLEFUSIONTABLES_DB_1 
+GUI OPTIONAL DISCLOSUREGROUP GOOGLEFUSIONTABLES_DB_IN_ADVANCED_GOOGLEFUSIONTABLES_DB_1 GOOGLEFUSIONTABLES_DB_IN_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_1%GOOGLEFUSIONTABLES_DB_IN_END_SQL{0}_GOOGLEFUSIONTABLES_DB_1 Advanced
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_1 
+GOOGLEFUSIONTABLES_DB_1_BEGIN_SQL{0} "$(GOOGLEFUSIONTABLES_DB_IN_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_1)"
+GUI OPTIONAL TEXT_EDIT_SQL GOOGLEFUSIONTABLES_DB_IN_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_1 SQL To Run Before Read
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_END_SQL{0}_GOOGLEFUSIONTABLES_DB_1 
+GOOGLEFUSIONTABLES_DB_1_END_SQL{0} "$(GOOGLEFUSIONTABLES_DB_IN_END_SQL{0}_GOOGLEFUSIONTABLES_DB_1)"
+GUI OPTIONAL TEXT_EDIT_SQL GOOGLEFUSIONTABLES_DB_IN_END_SQL{0}_GOOGLEFUSIONTABLES_DB_1 SQL To Run After Read
+# ===========================================================================
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_IN_ATTRIBUTE_READING_GOOGLEFUSIONTABLES_DB_1 ALL
+GOOGLEFUSIONTABLES_DB_1_ATTRIBUTE_READING "$(GOOGLEFUSIONTABLES_DB_IN_ATTRIBUTE_READING_GOOGLEFUSIONTABLES_DB_1)"
+GOOGLEFUSIONTABLES_DB_1_DATASET "$(SourceDataset_GOOGLEFUSIONTABLES_DB_1)"
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+MACRO WB_KEYWORD "GOOGLEFUSIONTABLES_DB_2"
+#! END_WB_HEADER
+#! START_DEST_HEADER GOOGLEFUSIONTABLES_DB GOOGLEFUSIONTABLES_DB_2
+# ============================================================================
+# Just fake out a macro; it's not used
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_GOOGLEFUSIONTABLES_DB_2 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER GOOGLEFUSIONTABLES_DB GOOGLEFUSIONTABLES_DB_2
+DEFAULT_MACRO DestDataset_GOOGLEFUSIONTABLES_DB_2 NULL
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_2 $(GoogleToken)
+GOOGLEFUSIONTABLES_DB_2_REFRESH_TOKEN "$(GOOGLEFUSIONTABLES_DB_OUT_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_2)"
+GUI OAUTH GOOGLEFUSIONTABLES_DB_OUT_REFRESH_TOKEN_GOOGLEFUSIONTABLES_DB_2 api_project,googlefusiontables,url,https:<solidus><solidus>accounts.google.com<solidus>o<solidus>oauth2<solidus>auth?response_type=code<amp>scope=https:<solidus><solidus>www.googleapis.com<solidus>auth<solidus>fusiontables<amp>redirect_uri=urn:ietf:wg:oauth:2.0:oob<amp>client_id=111883858131.apps.googleusercontent.com Refresh Token:
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_CLIENT_ID_GOOGLEFUSIONTABLES_DB_2 
+GOOGLEFUSIONTABLES_DB_2_CLIENT_ID "$(GOOGLEFUSIONTABLES_DB_OUT_CLIENT_ID_GOOGLEFUSIONTABLES_DB_2)"
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_CLIENT_SECRET_GOOGLEFUSIONTABLES_DB_2 
+GOOGLEFUSIONTABLES_DB_2_CLIENT_SECRET "$(GOOGLEFUSIONTABLES_DB_OUT_CLIENT_SECRET_GOOGLEFUSIONTABLES_DB_2)"
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_ADVANCED_GOOGLEFUSIONTABLES_DB_2 
+GUI OPTIONAL DISCLOSUREGROUP GOOGLEFUSIONTABLES_DB_OUT_ADVANCED_GOOGLEFUSIONTABLES_DB_2 GOOGLEFUSIONTABLES_DB_OUT_WRITER_MODE_GOOGLEFUSIONTABLES_DB_2%GOOGLEFUSIONTABLES_DB_OUT_TRANSACTION_INTERVAL_GOOGLEFUSIONTABLES_DB_2%GOOGLEFUSIONTABLES_DB_OUT_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_2%GOOGLEFUSIONTABLES_DB_OUT_END_SQL{0}_GOOGLEFUSIONTABLES_DB_2 Advanced
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_TRANSACTION_INTERVAL_GOOGLEFUSIONTABLES_DB_2 400
+GOOGLEFUSIONTABLES_DB_2_TRANSACTION_INTERVAL "$(GOOGLEFUSIONTABLES_DB_OUT_TRANSACTION_INTERVAL_GOOGLEFUSIONTABLES_DB_2)"
+GUI TEXT GOOGLEFUSIONTABLES_DB_OUT_TRANSACTION_INTERVAL_GOOGLEFUSIONTABLES_DB_2 Features Per Transaction
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_WRITER_MODE_GOOGLEFUSIONTABLES_DB_2 INSERT
+GOOGLEFUSIONTABLES_DB_2_WRITER_MODE "$(GOOGLEFUSIONTABLES_DB_OUT_WRITER_MODE_GOOGLEFUSIONTABLES_DB_2)"
+GUI LOOKUP_CHOICE GOOGLEFUSIONTABLES_DB_OUT_WRITER_MODE_GOOGLEFUSIONTABLES_DB_2 Insert,INSERT%Update,UPDATE%Delete,DELETE Writer Mode
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_2 
+GOOGLEFUSIONTABLES_DB_2_BEGIN_SQL{0} "$(GOOGLEFUSIONTABLES_DB_OUT_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_2)"
+GUI OPTIONAL TEXT_EDIT_SQL GOOGLEFUSIONTABLES_DB_OUT_BEGIN_SQL{0}_GOOGLEFUSIONTABLES_DB_2 SQL To Run Before Write
+DEFAULT_MACRO GOOGLEFUSIONTABLES_DB_OUT_END_SQL{0}_GOOGLEFUSIONTABLES_DB_2 
+GOOGLEFUSIONTABLES_DB_2_END_SQL{0} "$(GOOGLEFUSIONTABLES_DB_OUT_END_SQL{0}_GOOGLEFUSIONTABLES_DB_2)"
+GUI OPTIONAL TEXT_EDIT_SQL GOOGLEFUSIONTABLES_DB_OUT_END_SQL{0}_GOOGLEFUSIONTABLES_DB_2 SQL To Run After Write
+GOOGLEFUSIONTABLES_DB_2_DATASET "$(DestDataset_GOOGLEFUSIONTABLES_DB_2)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)project_inventory_sync.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_TIMINGS YES
+LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_GOOGLEFUSIONTABLES_DB_1 GOOGLEFUSIONTABLES_DB_1
+DEFAULT_MACRO DATASET_KEYWORD_GOOGLEFUSIONTABLES_DB_2 GOOGLEFUSIONTABLES_DB_2
+# -------------------------------------------------------------------------
+
+GOOGLEFUSIONTABLES_DB_1_READER_META_ATTRIBUTES fme_feature_type
+
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME project_inventory_sync
+MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+GOOGLEFUSIONTABLES_DB_1_DEF project_inventory_file_status   googlefusiontables_type      googlefusiontables_no_geom   googlefusiontables_sql_where_clause ""   googlefusiontables_sql_statement ""   file_path                    text   last_modify_date             text   updated                      text
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD GOOGLEFUSIONTABLES_DB_1   INPUT FEATURE_TYPE *    ROUTE GOOGLEFUSIONTABLES_DB GOOGLEFUSIONTABLES_DB_1::project_inventory_file_status TO FME_GENERIC ::project_inventory_file_status ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+GOOGLEFUSIONTABLES_DB_1_MERGE_DEF GOOGLEFUSIONTABLES_DB_1::project_inventory_file_status EXACT project_inventory_file_status
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "project_inventory_file_status (GOOGLEFUSIONTABLES_DB_1) Splitter"    INPUT FEATURE_TYPE project_inventory_file_status    OUTPUT FEATURE_TYPE project_inventory_file_status_GOOGLEFUSIONTABLES_DB_1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+Tcl2 proc TimeStamper_formatGetter { inVal } {    if { [string compare $inVal {FME Date/Time (^Y^m^d^H^M^S)}] == 0 } {       return {^Y^m^d^H^M^S};    } elseif { [string compare $inVal {FME Date (^Y^m^d)}] == 0} {       return {^Y^m^d};    } elseif { [string compare $inVal {FME Time (^H^M^S)}] == 0} {       return {^H^M^S};    } elseif { [string compare $inVal {ISO Date (^Y-^m-^d)}] == 0} {       return {^Y-^m-^d};    } elseif { [string compare $inVal {ISO DateTime (^Y-^m-^dT^H:^M:^S)}] == 0} {       return {^Y-^m-^dT^H:^M:^S};    } elseif { [string compare $inVal {ISO Time (^H:^M:^S)}] == 0} {       return {^H:^M:^S};    } elseif { [string compare $inVal {Locale Date (^c)}] == 0} {       return {^c};    };    return $inVal; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME TimeStamper    INPUT  FEATURE_TYPE project_inventory_file_status_GOOGLEFUSIONTABLES_DB_1    OUTPUT FEATURE_TYPE TimeStamper_OUTPUT         @SupplyAttributes(ENCODED, _timestamp, @Timestamp(@Tcl2("TimeStamper_formatGetter {^s} ")))
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE TimeStamper_OUTPUT    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_timestamp<closeparen>,Tester) > @EvaluateExpression(FDIV,STRING_ENCODED,<at>Evaluate<openparen><at>Value<openparen>last_modify_date<closeparen><space>+<space>$(Seconds$encode)<closeparen>,Tester) ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator    INPUT  FEATURE_TYPE Tester_PASSED    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "source_data_path" "SET_TO" "<at>Value<openparen>file_path<closeparen>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT
+
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_2ea6445b_7053_469e_b798_7887befc07fb2_replacer { findText replaceText invalidValue} {     set attrs [split \"source_data_path\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_2ea6445b_7053_469e_b798_7887befc07fb2_replacer {file:<solidus><solidus><solidus><solidus>} {<backslash><backslash>} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_2_f874a1e4_25fb_4505_8ab8_ac4630df4efe2_replacer { findText replaceText invalidValue} {     set attrs [split \"source_data_path\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_2    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_2_OUTPUT         @Tcl2("StringReplacer_2_f874a1e4_25fb_4505_8ab8_ac4630df4efe2_replacer {<solidus>} {<backslash>} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * ServerFactory    FACTORY_NAME FMEServerJobSubmitter       INPUT  FEATURE_TYPE StringReplacer_2_OUTPUT    ACTION SUBMIT_JOB    EMBED_HOST "localhost"    EMBED_USERNAME "admin"    EMBED_PASSWORD "fme_decrypt(MDowfCN8I3xcG3GQ/TeRRUJUZ5LDPtdvpscbh7Nj9gG/INBkAGA+fkaDrNbhZtfa3rmkUUrCxKWaAFwiYsKgWJNl/0mRpxUuP+IT2c+Qhh26JEZtUWAmpuoaQCdQ3ykKWm2zaoAM5MBCGaGEuYe+6AS07/nLNRJwqp1jdwP1FgVCbXRvZtWfKjEZlNJYQ+EicVc6cv2DxCYJyTljvXwF8mKxenML6FKJiHARQCO8OMJidKKZQJP1SeYIhqB0YrtGw4cGV2ZquQKifvRjB2Tl6wBAWDmeCg+R1jvft1tR17SISyTDv77K+mV80w2aaUSgybbF7coM0BrQPcpehfjlW+YxV73+9mPMFXKQeznZ22T8MJor57O44p8U2NQCw35HiFBs0oVP9VkkY0D/WzGRevseyX1pIEWJSQSFwkJVhiyXavMDz5E5SEYgTZHfVeGBXCDuIEEbfRRkPU5yD2nw2ZAVimDRD7UQhEEY6PosGqU17He4y35WEfAggQ40+EKuupOQSZRsKotTTqlYGHJtX49ymuKqfyZzOAUSUzDMcj8gfDgzOCcuhw2sK3fJaMsz0IxO5N5ui7HMIouhk0317a5W70g8xPs8E+/bCuhcuuik1HY+jDIIcIPCQog6lPuXyBFQN7BfZk8qlEDdzsPAIv4CNCNOBFjpqgByHUAfTEWcjesDmVGWqFj3mQBM7xI5jODx40HjaSzw5UHP4seC9FbE2jZBgtyyjCeWR+tGshIkSkT6S8wppPzw9NG5CH4ikdtc6BwuIsD4PfrNryFSSzmjoTy/h8yU/blzeCSoXKGaWfQxgxxgdHDmO7BLdWYvrbwaWAQs7ZCYBubXo9++xHQUkCMK0GgvD0ALVf7xyV4VVtGRa5QUIxKpSjk4ytZZ1ipwNdzgzVUU8MysrBYIqEj7eROsH9Tr)"    SUBMIT_JOB_REPOSITORY "DWNew"    SUBMIT_JOB_WORKSPACE "project_inventory_to_map.fmw"    SUBMIT_JOB_BLOCKING TRUE    WORKSPACE_PARAMETERS "SourceDataset_XLSXR list <backslash><backslash>KC-LS-WINDOWS1<backslash>DW_Resources<backslash>Project<space>Inventory.xlsx GoogleToken string 1<solidus>FD4bwTWolDX_iEdzT591KuwGciT5J55dJ1aoZ68geIk"    PRIORITY "100"    OUTPUT REJECTED FEATURE_TYPE FMEServerJobSubmitter_<REJECTED>    OUTPUT JOB_SUCCEEDED FEATURE_TYPE FMEServerJobSubmitter_JOB_SUCCEEDED
+# -------------------------------------------------------------------------
+
+# The default behaviour is to abort on any feature entering the transformer.
+# If Workbench has set the _WB_BYPASS_TERMINATION macro to a value of "Yes",
+# then the features will instead be passed through with a feature type of
+# __WB_BYPASS_TERMINATOR__, which Workbench will send to a visualizer or
+# somesuch.
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TestFactory    FACTORY_NAME Terminator    INPUT  FEATURE_TYPE FMEServerJobSubmitter_<REJECTED>    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"Translation Terminated")       @SupplyAttributes(_wb_termination_xformer,"Terminator")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"Translation Terminated")
+
+# -------------------------------------------------------------------------
+
+MACRO casemac
+INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
+Tcl2 proc StringReplacer_3_ebe542cb_0051_43be_94dd_faccdbfc0c442_replacer { findText replaceText invalidValue} {     set attrs [split \"file_path\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer_3    INPUT  FEATURE_TYPE FMEServerJobSubmitter_JOB_SUCCEEDED    OUTPUT FEATURE_TYPE StringReplacer_3_OUTPUT         @Tcl2("StringReplacer_3_ebe542cb_0051_43be_94dd_faccdbfc0c442_replacer {<backslash>} {<backslash><backslash>} {_FME_NO_OP_}")
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEATURE_TYPE StringReplacer_3_OUTPUT    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "update" }      ATTR_ACTION { "" "fme_where" "SET_TO" "file_path<space>=<space><apos><at>Value<openparen>file_path<closeparen><apos>" }    OUTPUT OUTPUT FEATURE_TYPE AttributeCreator_2_OUTPUT
+
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeCreator_2_OUTPUT TO GOOGLEFUSIONTABLES_DB __GO_TO_FINAL_OUTPUT_ROUTER__ <at>EvaluateExpression<openparen>ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV<comma>updated<comma>true<comma><space>ATTR_SET<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>project_inventory_file_status<closeparen> GEOMETRY    ROUTE FME_GENERIC __WB_BYPASS_TERMINATOR__ <at>Tcl2<openparen>FME_StatMessage<space>818062<space><opencurly><at>Value<openparen>_wb_termination_message<closeparen><space><openparen><at>Value<openparen>_wb_termination_xformer<closeparen><closeparen><closecurly><space>818063<closeparen> TO FME_GENERIC __WB_BYPASS_TERMINATOR__ __wb_out_feat_type__,__WB_BYPASS_TERMINATOR__ GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
+# -------------------------------------------------------------------------
+GOOGLEFUSIONTABLES_DB_2_DEF project_inventory_file_status   googlefusiontables_type      <NO_GEOMETRY>   googlefusiontables_drop_table No   googlefusiontables_truncate_table No   googlefusiontables_mode      INHERIT_FROM_WRITER   googlefusiontables_update_key_columns ""   file_path                    text   last_modify_date             text   updated                      text

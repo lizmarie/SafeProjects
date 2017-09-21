@@ -1,0 +1,276 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    
+#    
+#    Command-line to run this workspace:
+#    
+#    
+#    "C:\Program Files\FME\fme.exe" C:\Users\lsanderson\Documents\Articles\A360\Joiner.fmw
+#    
+#    
+#!   MARKDOWN_DESCRIPTION=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   USAGE=""
+#!   FME_BUILD_NUM="17539"
+#!   ZOOM_SCALE="100"
+#!   PYTHON_COMPATIBILITY="27"
+#!   MARKDOWN_USAGE=""
+#!   END_TCL=""
+#!   DESTINATION="NONE"
+#!   DESCRIPTION=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   END_PYTHON=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   WORKSPACE_VERSION="1"
+#!   BEGIN_PYTHON=""
+#!   FME_DOCUMENT_GUID="4ebd7651-c6bd-470a-84ba-53a740481ca6"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   BEGIN_TCL=""
+#!   DOC_TOP_LEFT="704.027 -559.13"
+#!   FME_SERVER_SERVICES=""
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   SOURCE_ROUTING_FILE=""
+#!   LAST_SAVE_DATE="2017-08-17T15:19:09"
+#!   HISTORY=""
+#!   TITLE=""
+#!   DOC_EXTENTS="756.737 1e-05"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
+#!   USE_MARKDOWN=""
+#!   LOG_FILE=""
+#!   MAX_LOG_FEATURES="200"
+#!   SOURCE="NONE"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   TERMINATE_REJECTED="YES"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   VIEW_POSITION="0 0"
+#!   IGNORE_READER_FAILURE="No"
+#!   PASSWORD=""
+#!   CATEGORY=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   SHOW_INFO_NODES="true"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   DESTINATION_ROUTING_FILE=""
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="AutodeskA360Connector"
+#!   VERSION="0"
+#!   POSITION="704.027 -559.13"
+#!   BOUNDING_RECT="704.027 -559.13 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="AUTODESK_NAMED_CONNECTION" PARM_VALUE="lsanderson&lt;space&gt;Autodesk&lt;space&gt;A360"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_SETUP" PARM_VALUE="SOURCE;;_FME_FILES;a.cGVyc29uYWw6dWUyYjA1NTAyIzIwMTcwODE2ODgyNjE1MzE&lt;solidus&gt;folders&lt;solidus&gt;urn:adsk.wipprod:fs.folder:co.1dpoN0UpQwOrjzw7pg-yvQ;DEST;;_FME_DATA_TARGET;Folder;_FME_INCLUDE_SUBFOLDERS;Yes;_FME_TARGET_FOLDER;C:&lt;backslash&gt;Users&lt;backslash&gt;lsanderson&lt;backslash&gt;Documents&lt;backslash&gt;Articles&lt;backslash&gt;A360;_FME_TARGET_ATTRIBUTE;&lt;Unused&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;autodeska360&lt;backslash&gt;Download.fme"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AutodeskA360Connector"/>
+#!     <XFORM_PARM PARM_NAME="REQUEST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERATION_TYPE" PARM_VALUE="Download"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="FeatureReader"
+#!   VERSION="9"
+#!   POSITION="1460.76 -559.13"
+#!   BOUNDING_RECT="1460.76 -559.13 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17539"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_PROXY_GRAPHICS" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_PAPER_SPACE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceMETAFILE&lt;comma&gt;acad&lt;comma&gt;SourceQUERY_FEATURE_TYPES_FOR_MERGE_FILTERS&lt;comma&gt;Yes&lt;comma&gt;SourceALL_MERGED_FILTERS_NEED_NO_DEFS&lt;comma&gt;Yes&lt;comma&gt;SourceENTITY_OPTIONS&lt;comma&gt;&lt;comma&gt;SourceRESOLVE_BLOCKS&lt;comma&gt;yes&lt;comma&gt;SourceUSE_BLOCK_HEADER_LAYER&lt;comma&gt;yes&lt;comma&gt;SourceUSE_BLOCK_LAYER_INFO&lt;comma&gt;no&lt;comma&gt;SourceSTORE_INSERT_POINT&lt;comma&gt;no&lt;comma&gt;SourcePRESERVE_INSERTS&lt;comma&gt;no&lt;comma&gt;SourceRESOLVE_SELECTED_BLOCKS&lt;comma&gt;&lt;comma&gt;SourceVISIBLE_ATTRIBUTES_AS_TEXT&lt;comma&gt;yes&lt;comma&gt;SourceEXPLODE_MTEXT&lt;comma&gt;yes&lt;comma&gt;SourceREAD_AS_2_5D&lt;comma&gt;no&lt;comma&gt;SourceSPACE_OPTIONS&lt;comma&gt;&lt;comma&gt;SourceREAD_MODEL_SPACE&lt;comma&gt;yes&lt;comma&gt;SourceREAD_PAPER_SPACE&lt;comma&gt;NO&lt;comma&gt;SourceREAD_SELECTED_PAPER_SPACE&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceREAD_PAPER_SPACE_LAYOUTS&lt;comma&gt;yes&lt;comma&gt;SourceRESOLVE_VIEWPORTS&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceACAD_ATTRIBUTE_OPTIONS&lt;comma&gt;&lt;comma&gt;SourceINTERPRET_EXTENDED_DATA&lt;comma&gt;yes&lt;comma&gt;SourceLIST_EXTENDED_DATA&lt;comma&gt;yes&lt;comma&gt;SourceLIST_ATTRIBUTE_ENTITY_DATA&lt;comma&gt;yes&lt;comma&gt;SourceXRECORD_READING&lt;comma&gt;None&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceEXPOSE_ATTRS_MSG&lt;comma&gt;&lt;comma&gt;SourceACAD_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceACAD_RDR_ADV_PARM_GROUP&lt;comma&gt;&lt;comma&gt;SourceCONVERT_ZERO_LENGTH_ARCS_TO_POINTS&lt;comma&gt;yes&lt;comma&gt;SourceRESOLVE_ENTITY_COLOR&lt;comma&gt;yes&lt;comma&gt;SourcePRESERVE_COMPLEX_HATCHES&lt;comma&gt;no&lt;comma&gt;SourceREAD_GROUPS&lt;comma&gt;no&lt;comma&gt;SourceREAD_USER_DICTIONARIES&lt;comma&gt;no&lt;comma&gt;SourceREAD_XREFS&lt;comma&gt;no&lt;comma&gt;SourceEVALUATE_MLINE_GEOM&lt;comma&gt;no&lt;comma&gt;SourceSTORE_LAYER_INFO&lt;comma&gt;no&lt;comma&gt;SourceSTORE_BULGE_INFO&lt;comma&gt;no&lt;comma&gt;SourceOUTPUT_ZERO_LENGTH_LINES_AS_LINES&lt;comma&gt;no&lt;comma&gt;SourceSTORE_SPLINE_DEFS&lt;comma&gt;yes&lt;comma&gt;SourceRESOLVE_DIMENSIONS&lt;comma&gt;yes&lt;comma&gt;SourcePRESERVE_CLIPPED_RASTERS&lt;comma&gt;no&lt;comma&gt;SourceIGNORE_FROZEN_LAYERS&lt;comma&gt;no&lt;comma&gt;SourceIGNORE_UCS&lt;comma&gt;no&lt;comma&gt;SourceAPPLY_WORLD_FILE&lt;comma&gt;yes&lt;comma&gt;SourceREAD_PROXY_GRAPHICS&lt;comma&gt;yes&lt;comma&gt;SourceREAD_SYS_VARS&lt;comma&gt;no&lt;comma&gt;SourceDXF_HEADER_GROUP&lt;comma&gt;&lt;comma&gt;SourceUSE_DXF_HEADER&lt;comma&gt;&lt;comma&gt;SourceSTRUCTURE_EXTENDED_DATA&lt;comma&gt;no,METAFILE,acad"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_METAFILE" PARM_VALUE="acad"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_EXPLODE_MTEXT" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_XRECORD_READING" PARM_VALUE="None"/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_OUTPUT_ZERO_LENGTH_LINES_AS_LINES" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_INTERPRET_EXTENDED_DATA" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_ACAD_ATTRIBUTE_OPTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_IGNORE_UCS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_SPACE_OPTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_RESOLVE_SELECTED_BLOCKS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_PRESERVE_CLIPPED_RASTERS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_PRESERVE_INSERTS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_MODEL_SPACE" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_APPLY_WORLD_FILE" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_DXF_HEADER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_CONVERT_ZERO_LENGTH_ARCS_TO_POINTS" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_USE_BLOCK_LAYER_INFO" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_AS_2_5D" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_GROUPS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_PRESERVE_COMPLEX_HATCHES" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_ALL_MERGED_FILTERS_NEED_NO_DEFS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_SYS_VARS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="ACAD"/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_IGNORE_FROZEN_LAYERS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_USE_DXF_HEADER" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_ENTITY_OPTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;dollar&gt;&lt;openparen&gt;_FME_TARGET_FOLDER&lt;closeparen&gt;&lt;backslash&gt;streetlighting.dwg"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_EXPOSE_ATTRS_MSG" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_ACAD_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="ACAD_LIST_ATTRIBUTE_ENTITY_DATA,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Attribute&lt;space&gt;Entity&lt;space&gt;Data&lt;space&gt;As&lt;space&gt;List,ACAD_ACAD_RDR_ADV_PARM_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%RESOLVE_ENTITY_COLOR%PRESERVE_COMPLEX_HATCHES%PRESERVE_CLIPPED_RASTERS%RESOLVE_DIMENSIONS%EVALUATE_MLINE_GEOM%STORE_SPLINE_DEFS%STORE_BULGE_INFO%IGNORE_UCS%CONVERT_ZERO_LENGTH_ARCS_TO_POINTS%READ_GROUPS%READ_USER_DICTIONARIES%READ_XREFS%STORE_LAYER_INFO%OUTPUT_ZERO_LENGTH_LINES_AS_LINES%IGNORE_FROZEN_LAYERS%APPLY_WORLD_FILE%READ_PROXY_GRAPHICS%READ_SYS_VARS%DXF_HEADER_GROUP&quot;,ACAD&lt;space&gt;Advanced,ACAD_XRECORD_READING,&quot;OPTIONAL CHECKBOX_WITHLABEL Lists%None&quot;,ACAD&lt;space&gt;Entity&lt;space&gt;XRecord&lt;space&gt;Data&lt;space&gt;Reading,ACAD_EVALUATE_MLINE_GEOM,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Evaluate&lt;space&gt;Multi-line&lt;space&gt;Entity&lt;space&gt;Geometry,ACAD_OUTPUT_ZERO_LENGTH_LINES_AS_LINES,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Output&lt;space&gt;Zero&lt;space&gt;Length&lt;space&gt;Lines&lt;space&gt;as&lt;space&gt;Lines,ACAD_USE_BLOCK_LAYER_INFO,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Use&lt;space&gt;Block&lt;space&gt;Layer&lt;space&gt;Information&lt;space&gt;for&lt;space&gt;Components,ACAD_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,ACAD&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,ACAD_RESOLVE_SELECTED_BLOCKS,&quot;OPTIONAL DYNAMIC_MULTI_SELECT_ENCODED $[DATASET],_READ_SCHEMA_OVERRIDE_MODE,BLOCK_NAMES&quot;,ACAD&lt;space&gt;Explode&lt;space&gt;Selected&lt;space&gt;Blocks,ACAD_READ_GROUPS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Groups,ACAD_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ACAD&lt;space&gt;,ACAD_IGNORE_FROZEN_LAYERS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Ignore&lt;space&gt;Frozen&lt;space&gt;Layers,ACAD_EXPOSE_ATTRS_MSG,&quot;OPTIONAL NAMEDMESSAGE&quot;,ACAD&lt;space&gt;Applies&lt;space&gt;to&lt;space&gt;Group&lt;space&gt;Entities&lt;space&gt;By&lt;space&gt;Layer&lt;space&gt;Name&lt;space&gt;Only,ACAD_CONVERT_ZERO_LENGTH_ARCS_TO_POINTS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Convert&lt;space&gt;Zero&lt;space&gt;Length&lt;space&gt;Arcs&lt;space&gt;to&lt;space&gt;Points,ACAD_VISIBLE_ATTRIBUTES_AS_TEXT,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Visible&lt;space&gt;Attributes&lt;space&gt;as&lt;space&gt;Text&lt;space&gt;Entities,ACAD_READ_PAPER_SPACE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FME_DISCLOSURE_CLOSED%READ_SELECTED_PAPER_SPACE%READ_PAPER_SPACE_LAYOUTS%RESOLVE_VIEWPORTS&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Paper&lt;space&gt;Space,ACAD_STORE_LAYER_INFO,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Store&lt;space&gt;Layer&lt;space&gt;Properties&lt;space&gt;on&lt;space&gt;Features,ACAD_ACAD_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS ACAD%Source&quot;,ACAD&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,ACAD_READ_SYS_VARS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Drawing&lt;space&gt;System&lt;space&gt;Variables,ACAD_STORE_SPLINE_DEFS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Store&lt;space&gt;Spline&lt;space&gt;Definitions,ACAD_READ_PROXY_GRAPHICS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Proxy&lt;space&gt;Entity&lt;space&gt;Graphics,ACAD_ALL_MERGED_FILTERS_NEED_NO_DEFS,&quot;OPTIONAL NO_EDIT TEXT&quot;,ACAD&lt;space&gt;,ACAD_STRUCTURE_EXTENDED_DATA,&quot;OPTIONAL NO_EDIT TEXT&quot;,ACAD&lt;space&gt;,ACAD_READ_AS_2_5D,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Polylines&lt;space&gt;as&lt;space&gt;2.5D,ACAD_STORE_INSERT_POINT,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Store&lt;space&gt;Insert&lt;space&gt;Location&lt;space&gt;on&lt;space&gt;Components,ACAD_APPLY_WORLD_FILE,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Apply&lt;space&gt;World&lt;space&gt;File,ACAD_SPACE_OPTIONS,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%READ_MODEL_SPACE%READ_PAPER_SPACE&quot;,ACAD&lt;space&gt;Model&lt;space&gt;and&lt;space&gt;Paper&lt;space&gt;Space&lt;space&gt;Options,ACAD_METAFILE,&quot;OPTIONAL RADIO_GROUP 1%&quot;&quot;Layer Name&quot;&quot;,acad%Geometry,acadGeom%&quot;&quot;Attribute Schema&quot;&quot;,acadScan&quot;,ACAD&lt;space&gt;Group&lt;space&gt;Entities&lt;space&gt;By,ACAD_EXPLODE_MTEXT,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Explode&lt;space&gt;MText&lt;space&gt;Entities,ACAD_READ_USER_DICTIONARIES,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;User&lt;space&gt;Dictionary&lt;space&gt;XRecord&lt;space&gt;Data&lt;space&gt;Reading,ACAD_RESOLVE_DIMENSIONS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Explode&lt;space&gt;Dimensions,ACAD_IGNORE_UCS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Ignore&lt;space&gt;User&lt;space&gt;Coordinate&lt;space&gt;System&lt;space&gt;&lt;openparen&gt;UCS&lt;closeparen&gt;,ACAD_LIST_EXTENDED_DATA,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Extended&lt;space&gt;Entity&lt;space&gt;Data&lt;space&gt;As&lt;space&gt;List,ACAD_PRESERVE_INSERTS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Preserve&lt;space&gt;Insert&lt;space&gt;Points,ACAD_PRESERVE_COMPLEX_HATCHES,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Preserve&lt;space&gt;Complex&lt;space&gt;Hatches&lt;space&gt;and&lt;space&gt;MPolygons,ACAD_READ_XREFS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;External&lt;space&gt;References,ACAD_PRESERVE_CLIPPED_RASTERS,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Preserve&lt;space&gt;Clipped&lt;space&gt;Rasters,ACAD_INTERPRET_EXTENDED_DATA,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Interpreted&lt;space&gt;Extended&lt;space&gt;Entity&lt;space&gt;Data,ACAD_READ_MODEL_SPACE,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Read&lt;space&gt;Model&lt;space&gt;Space,ACAD_DXF_HEADER_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%USE_DXF_HEADER&quot;,ACAD&lt;space&gt;DXF&lt;space&gt;header,ACAD_RESOLVE_ENTITY_COLOR,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Resolve&lt;space&gt;Entity&lt;space&gt;Color,ACAD_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP EXPOSE_ATTRS_MSG%ACAD_EXPOSE_FORMAT_ATTRS&quot;,ACAD&lt;space&gt;Schema&lt;space&gt;Attributes,ACAD_STORE_BULGE_INFO,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Store&lt;space&gt;Bulge&lt;space&gt;Info,ACAD_ACAD_ATTRIBUTE_OPTIONS,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%INTERPRET_EXTENDED_DATA%LIST_EXTENDED_DATA%LIST_ATTRIBUTE_ENTITY_DATA%XRECORD_READING&quot;,ACAD&lt;space&gt;Attribute&lt;space&gt;Options,ACAD_USE_BLOCK_HEADER_LAYER,&quot;OPTIONAL CHECKBOX_WITHLABEL yes%no&quot;,ACAD&lt;space&gt;Use&lt;space&gt;Block&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;for&lt;space&gt;Components,ACAD_RESOLVE_BLOCKS,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP FME_DISCLOSURE_CLOSED%USE_BLOCK_HEADER_LAYER%USE_BLOCK_LAYER_INFO%STORE_INSERT_POINT%PRESERVE_INSERTS%RESOLVE_SELECTED_BLOCKS&quot;,ACAD&lt;space&gt;Explode&lt;space&gt;Blocks&lt;space&gt;into&lt;space&gt;Entities,ACAD_ENTITY_OPTIONS,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%RESOLVE_BLOCKS%VISIBLE_ATTRIBUTES_AS_TEXT%EXPLODE_MTEXT%READ_AS_2_5D&quot;,ACAD&lt;space&gt;Entity&lt;space&gt;Options,ACAD_USE_DXF_HEADER,&quot;OPTIONAL FILENAME_MUSTEXIST DXF_Files(*.dxf)|*.dxf|All_files(*.*)|*.*&quot;,ACAD&lt;space&gt;DXF&lt;space&gt;Header&lt;space&gt;File"/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;No Spatial Filter&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_VISIBLE_ATTRIBUTES_AS_TEXT" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_ACAD_RDR_ADV_PARM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_STORE_INSERT_POINT" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_RESOLVE_ENTITY_COLOR" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_STRUCTURE_EXTENDED_DATA" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_STORE_LAYER_INFO" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_STORE_SPLINE_DEFS" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_USE_BLOCK_HEADER_LAYER" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_USER_DICTIONARIES" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_READ_XREFS" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_STORE_BULGE_INFO" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACAD_EVALUATE_MLINE_GEOM" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_LIST_EXTENDED_DATA" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_RESOLVE_BLOCKS" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_LIST_ATTRIBUTE_ENTITY_DATA" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#!     <XFORM_PARM PARM_NAME="ACAD_RESOLVE_DIMENSIONS" PARM_VALUE="yes"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE NULL
+READER_KEYWORD NULL_SOURCE
+NULL_SOURCE_DATASET null
+
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)Joiner.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_TIMINGS YES
+LOG_FILTER_MASK -1
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME Joiner
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
