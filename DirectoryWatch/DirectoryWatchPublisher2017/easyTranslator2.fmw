@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME\fme.exe" C:\Users\lsanderson\Documents\SafeProjects\DirectoryWatch\DirectoryWatchPublisher2017\easyTranslator2.fmw
+#    "C:\Program Files\FME\fme.exe" C:\Users\lsanderson\Downloads\11053-directorywatchpublisher2017\DirectoryWatchPublisher2017\easyTranslator2.fmw
 #          --SourceDataset_GENERIC ""
 #          --SourceFormat "GUESS_FROM_EXTENSION"
 #          --COORDSYS ""
@@ -15,51 +15,51 @@
 #          --GENERIC_OUT_BASE_NAME_GENERIC "translated_data"
 #    
 #    
-#!   FME_BUILD_NUM="17539"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   PASSWORD=""
-#!   FME_DOCUMENT_GUID="2fdd1e36-c7be-4890-b28d-0088fc73de04"
-#!   END_PYTHON=""
-#!   DESCRIPTION=""
-#!   WORKSPACE_VERSION="1"
-#!   LAST_SAVE_DATE="2017-09-20T13:04:10"
-#!   DOC_EXTENTS="2732 1383"
-#!   FME_STROKE_MAX_DEVIATION="0"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   DOC_TOP_LEFT="46 -1516"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   TITLE="Generic format translator"
-#!   DESTINATION_ROUTING_FILE=""
-#!   FME_DOCUMENT_PRIORGUID="d09f701e-8e01-11e3-8cfc-a1b16a4b7d06,adb1e92c-ec41-4789-9c3b-a1130e7bb929,c46dbc60-36e7-4382-8c2a-4950684d063a"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   DOC_EXTENTS="2732 1383"
+#!   FME_SERVER_SERVICES=""
+#!   FME_DOCUMENT_GUID="94256723-bef6-4553-b5a3-6d37424bcdaf"
+#!   BEGIN_TCL=""
+#!   HISTORY=""
+#!   FME_STROKE_MAX_DEVIATION="0"
 #!   END_TCL=""
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   MARKDOWN_USAGE=""
+#!   DESCRIPTION=""
+#!   PASSWORD=""
+#!   MARKDOWN_DESCRIPTION=""
 #!   ZOOM_SCALE="100"
+#!   CATEGORY=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   WORKSPACE_VERSION="1"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   SOURCE="NONE"
+#!   VIEW_POSITION="-2553.15 1056.26"
+#!   END_PYTHON=""
+#!   LAST_SAVE_DATE="2017-09-20T14:35:35"
+#!   MAX_LOG_FEATURES="200"
+#!   DESTINATION_ROUTING_FILE=""
+#!   TITLE="Generic format translator"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   PYTHON_COMPATIBILITY="27"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   DOC_TOP_LEFT="46 -1516"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_BUILD_NUM="17539"
+#!   MARKDOWN_USAGE=""
+#!   TERMINATE_REJECTED="NO"
+#!   BEGIN_PYTHON=""
+#!   USE_MARKDOWN=""
+#!   LOG_FILE=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
+#!   USAGE=""
+#!   SOURCE_ROUTING_FILE=""
 #!   DESTINATION="NONE"
+#!   FME_DOCUMENT_PRIORGUID="d09f701e-8e01-11e3-8cfc-a1b16a4b7d06,adb1e92c-ec41-4789-9c3b-a1130e7bb929,3e424c31-9909-44f1-8d1f-b94dd9c23f5b"
+#!   IGNORE_READER_FAILURE="No"
 #!   SHOW_INFO_NODES="true"
 #!   SHOW_ANNOTATIONS="true"
-#!   MARKDOWN_DESCRIPTION=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   USAGE=""
-#!   BEGIN_PYTHON=""
-#!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.0.0 (20170731 - Build 17539 - WIN64)"
-#!   LOG_FILE=""
-#!   SOURCE="NONE"
-#!   VIEW_POSITION="-2034.4 1381.26"
-#!   MAX_LOG_FEATURES="200"
-#!   SOURCE_ROUTING_FILE=""
-#!   FME_SERVER_SERVICES=""
-#!   TERMINATE_REJECTED="NO"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   CATEGORY=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   HISTORY=""
-#!   USE_MARKDOWN=""
-#!   BEGIN_TCL=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -75,7 +75,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="fme_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_primary_axis real64 fme_color char(50) multi_reader_keyword char(50) fme_format_long_name char(255) fme_dataset char(50) fme_fill_color char(50) fme_feature_type char(50) fme_rotation real64 fme_secondary_axis real64 fme_format_short_name char(255) fme_start_angle real64 fme_text_size real64 multi_reader_full_id int32 fme_text_string char(50) multi_reader_id int32 multi_reader_type char(50) fme_sweep_angle real64 fme_type char(50) fme_basename char(50)"
+#!   EXPOSABLE_ATTRS="fme_feature_type char(50) fme_color char(50) multi_reader_keyword char(50) multi_reader_type char(50) fme_fill_color char(50) fme_dataset char(50) fme_text_string char(50) fme_text_size real64 fme_basename char(50) fme_format_short_name char(255) fme_start_angle real64 fme_geometry fme_char(50) multi_reader_id int32 fme_type char(50) multi_reader_full_id int32 fme_secondary_axis real64 fme_primary_axis real64 fme_format_long_name char(255) fme_rotation real64 fme_sweep_angle real64"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -85,12 +85,12 @@
 #!   DATASET_TYPE="FILEURLDIR"
 #!   GENERATE_FME_BUILD_NUM="17539"
 #!   NAME="&lt;not set&gt; [GENERIC]"
-#!   MAX_FEATURES=""
-#!   MIN_FEATURES=""
-#!   FEATURE_TYPES=""
-#!   START_FEATURE=""
 #!   COORDSYS="$(COORDSYS)"
+#!   FEATURE_TYPES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   START_FEATURE=""
+#!   MAX_FEATURES=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="MIME_TYPE"
@@ -118,7 +118,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="fme_type {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type char(50) fme_start_angle real64 fme_format_short_name char(255) fme_geometry fme_char(50) fme_rotation real64 fme_text_size real64 fme_format_long_name char(255) fme_basename char(50) fme_fill_color char(50) fme_text_string char(50) fme_primary_axis real64 fme_color char(50) fme_sweep_angle real64 fme_secondary_axis real64 fme_dataset char(50) fme_feature_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_dataset char(50) fme_rotation real64 fme_text_string char(50) fme_type char(50) fme_format_short_name char(255) fme_basename char(50) fme_feature_type char(50) fme_color char(50) fme_fill_color char(50) fme_format_long_name char(255) fme_start_angle real64 fme_text_size real64 fme_primary_axis real64 fme_secondary_axis real64 fme_sweep_angle real64"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -127,9 +127,9 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILEURLDIR"
 #!   GENERATE_FME_BUILD_NUM="17539"
+#!   COORDSYS="$(COORDSYS_Dest)"
 #!   FANOUT_GROUP="NO"
 #!   FANOUT_EXPRESSION="&lt;Unused&gt;"
-#!   COORDSYS="$(COORDSYS_Dest)"
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="MIME_TYPE"
@@ -659,7 +659,7 @@
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="2"
 #!   DYNAMIC_SCHEMA="true"
-#!   DYNAMIC_SCHEMA_SOURCES="SCHEMA_FROM_FIRST_FEATURE "
+#!   DYNAMIC_SCHEMA_SOURCES="SCHEMA_FROM_FIRST_FEATURE GENERIC_3"
 #!   DYNAMIC_SCHEMA_FEATURE_TYPE="AUTOMATIC"
 #!   DYNAMIC_SCHEMA_FEATURE_TYPE_NAME="@Value(fme_feature_type)"
 #!   DYNAMIC_SCHEMA_DEFINITION="AUTOMATIC"
@@ -740,30 +740,38 @@
 #! </SERVICE>
 #! </SERVICES>
 #! <REPOSITORY
-#!   NAME="dwtest"
+#!   NAME="Samples"
 #! />
 #! <ITEM
 #!   NAME="easyTranslator2.fmw"
 #! />
 #! <MODIFICATIONS>
 #! <MODIFICATION
+#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
 #!   UID=":GlobalParameterMgr:DestDataset_GENERIC"
 #!   VALUE="$(FME_SHAREDRESOURCE_TEMP)/convert_tool/output/converted.zip"
 #! />
 #! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
-#!   UID=":DatasetMgr_GENERIC_1:SourceDataset_GENERIC_1"
-#!   VALUE="$(SourceDataset_GENERIC)"
+#!   UID=":DatasetMgr_GENERIC_1:DestDataset_GENERIC_1"
+#!   VALUE="$(DestDataset_GENERIC)"
 #! />
 #! <MODIFICATION
 #!   UID=":WBDoc:SOURCE_ROUTING_FILE"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
+#!   UID=":DatasetMgr_GENERIC_3:SourceDataset_GENERIC_3"
+#!   VALUE="$(SourceDataset_GENERIC)"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
@@ -775,19 +783,11 @@
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":GlobalParameterMgr:SourceDataset_GENERIC"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
 #!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":DatasetMgr_GENERIC_2:DestDataset_GENERIC_2"
-#!   VALUE="$(DestDataset_GENERIC)"
-#! />
-#! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   UID=":GlobalParameterMgr:SourceDataset_GENERIC"
 #!   VALUE=""
 #! />
 #! </MODIFICATIONS>
@@ -830,6 +830,21 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="4"
+#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;This reader feature type&apos;s Merge Parameters&#13;&lt;br&gt;are configured so that all feature types send&#13;&lt;br&gt;their features through this feature type &#13;&lt;br&gt;regardless of name.&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="129 -921"
+#!   TOP_LEFT="129 -921"
+#!   BOTTOM_RIGHT="129 -921"
+#!   BOUNDING_RECT="129 -921 0 0"
+#!   ORDER="3"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="3"
+#! />
 #! <COMMENT
 #!   IDENTIFIER="2"
 #!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;The Generic Reader allows you to specify&#13;&lt;br&gt;a file to read as well as the format or it will &#13;&lt;br&gt;attempt to guess the format used by the file.&lt;/body&gt;&lt;/html&gt;"
@@ -875,21 +890,6 @@
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="7"
 #! />
-#! <COMMENT
-#!   IDENTIFIER="4"
-#!   COMMENT_VALUE="&lt;html&gt;&lt;body&gt;This reader feature type&apos;s Merge Parameters&#13;&lt;br&gt;are configured so that all feature types send&#13;&lt;br&gt;their features through this feature type &#13;&lt;br&gt;regardless of name.&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="129 -921"
-#!   TOP_LEFT="129 -921"
-#!   BOTTOM_RIGHT="129 -921"
-#!   BOUNDING_RECT="129 -921 0 0"
-#!   ORDER="3"
-#!   FOLLOW_ANCHOR="true"
-#!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.192157"
-#!   SIZE_POLICY="8"
-#!   COMMENT_TYPE="REGULAR"
-#!   ANCHORED_NODE="3"
-#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -903,7 +903,7 @@
 #!   BOUNDING_RECT="46 -133 1091 1376"
 #!   STICKY="true"
 #!   COLOUR="0.0666667,0.6,0.682353"
-#!   CONTENTS="3 2 "
+#!   CONTENTS="2 4 3 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="1"
@@ -914,7 +914,7 @@
 #!   BOUNDING_RECT="1687 -137 1091 1379"
 #!   STICKY="true"
 #!   COLOUR="1,0.666667,0"
-#!   CONTENTS="9 7 6 "
+#!   CONTENTS="6 9 7 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -965,7 +965,7 @@ INCLUDE [ if {{$(DestDataset_GENERIC)} == {}} { puts_real {Parameter 'DestDatase
 #! START_WB_HEADER
 READER_TYPE GENERIC
 READER_KEYWORD GENERIC_3
-READER_GEN_DIRECTIVES REAL_FORMAT,GUESS_FROM_EXTENSION,_MERGE_SCHEMAS,YES,UPDATE_FEATURE_TYPES,no
+READER_GEN_DIRECTIVES _MERGE_SCHEMAS,YES,REAL_FORMAT,GUESS_FROM_EXTENSION,UPDATE_FEATURE_TYPES,no
 
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
@@ -1096,4 +1096,4 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-GENERIC_1_DEF_TEMPLATE DYNAMIC   fme_type                     {FME_GEN_GEOMETRY}   fme_schema_readers           ""   fme_schema_feature_first     Yes
+GENERIC_1_DEF_TEMPLATE DYNAMIC   fme_type                     {FME_GEN_GEOMETRY}   fme_schema_readers           GENERIC_3   fme_schema_feature_first     Yes   fme_schema_attributes_to_remove ""
