@@ -1,0 +1,140 @@
+2017-10-23 15:22:58|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN64)
+2017-10-23 15:22:58|   0.1|  0.0|WARN  |Failed to free sufficient memory to reach the process usage limit
+2017-10-23 15:22:58|   0.1|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME111\'
+2017-10-23 15:22:58|   0.1|  0.0|INFORM|FME Smallworld Edition (node locked-crc)
+2017-10-23 15:22:58|   0.1|  0.0|INFORM|Serial Number: 12345
+2017-10-23 15:22:58|   0.1|  0.0|INFORM|Permanent License.
+2017-10-23 15:22:58|   0.1|  0.0|INFORM|Machine host name is: kc-ls-windows1
+2017-10-23 15:22:58|   0.1|  0.0|INFORM|START - ProcessID: 15164, peak process memory usage: 33132 kB, current process memory usage: 33032 kB
+2017-10-23 15:22:58|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME111\fme.exe' `C:/Users/lsanderson/Documents/SafeProjects/Webinars/BusinessIntelligence\wb-xlate-1508797378181_5464' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{88ecdb96-7889-4cfe-88e0-62786a1bdf30}' `DEBUG_PORT' `55399'
+2017-10-23 15:22:58|   0.2|  0.1|INFORM|Shared folders for formats are : C:\Program Files\FME111\datasources;C:\Users\lsanderson\Documents\FME\Plugins\R\Formats;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Formats;C:\Users\lsanderson\Documents\FME\Formats
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for transformers are : C:\Program Files\FME111\transformers;C:\Users\lsanderson\Documents\FME\Plugins\R\Transformers;C:\Users\lsanderson\Documents\FME\Transformers;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystems;C:\Users\lsanderson\Documents\FME\CoordinateSystems
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemExceptions;C:\Users\lsanderson\Documents\FME\CoordinateSystemExceptions
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemGridOverrides;C:\Users\lsanderson\Documents\FME\CoordinateSystemGridOverrides
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CsmapTransformationExceptions;C:\Users\lsanderson\Documents\FME\CsmapTransformationExceptions
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\lsanderson\Documents\FME\Plugins\R\TransformerCategories;C:\Users\lsanderson\Documents\FME\TransformerCategories
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\lsanderson\Documents\SafeProjects\Webinars\BusinessIntelligence'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\LSANDE~1\AppData\Local\Temp\2', set from environment variable `TEMP'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME111\'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\lsanderson\Documents\SafeProjects\Webinars\BusinessIntelligence/'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Movies.fmw'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|System Status: 105.66 GB of disk space available in the FME temporary folder (C:\Users\LSANDE~1\AppData\Local\Temp\2)
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 10 Server 4.0 64-bit  (Build 14393)
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Platform: WIN64
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Locale: en_US
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Process limit is 4.00 GB of physical memory
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 31.87 MB of virtual memory
+2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 30.60 MB of virtual memory
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME111\plugins/NULL.dll'
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating reader for format: 
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding NULL Reader with keyword XLSXR_1
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding XLSXR Reader with keyword XLSXR_2
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding XLSXR Reader with keyword XLSXR_3
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME111\plugins/LogCount_func.dll'
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'BreakpointFactory' from file 'C:\Program Files\FME111\plugins/BreakpointFactory.dll'
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Feature Inspection module initialized. Workbench@55399 and FME@52431
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|... Last line repeated 15 times ...
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME111\plugins/InspectorFactory.dll'
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|... Last line repeated 5 times ...
+2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating reader for format: Microsoft Excel
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XLSXR'
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Loaded module 'XLSXR' from file 'C:\Program Files\FME111\plugins/xlsx.dll'
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|FME API version of module 'XLSXR' matches current internal version (3.8 20170315)
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Output cell formulas: 'false'
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Output cell comments: 'false'
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Force full datetime values: 'false'
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Opening dataset 'C:\Users\lsanderson\Downloads\Interactive_Map_Data.xlsx'...
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Reading sheet 'Full Map List'...
+2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Sheet 'Full Map List' range: Start Row '4', Start Column 'A', End Row '236', End Column 'V'
+2017-10-23 15:22:58|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.5|  0.1|INFORM|Excel Reader: Closing dataset 'C:\Users\lsanderson\Downloads\Interactive_Map_Data.xlsx'...
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Creating reader for format: Microsoft Excel
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XLSXR'
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|FME API version of module 'XLSXR' matches current internal version (3.8 20170315)
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Output cell formulas: 'false'
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Output cell comments: 'false'
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Force full datetime values: 'false'
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Opening dataset 'C:\Users\lsanderson\Documents\100GreatestActorsOfAllTime-IMDB.xlsx'...
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Reading sheet 'Sheet1'...
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Sheet 'Sheet1' range: Start Row '2', Start Column 'A', End Row '101', End Column 'E'
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Closing dataset 'C:\Users\lsanderson\Documents\100GreatestActorsOfAllTime-IMDB.xlsx'...
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 333 features from 3 readers
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|Emptying factory pipeline
+2017-10-23 15:22:59|   0.5|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 333 input feature(s), wrote 333 output feature(s): 333 matched merge filters, 333 were routed to output, 0 could not be routed.
+2017-10-23 15:22:59|   0.5|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |Full Map List (XLSXR_2) Splitter(TeeFactory): Cloned 233 input feature(s) into 233 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |Sheet1 (XLSXR_3) Splitter(TeeFactory): Cloned 100 input feature(s) into 100 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |ARTHOUSE AND DRAMA (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |ARTHOUSE AND DRAMA_XLSXR_1 Disabled Nuker -1 10(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |ROMANCE (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |ROMANCE_XLSXR_1 Disabled Nuker -1 13(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |HORROR (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |HORROR_XLSXR_1 Disabled Nuker -1 14(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |COMEDY (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |COMEDY_XLSXR_1 Disabled Nuker -1 15(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |CRIME (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |CRIME_XLSXR_1 Disabled Nuker -1 16(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |SCI-FI AND FANTASY (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |SCI-FI AND FANTASY_XLSXR_1 Disabled Nuker -1 17(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |ACTION (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |ACTION_XLSXR_1 Disabled Nuker -1 18(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |SubstringExtractor(TeeFactory): Cloned 100 input feature(s) into 100 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|STATS |AttributeManager_2 OUTPUT Splitter(TeeFactory): Cloned 233 input feature(s) into 466 output feature(s)
+2017-10-23 15:22:59|   0.5|  0.0|INFORM|ResourceManager: Optimizing Memory Usage.  Please wait...
+2017-10-23 15:22:59|   0.6|  0.0|STATS |FeatureMerger(ReferenceFactory): Total Results: 14 Complete Feature(s), 219 Incomplete Feature(s), 7 Referenced Feature(s), 79 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 14 Duplicate Referencee Feature(s)
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger__Rejected__Recorder(RecorderFactory): Recorded 14 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_UnusedSupplier_Recorder(RecorderFactory): Recorded 79 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_UsedSupplier_Recorder(RecorderFactory): Recorded 7 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_UnmergedRequestor_Recorder(RecorderFactory): Recorded 219 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_Merged_Recorder(RecorderFactory): Recorded 14 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.6|  0.0|STATS |Stored 566 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.fsi'
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.fsi'
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|AttributeManager_2_Output_Recorder(RecorderFactory): Recorded 233 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
+2017-10-23 15:22:59|   0.6|  0.0|STATS |AttributeManager (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.6|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2017-10-23 15:22:59|   0.6|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.6|  0.0|STATS |f_54(CreationFactory): Created 1 features
+2017-10-23 15:22:59|   0.6|  0.0|STATS |f_55(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 15:22:59|   0.6|  0.0|STATS |                            Features Read Summary
+2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 15:22:59|   0.6|  0.0|STATS |Full Map List                                                              233
+2017-10-23 15:22:59|   0.6|  0.0|STATS |Sheet1                                                                     100
+2017-10-23 15:22:59|   0.6|  0.0|STATS |==============================================================================
+2017-10-23 15:22:59|   0.6|  0.0|STATS |Total Features Read                                                        333
+2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 15:22:59|   0.6|  0.0|STATS |                           Features Written Summary
+2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 15:22:59|   0.6|  0.0|STATS |==============================================================================
+2017-10-23 15:22:59|   0.6|  0.0|STATS |Total Features Written                                                       0
+2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (0 feature(s) output)
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|FME Session Duration: 0.7 seconds. (CPU: 0.3s user, 0.1s system)
+2017-10-23 15:22:59|   0.6|  0.0|INFORM|END - ProcessID: 15164, peak process memory usage: 50144 kB, current process memory usage: 49800 kB
