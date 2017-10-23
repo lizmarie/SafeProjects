@@ -5,7 +5,7 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME111\fme.exe" C:\Users\lsanderson\Documents\SafeProjects\DataUpload\CheckFieldStatus17.fmw
+#    "C:\Program Files\FME111\fme.exe" C:\Users\LSANDE~1\AppData\Local\Temp\2\wb_template_1508524997189_8676\CheckFieldStatus.fmw
 #    
 #    
 #!   BEGIN_PYTHON=""
@@ -35,7 +35,7 @@
 #!   USAGE=""
 #!   SHOW_ANNOTATIONS="true"
 #!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN64)"
-#!   LAST_SAVE_DATE="2017-10-20T11:45:24"
+#!   LAST_SAVE_DATE="2017-10-20T11:45:12"
 #!   IGNORE_READER_FAILURE="No"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   USE_MARKDOWN=""
@@ -59,7 +59,7 @@
 #!   IS_SOURCE="true"
 #!   ROLE="READER"
 #!   FORMAT="MITAB"
-#!   DATASET="$(FME_MF_DIR)CheckFieldStatus17\Ex1\Data\Parks.tab"
+#!   DATASET="$(FME_MF_DIR)1/Data/Parks.tab"
 #!   KEYWORD="MITAB_1"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="0"
@@ -113,7 +113,7 @@
 #!   IS_SOURCE="true"
 #!   ROLE="READER"
 #!   FORMAT="CSV2"
-#!   DATASET=" "
+#!   DATASET="$(FME_MF_DIR) "
 #!   KEYWORD="CSV2_1"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="0"
@@ -1837,7 +1837,7 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER MITAB MITAB_1
-DEFAULT_MACRO SourceDataset_MITAB_1 $(FME_MF_DIR)CheckFieldStatus17\Ex1\Data\Parks.tab
+DEFAULT_MACRO SourceDataset_MITAB_1 $(FME_MF_DIR)1/Data/Parks.tab
 GUI MULTIFILE SourceDataset_MITAB_1 TAB_Files(*.tab)|*.tab|All_Files(*)|* Source MapInfo TAB File(s):
 # ============================================================================
 # [REG 20070109] We want to allow the user to choose heterogeneous collections
@@ -1929,7 +1929,7 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER CSV2 CSV2_1
-DEFAULT_MACRO SourceDataset_CSV2_1  
+DEFAULT_MACRO SourceDataset_CSV2_1 $(FME_MF_DIR) 
 GUI MULTIFILE SourceDataset_CSV2_1 CSV/Compressed_CSV/TEXT_Files(*.csv;*.gz;*.txt)|*.csv;*.gz;*.txt|CSV_Files(*.csv)|*.csv|Compressed_CSV_Files(*.gz)|*.gz|Text_Files(*.txt)|*.txt|All_Files|* Source CSV (Comma Separated Value) File(s):
 DEFAULT_MACRO CSV2_IN_DATASET_GROUP_CSV2_1 
 GUI OPTIONAL DISCLOSUREGROUP CSV2_IN_DATASET_GROUP_CSV2_1 FME_DISCLOSURE_OPEN%CSV2_IN_FEATURE_TYPE_NAME Dataset Parameters
@@ -2136,7 +2136,7 @@ OGCKML_1_DATASET "$(DestDataset_OGCKML_1)"
 
 #! END_HEADER
 
-LOG_FILENAME "$(FME_MF_DIR)CheckFieldStatus17.log"
+LOG_FILENAME "mapping.log"
 LOG_APPEND NO
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
@@ -2164,7 +2164,7 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 # -------------------------------------------------------------------------
 
-MACRO WORKSPACE_NAME CheckFieldStatus17
+MACRO WORKSPACE_NAME CheckFieldStatus
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 MITAB_1_DEF Parks   ParkId                       smallint   RefParkId                    smallint   ParkName                     char(40)   NeighborhoodName             char(40)   EWStreet                     char(30)   NSStreet                     char(30)   DogPark                      char(1)   Washrooms                    char(1)   SpecialFeatures              char(1)
@@ -2218,8 +2218,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME KMLStyler    INPUT  FEATURE_TYPE Featur
 
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_65633082_3673_45e2_b449_61299565f0e61_null_replacer { otherValue newValue regExp } {    set attrs [split {park_name park_id site_area closure_notes weekend_status last_updated} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE KMLStyler_KMLStyled    INPUT  FEATURE_TYPE KMLStyler_2_KMLStyled    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_65633082_3673_45e2_b449_61299565f0e61_null_replacer {} {N<solidus>A} {}")
+Tcl2 proc NullAttributeMapper_65633082_3673_45e2_b449_61299565f0e60_null_replacer { otherValue newValue regExp } {    set attrs [split {park_name park_id site_area closure_notes weekend_status last_updated} { }];    set decode true;    if { {SELECTED} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL MISSINGATTR}] != -1} {                 set act {SETVALUE};             };          }          elseif { [string first {EMPTY} {SETNULL MISSINGATTR}] != -1 && $attrVal == {}} {             set act {SETVALUE};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {SETVALUE};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {SETVALUE};          };      }      elseif {[string first {MISSINGATTR} {SETNULL MISSINGATTR}] != -1} {             set act {SETVALUE};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE KMLStyler_KMLStyled    INPUT  FEATURE_TYPE KMLStyler_2_KMLStyled    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_65633082_3673_45e2_b449_61299565f0e60_null_replacer {} {N<solidus>A} {}")
 
 # -------------------------------------------------------------------------
 
