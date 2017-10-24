@@ -1,0 +1,180 @@
+2017-10-23 16:29:46|   0.1|  0.1|INFORM|FME 2017.1.0.0 (20170731 - Build 17539 - WIN64)
+2017-10-23 16:29:46|   0.1|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2017-10-23 16:29:46|   0.1|  0.0|INFORM|FME Smallworld Edition (node locked-crc)
+2017-10-23 16:29:46|   0.1|  0.0|INFORM|Serial Number: 12345
+2017-10-23 16:29:46|   0.1|  0.0|INFORM|Permanent License.
+2017-10-23 16:29:46|   0.1|  0.0|INFORM|Machine host name is: kc-ls-windows1
+2017-10-23 16:29:46|   0.1|  0.0|INFORM|START - ProcessID: 11208, peak process memory usage: 30264 kB, current process memory usage: 30164 kB
+2017-10-23 16:29:46|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/lsanderson/Documents/SafeProjects/GettingStarted-CSV\wb-xlate-1508801386348_12884' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{35873455-8414-4ccf-b406-ad4b1c4d4326}' `DEBUG_PORT' `53387'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\lsanderson\Documents\FME\Plugins\R\Formats;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Formats;C:\Users\lsanderson\Documents\FME\Formats
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Program Files\FME\transformers;C:\Users\lsanderson\Documents\FME\Plugins\R\Transformers;C:\Users\lsanderson\Documents\FME\Transformers;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystems;C:\Users\lsanderson\Documents\FME\CoordinateSystems
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemExceptions;C:\Users\lsanderson\Documents\FME\CoordinateSystemExceptions
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemGridOverrides;C:\Users\lsanderson\Documents\FME\CoordinateSystemGridOverrides
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CsmapTransformationExceptions;C:\Users\lsanderson\Documents\FME\CsmapTransformationExceptions
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\lsanderson\Documents\FME\Plugins\R\TransformerCategories;C:\Users\lsanderson\Documents\FME\TransformerCategories
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\LSANDE~1\AppData\Local\Temp\2', set from environment variable `TEMP'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV/'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'ToCSV.fmw'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.0.0'
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|System Status: 106.53 GB of disk space available in the FME temporary folder (C:\Users\LSANDE~1\AppData\Local\Temp\2)
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Operating System: Microsoft Windows Server 10 Server 4.0 64-bit  (Build 14393)
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Platform: WIN64
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Locale: en_US
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Process limit is 4.00 GB of physical memory
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 12.00 GB of virtual memory
+2017-10-23 16:29:47|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 9.00 GB of virtual memory
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Creating writer for format: 
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Creating reader for format: 
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding NULL Reader with keyword ESRISHAPE_1
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding OGCKML Reader with keyword OGCKML_1
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|FME Configuration: Reading 2 dataset(s) with NULL reader identified by ESRISHAPE_1
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|MULTI_READER(ESRISHAPE_1): Will continue past member reader failures
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|MULTI_READER(ESRISHAPE_1): Adding NULL Reader with keyword ESRISHAPE_1
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Using Multi Reader with keyword `ESRISHAPE_1' to read multiple datasets
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME\plugins/NULL.dll'
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Loaded module 'BreakpointFactory' from file 'C:\Program Files\FME\plugins/BreakpointFactory.dll'
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|Feature Inspection module initialized. Workbench@53387 and FME@54020
+2017-10-23 16:29:48|   0.2|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.3|  0.0|INFORM|... Last line repeated 11 times ...
+2017-10-23 16:29:48|   0.3|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2017-10-23 16:29:48|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2017-10-23 16:29:48|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.3|  0.0|INFORM|MULTI_READER(ESRISHAPE_1): Done reading 0 features from 2 readers
+2017-10-23 16:29:48|   0.3|  0.1|INFORM|Creating reader for format: Google KML
+2017-10-23 16:29:48|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OGCKML'
+2017-10-23 16:29:48|   0.4|  0.0|INFORM|Loaded module 'OGCKML' from file 'C:\Program Files\FME\plugins/KML21.dll'
+2017-10-23 16:29:48|   0.4|  0.0|INFORM|FME API version of module 'OGCKML' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.5|  0.1|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2017-10-23 16:29:48|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2017-10-23 16:29:48|   0.5|  0.0|INFORM|Loaded module 'XML' from file 'C:\Program Files\FME\plugins/XML.dll'
+2017-10-23 16:29:48|   0.5|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.5|  0.0|INFORM|Opening the XML reader with source dataset 'C:\FMEData2017\Data\Boundaries\VancouverNeighborhoods.kml'
+2017-10-23 16:29:48|   0.5|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2017-10-23 16:29:48|   0.5|  0.0|INFORM|The XML Reader is using xfMap 'C:\Program Files\FME\plugins\kml21\kml21_Schema_elements.xmp'
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20170315)
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|XML Reader CONTINUE_ON_GEOM_ERROR is set to YES, the reader will continue upon encountering features with geometry error, these features will be output and tagged with a xml_geom_error boolean attribute
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|Opening the XML reader with source dataset 'C:\FMEData2017\Data\Boundaries\VancouverNeighborhoods.kml'
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|Pre-processing xfMap 'C:\Users\LSANDE~1\AppData\Local\Temp\2\KML21_structure_1508801388719_11208.xmp' with macro stylesheet 'C:\Program Files\FME\xfmap\xfmap_macro.xslt' into 'C:\Users\LSANDE~1\AppData\Local\Temp\2\NOMACRO_XFMAP_1508801388732_11208.xml'
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\LSANDE~1\AppData\Local\Temp\2\NOMACRO_XFMAP_1508801388732_11208.xml'
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|FME Configuration: Source coordinate system for reader OGCKML_1[OGCKML] set to `LL84' as read from input data
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2017-10-23 16:29:48|   0.6|  0.0|INFORM|ListExploder_3(ElementFactory): No MODE specified.  Using default processing mode (CLASSIC)
+2017-10-23 16:29:49|   1.6|  1.0|WARN  |Coordinate system of reader identified by keyword `OGCKML_1' has changed from `LL84' to `'
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 9 features from 2 readers
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|Emptying factory pipeline
+2017-10-23 16:29:49|   1.6|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 9 input feature(s), wrote 9 output feature(s): 6 matched merge filters, 6 were routed to output, 3 could not be routed.
+2017-10-23 16:29:49|   1.6|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 3 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |rapid_transit_line (ESRISHAPE_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |rapid_transit_stations (ESRISHAPE_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |Neighborhoods (OGCKML_1) Splitter(TeeFactory): Cloned 6 input feature(s) into 6 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |f_8(TestFactory): Tested 6 input feature(s) -- 6 feature(s) passed and 0 feature(s) failed
+2017-10-23 16:29:49|   1.6|  0.0|STATS |CoordinateExtractor_3_PASSED(TestFactory): Tested 6 input feature(s) -- 0 feature(s) passed and 6 feature(s) failed
+2017-10-23 16:29:49|   1.6|  0.0|STATS |CoordinateExtractor_3_FAILED(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2017-10-23 16:29:49|   1.6|  0.0|STATS |CoordinateExtractor_3_FAILED_PASSED(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_3(ElementFactory): Split out 8073 list elements from 6 input features, using mode CLASSIC
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_3_<REJECTED> Feature Counter -1 2147680282(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_3_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |CoordinateExtractor_2 (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_2 (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_2_<REJECTED> Feature Counter -1 2147680274(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_2_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |AttributeManager_2 (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |AttributeManager_2_Output (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |CoordinateExtractor (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_<REJECTED> Feature Counter -1 2147680269(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |ListExploder_<Rejected>(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |AttributeManager (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 8073 input feature(s), wrote 8073 output feature(s): 0 matched merge filters, 8073 were routed to output, 0 could not be routed.
+2017-10-23 16:29:49|   1.6|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Started outputting features
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|Creating writer for format: CSV (Comma Separated Value)
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `CSV2'
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|Loaded module 'CSV2' from file 'C:\Program Files\FME\plugins/CSV2.dll'
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20170315)
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20170315)
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|Writer `CSV2_2' of type `CSV2' using group definition keyword `CSV2_2_DEF'
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20170315)
+2017-10-23 16:29:49|   1.6|  0.0|INFORM|CSV writer: Directive '_EXTENSION' has the value 'csv'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_DELIMITER' has the value ','
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_WRITE_BOM_FOR_UNICODE' has the value 'Yes'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_NAMES' has the value 'if_needed'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_QUALIFY_FIELD_VALUES' has the value 'if_needed'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_ROW_TERMINATION' has the value 'System'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Directive '_WRITE_SCHEMA_FILE' has the value 'NO'
+2017-10-23 16:29:49|   1.7|  0.0|INFORM|CSV writer: Opening dataset 'C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\Neighborhoods.csv'
+2017-10-23 16:29:50|   1.7|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 1000 
+2017-10-23 16:29:50|   1.7|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 2000 
+2017-10-23 16:29:50|   1.7|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 3000 
+2017-10-23 16:29:50|   1.8|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 4000 
+2017-10-23 16:29:50|   1.8|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 5000 
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 6000 
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 7000 
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': Writing feature 8000 
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|Feature output statistics for `CSV2' writer using keyword `CSV2_2':
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|STATS |                               Features Written
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Neighborhoods                                                             8073
+2017-10-23 16:29:50|   1.9|  0.0|STATS |==============================================================================
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Total Features Written                                                    8073
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|MULTI_WRITER: multi_writer_id `1': done writing 8073 feature(s) 
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|STATS |                            Features Read Summary
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Document                                                                     1
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Folder                                                                       1
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Neighborhoods                                                                6
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Style                                                                        1
+2017-10-23 16:29:50|   1.9|  0.0|STATS |==============================================================================
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Total Features Read                                                          9
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|STATS |                           Features Written Summary
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Neighborhoods                                                             8073
+2017-10-23 16:29:50|   1.9|  0.0|STATS |==============================================================================
+2017-10-23 16:29:50|   1.9|  0.0|STATS |Total Features Written                                                    8073
+2017-10-23 16:29:50|   1.9|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (8073 feature(s) output)
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|FME Session Duration: 3.5 seconds. (CPU: 1.4s user, 0.4s system)
+2017-10-23 16:29:50|   1.9|  0.0|INFORM|END - ProcessID: 11208, peak process memory usage: 420744 kB, current process memory usage: 66376 kB
