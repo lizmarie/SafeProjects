@@ -1,0 +1,217 @@
+Key,Zone,Installation,Location 1,Location 2,Orientation,BIA,Latitude,Longitude
+CVP001,DT,2009,Robson,Burrard,350,Robson Street,49.28337,-123.12307
+CVP002,DT,2009,Burrard,Robson,167,Downtown Vancouver,49.283341,-123.122543
+CVP003,DT,2009,Robson,mid-block 1100,44,Robson Street,49.285151,-123.125505
+CVP004,DT,2009,W Hastings,Hornby,134,Downtown Vancouver,49.286627,-123.115738
+CVP005,DT,2009,Cordova,Howe,176,Downtown Vancouver,49.286713,-123.113604
+CVP006,DT,2009,Cordova,Seymour,134,Downtown Vancouver,49.285448,-123.111818
+CVP007,DT,2009,Burrard,Dunsmuir,154,Downtown Vancouver,49.285614,-123.119089
+CVP008,DT,2009,Burrard,Georgia,93,Downtown Vancouver,49.284627,-123.12102
+CVP009,DT,2009,Nelson,Cambie,196,Yaletown,49.276038,-123.117862
+CVP011,DT,2009,Denman,Beach,5,None,49.286915,-123.142453
+CVP012,DT,2009,Robson,Bute,95,Robson Street,49.285941,-123.126744
+CVP013,DT,2009,Davie,Mainland,200,Yaletown,49.274537,-123.122029
+CVP014,DT,2009,Dunsmuir,Granville,45,Downtown Vancouver,49.283662,-123.116622
+CVP015,DT,2009,Smithe,Expo,96,None,49.276064,-123.114722
+CVP016,DT,2009,Georgia,Hornby,264,Downtown Vancouver,49.283578,-123.120004
+CVP017,DT,2009,Georgia,Howe,88,Downtown Vancouver,49.283103,-123.118831
+CVP018,DT,2009,Robson,Granville,51,Downtown Vancouver,49.281564,-123.119953
+CVP019,DT,2009,Burrard,Nelson,269,Downtown Vancouver,49.28103,-123.125949
+CVP020,DT,2009,Canada Place,Thurlow,78,Downtown Vancouver,49.288868,-123.11838
+CVP021,DT,2009,Canada Place,Burrard,64,Downtown Vancouver,49.288231,-123.115543
+CVP022,DT,2009,Howe,Robson,73,Downtown Vancouver,49.282172,-123.12072
+CVP023,DT,2009,Mainland,Helmcken,222,Yaletown,49.275486,-123.120568
+CVP024,Metro Core,2010,Granville,W Broadway,270,South Granville,49.26342,-123.138711
+CVP025,DT,2009,Nelson,Mainland,178,Yaletown,49.276679,-123.118814
+CVP026,DT,2009,Water,100 block,18,Gastown,49.284175,-123.107658
+CVP027,DT,2009,Granville,Pender,315,Downtown Vancouver,49.284628,-123.115082
+CVP028,DT,2009,Robson,1000 block,43,Robson Street,49.283977,-123.123691
+CVP029,DT,2009,Robson,Thurlow,275,Robson Street,49.284444,-123.124929
+CVP030,DT,2009,Water,Richards,58,Gastown,49.284679,-123.110454
+CVS001,OT,2010,W 10th,Sasamat,180,Point Grey Village,49.263754,-123.208833
+CVS002,OT,2010,Alma,W 4th,180,None,49.268738,-123.185541
+CVS003,OT,2010,Alma,W 4th,180,None,49.268547,-123.185891
+CVS004,OT,2010,W 10th,Alma,180,None,49.263589,-123.185715
+CVS005,OT,2010,W Broadway,Alma,180,None,49.264259,-123.185656
+CVS006,OT,2010,Dunbar,W 16th,90,Dunbar Village,49.257669,-123.184987
+CVS007,OT,2010,Dunbar,W 41st,90,Dunbar Village,49.234657,-123.185493
+CVS008,OT,2010,W 4th,Balaclava,180,None,49.268341,-123.173701
+CVS009,OT,2010,W Broadway,Balaclava,180,West Broadway,49.264268,-123.17414
+CVS010,Metro Core,2010,W 4th,Macdonald,180,None,49.268293,-123.168555
+CVS011,Metro Core,2010,W Broadway,Macdonald,180,West Broadway,49.264205,-123.168084
+CVS012,Metro Core,2010,W Broadway,Macdonald,180,West Broadway,49.263972,-123.168375
+CVS013,Metro Core,2010,Cornwall,Trafalgar,180,None,49.272834,-123.164454
+CVS014,Metro Core,2010,Yew,Cornwall,180,None,49.272501,-123.155102
+CVS015,Metro Core,2010,W Broadway,Arbutus,90,None,49.263651,-123.152808
+CVS016,OT,2010,W 41st,West Blvd,180,Kerrisdale,49.234663,-123.155328
+CVS017,OT,2010,W 41st,East Blvd,180,Kerrisdale,49.234456,-123.155144
+CVS018,Metro Core,2010,Cypress,Cornwall,180,None,49.272341,-123.147662
+CVS019,Metro Core,2010,Cypress,W 1st,180,None,49.270778,-123.147988
+CVS020,Metro Core,2009,W 1st,Burrard,90,None,49.270576,-123.145697
+CVS021,Metro Core,2010,W 4th,Burrard,90,Kitsilano 4th Avenue,49.267899,-123.145433
+CVS022,Metro Core,2010,W Broadway,Burrard,180,None,49.263846,-123.145552
+CVS023,Metro Core,2009,Lamey's Mill,Anderson,131,None,49.269605,-123.137818
+CVS024,Metro Core,2009,W 4th,Granville,90,None,49.268016,-123.138206
+CVS025,Metro Core,2009,Granville,W 5th,90,South Granville,49.266654,-123.138294
+CVS026,Metro Core,2009,Granville,W 13th,90,South Granville,49.259773,-123.1389
+CVS027,Metro Core,2009,Granville,W 10th,90,South Granville,49.262581,-123.138398
+CVS029,OT,2010,Granville,W 70th,90,Marpole,49.208711,-123.140341
+CVS030,OT,2010,Granville,W 68th,90,Marpole,49.210408,-123.140605
+CVS031,Metro Core,2010,W Broadway,Oak,180,None,49.263555,-123.126433
+CVS032,Metro Core,2009,W Broadway,Willow,180,None,49.263474,-123.121947
+CVS033,Metro Core,2009,W Broadway,Willow,180,None,49.263236,-123.121576
+CVS034,Metro Core,2009,Moberly,Millbank,89,None,49.269387,-123.118014
+CVS035,Metro Core,2009,Charleson,Heather,90,None,49.266317,-123.120398
+CVS036,Metro Core,2009,Cambie,W 6th,142,None,49.266369,-123.1158
+CVS037,Metro Core,2009,Cambie,W 2nd,90,None,49.266419,-123.114551
+CVS039,Metro Core,2010,W Broadway,Cambie,180,Cambie Village,49.263043,-123.114593
+CVS040,Metro Core,2010,W Broadway,Ontario,180,None,49.262895,-123.105025
+CVS041,Metro Core,2010,Cambie,W 16th,90,Cambie Village,49.257072,-123.114898
+CVS042,OT,2009,Cambie,W King Edward,90,Cambie Village,49.249197,-123.115634
+CVS043,OT,2009,W 29th,Cambie,90,None,49.245094,-123.11522
+CVS044,OT,2009,Cambie,W 37th,90,None,49.237421,-123.115777
+CVS045,OT,2009,Cambie,W 41st,90,None,49.233719,-123.115894
+CVS046,OT,2009,Cambie,W 41st,90,None,49.233249,-123.116505
+CVS047,OT,2010,Cambie,W 49th,180,None,49.22623,-123.116179
+CVS048,OT,2010,Cambie,SW Marine,90,None,49.210362,-123.116983
+CVS049,DT,2009,Cardero,Robson,45,West End,49.289409,-123.13246
+CVS050,DT,2009,Georgia,Denman,45,West End,49.292849,-123.133775
+CVS051,DT,2009,Georgia,Denman,45,West End,49.292409,-123.133786
+CVS052,DT,2009,Denman,Seawall,45,None,49.293501,-123.132383
+CVS053,DT,2009,Broughton,Coal Harbour Quay,32,None,49.29051,-123.126033
+CVS054,DT,2009,Bute,Seaside (Coal Harbour),30,None,49.29022,-123.121116
+CVS055,DT,2009,Bute,W Hastings,135,Downtown Vancouver,49.288939,-123.122692
+CVS056,DT,2009,Granville,W Hastings,135,Downtown Vancouver,49.284996,-123.11447
+CVS057,DT,2009,Burrard,Dunsmuir,135,Downtown Vancouver,49.285376,-123.119962
+CVS059,DT,2009,Thurlow,Seaside (False Creek),71,None,49.277313,-123.136213
+CVS060,DT,2009,Water,Richards,15,Gastown,49.284589,-123.110486
+CVS061,DT,2009,Water,Cambie,13,Gastown,49.284229,-123.108609
+CVS062,DT,2009,Carrall,Alexander,11,Gastown,49.283536,-123.104229
+CVS063,DT,2009,Main,E Hastings,90,Chinatown,49.281172,-123.099463
+CVS064,OT,2009,E Hastings,Renfrew,180,Hastings North,49.281288,-123.043917
+CVS065,OT,2010,Commercial,Adanac,90,None,49.277475,-123.069801
+CVS066,OT,2010,Commercial,William,90,Commercial Drive,49.274063,-123.069642
+CVS067,OT,2010,Commercial,Graveley,90,Commercial Drive,49.270463,-123.069801
+CVS068,OT,2010,Commercial,E 1st,90,Commercial Drive,49.269763,-123.069754
+CVS069,OT,2010,Commercial,N Grandview Hwy,90,Commercial Drive,49.263528,-123.069491
+CVS070,OT,2010,Commercial,E Broadway,90,Commercial Drive,49.262482,-123.069577
+CVS071,OT,2010,Commercial,E 10th,90,Commercial Drive,49.261427,-123.069966
+CVS072,OT,2010,Commercial,E 13th,90,Commercial Drive,49.258543,-123.069698
+CVS073,DT,2009,W Hastings,Cambie,46,Hastings Crossing,49.282561,-123.109789
+CVS075,DT,2009,Carrall,E Pender,90,Chinatown,49.280364,-123.104257
+CVS076,DT,2009,Main,E Pender,90,Chinatown,49.280511,-123.099833
+CVS077,DT,2009,Main,Keefer,90,Chinatown,49.279304,-123.099891
+CVS079,DT,2009,Abbott,Keefer,180,None,49.279805,-123.107465
+CVS080,Metro Core,2009,Terminal,Main,180,None,49.273035,-123.100608
+CVS082,DT,2009,Terminal,Quebec,180,None,49.27324,-123.101972
+CVS083,Metro Core,2009,Spyglass,Seaside (False Creek),90,None,49.270977,-123.115169
+CVS084,Metro Core,2009,Millbank,Seaside (Leg-in-Boot Square),180,None,49.267653,-123.119403
+CVS085,Metro Core,2009,Laurel St,Seaside (False Creek),13,None,49.267545,-123.124933
+CVS086,Metro Core,2009,Laurel,W 7th,90,None,49.265207,-123.124214
+CVS087,Metro Core,2009,Creekside,W 1st,70,None,49.271494,-123.14016
+CVS088,Metro Core,2009,W 1st,Fir,65,None,49.2705,-123.1411
+CVS089,Metro Core,2009,Whyte,Seaside (Burrard Civic Marina),109,None,49.275258,-123.139893
+CVS090,Metro Core,2009,Chestnut,Seaside,18,None,49.277664,-123.146119
+CVS091,Metro Core,2009,Cornwall,Chestnut,155,None,49.272659,-123.145691
+CVS092,Metro Core,2010,Yew,Seaside (Kits Beach),66,None,49.273365,-123.155074
+CVS093,DT,2009,Bute,Davie,45,West End,49.281677,-123.133426
+CVS094,DT,2009,Davie,Thurlow,45,West End,49.280501,-123.131138
+CVS096,DT,2009,Hornby,Seaside (False Creek),135,None,49.274507,-123.134075
+CVS097,DT,2009,Seymour,Seaside (False Creek),135,None,49.272644,-123.130732
+CVS098,DT,2009,Pacific,Davie,70,Yaletown,49.27385,-123.121385
+CVS099,DT,2009,Davie,Granville,135,Downtown Vancouver,49.27711,-123.126449
+CVS100,DT,2009,Robson,Homer,45,Downtown Vancouver,49.27944,-123.116692
+CVS101,DT,2009,Beatty,Dunsmuir,135,None,49.279846,-123.110297
+CVS102,DT,2009,Hamilton,Dunsmuir,45,Hastings Crossing,49.281044,-123.112228
+CVS103,DT,2009,Marinaside,Cooperage Way,94,None,49.273703,-123.114612
+CVS104,Metro Core,2010,Main,E Broadway,90,Mount Pleasant,49.263095,-123.101119
+CVS105,Metro Core,2010,Main,Broadway,90,Mount Pleasant,49.262754,-123.100798
+CVS106,Metro Core,2010,Main,E 16th,90,Mount Pleasant,49.256742,-123.101064
+CVS107,Metro Core,2010,Main,E 18th,90,None,49.254727,-123.101171
+CVS108,OT,2009,Main,E King Edward,90,None,49.248905,-123.101183
+CVS109,OT,2009,Main,E 27th,90,None,49.247137,-123.1013
+CVS110,OT,2009,W 33rd,Ontario,180,None,49.240494,-123.105527
+CVS111,OT,2010,Fraser,E 49th,90,South Hill (Fraser Street),49.225557,-123.090974
+CVS112,OT,2009,Main,E 49th,90,None,49.225775,-123.101798
+CVS113,OT,2009,Ontario,W 49th,180,None,49.225666,-123.106196
+CVS114,OT,2010,Vanness,Joyce,125,None,49.238316,-123.031603
+CVS115,DT,2009,Burrard,Pacific,135,None,49.277002,-123.132725
+CVS116,DT,2009,Georgia,Beatty,45,None,49.278685,-123.112023
+CVS117,DT,2009,Marinaside,Davie,140,Yaletown,49.272867,-123.119636
+CVS118,DT,2009,Bidwell,Beach,90,None,49.284614,-123.142932
+CVS119,DT,2009,Granville,Georgia,135,Downtown Vancouver,49.28303,-123.117248
+CVS120,DT,2009,Thurlow,W Hastings,134,Downtown Vancouver,49.288022,-123.119502
+CVS121,DT,2009,Seymour,Dunsmuir,45,Downtown Vancouver,49.283319,-123.116058
+CVS122,DT,2010,False Creek,Seaside (David Lam Park),135,None,49.271957,-123.124852
+CVS123,DT,2009,Robson,Seymour,45,Downtown Vancouver,49.280857,-123.118898
+CVS124,DT,2009,Burrard,Davie,135,West End,49.279092,-123.129448
+CVS125,OT,2010,Commercial,E 3rd,90,Commercial Drive,49.267735,-123.069466
+CVS126,OT,2009,E Hastings,Penticton,180,Hastings North,49.281029,-123.052103
+CVS127,OT,2009,E Hastings,Kamloops,180,Hastings North,49.281288,-123.054712
+CVS128,OT,2009,E Hastings,Windermere (Playland),90,None,49.281253,-123.036351
+CVS129,OT,2010,Fraser,E 41st,90,South Hill (Fraser Street),49.232712,-123.090435
+CVS130,OT,2010,Fraser,E 44th,90,South Hill (Fraser Street),49.230203,-123.090761
+CVS131,OT,2009,Main,E 30th,90,None,49.243567,-123.101205
+CVS132,Metro Core,2010,Main,E 22nd,90,None,49.251253,-123.100829
+CVS133,Metro Core,2010,Main,E 7th/Kingsway,90,Mount Pleasant,49.264018,-123.100709
+CVS134,Metro Core,2010,Main,E 12th,90,Mount Pleasant,49.260026,-123.100903
+CVS135,Metro Core,2010,Main,E 1st,90,None,49.270204,-123.100868
+CVS136,OT,2010,Victoria,E 41st,90,Victoria Drive,49.232588,-123.065408
+CVS137,Metro Core,2010,Cambie,W 18th,90,Cambie Village,49.254898,-123.115344
+CVS138,Metro Core,2009,Island Park Walk,Anderson,6,None,49.270046,-123.137209
+CVS139,OT,2010,W 10th,Sasamat,180,Point Grey Village,49.263919,-123.209262
+CVS140,OT,2010,Dunbar,W 29th,90,Dunbar Village,49.246072,-123.185375
+CVS141,OT,2010,W 41st,Yew,180,Kerrisdale,49.234692,-123.157913
+CVS142,OT,2009,E Hastings,Kootenay,180,None,49.28125,-123.025882
+CVS143,DT,2009,Chilco,Alberni,135,None,49.294142,-123.137357
+CVS144,DT,2009,Expo Blvd,Dunsmuir/Abbott,175,None,49.278817,-123.108334
+CVS145,OT,2010,Victoria,E 44th,90,Victoria Drive,49.230457,-123.065451
+CVS146,DT,2009,Denman,Haro/Barclay,135,West End,49.290421,-123.136835
+CVS147,DT,2012,Granville,Georgia,135,Downtown Vancouver,49.282531,-123.118362
+CVS148,DT,2012,Granville,Georgia,45,Downtown Vancouver,49.282361,-123.1182
+CVS149,DT,2009,Robson,Granville,135,Downtown Vancouver,49.281291,-123.120039
+CVS150,DT,2015,Denman,Davie,135,West End,49.287303,-123.141596
+CVS151,DT,2015,Chilco,Seawall/Beach,48,None,49.289463,-123.1448
+CVS152,DT,2015,Robson,Nicola,45,West End,49.288802,-123.13116
+CVS153,DT,2015,Davie,Nicola,135,West End,49.284413,-123.137661
+CVS154,DT,2015,Georgia,Bute,135,Downtown Vancouver,49.287108,-123.125545
+CVS155,DT,2015,Cordova,Burrard,135,Downtown Vancouver,49.287567,-123.116532
+CVS157,DT,2015,Burrard,Davie,45,West End,49.279276,-123.129306
+CVS158,DT,2015,Burrard,Nelson,135,Downtown Vancouver,49.281348,-123.125972
+CVS159,DT,2015,Burrard,Smithe,135,Downtown Vancouver,49.282066,-123.124405
+CVS161,DT,2015,Georgia,Howe,45,Downtown Vancouver,49.283126,-123.119361
+CVS162,DT,2015,Smithe,Granville,135,Downtown Vancouver,49.280372,-123.121208
+CVS164,DT,2015,Hamilton,Robson,135,Downtown Vancouver,49.279007,-123.115842
+CVS165,DT,2015,Hamilton,Helmcken,135,Yaletown,49.27589,-123.120927
+CVS166,DT,2015,Beatty,Robson,45,None,49.277495,-123.113964
+CVS167,DT,2015,Beach Cr,Seaside (False Creek),135,None,49.270981,-123.126024
+CVS168,DT,2015,Hastings,Richards,45,Downtown Vancouver,49.284278,-123.112162
+CVS169,DT,2015,Davie,Granville,45,Downtown Vancouver,49.277188,-123.12599
+CVS170,DT,2015,Georgia,Burrard,45,Downtown Vancouver,49.284208,-123.120963
+CVS171,DT,2015,Georgia,Bute,45,Downtown Vancouver,49.287089,-123.124959
+CVS173,DT,2015,Carrall,Seawall,90,None,49.275872,-123.106601
+CVS174,DT,2015,Manitoba,Seaside (False Creek),180,None,49.272099,-123.106573
+CVS175,Metro Core,2015,Princess,Hastings,180,Strathcona,49.281299,-123.091736
+CVS176,DT,2015,Island Park Walk,The Castings,180,None,49.267124,-123.131545
+CVS177,Metro Core,2015,Granville,W Broadway,90,South Granville,49.263778,-123.138692
+CVS178,Metro Core,2015,W Broadway,Heather,180,None,49.263211,-123.120068
+CVS179,Metro Core,2015,Fraser,E Broadway,180,None,49.262605,-123.089325
+CVS180,Metro Core,2015,Fraser,Kingsway,90,None,49.256912,-123.089919
+CVS181,Metro Core,2015,Hastings,Clark,180,Strathcona,49.281196,-123.076909
+CVS182,OT,2015,Hastings,Commercial,180,Hastings North,49.281089,-123.070576
+CVS183,OT,2015,Hastings,Nanaimo,180,Hastings North,49.281257,-123.056826
+CVS184,Metro Core,2015,Kingsway,Knight,35,None,49.249821,-123.075782
+CVS185,OT,2015,Nanaimo,Kingsway,35,None,49.241668,-123.058
+CVS186,OT,2015,Kingsway,Wales (Norquay Park),35,None,49.238726,-123.051621
+CVS187,OT,2015,Kingsway,Joyce,125,Collingwood,49.234126,-123.036182
+CVS188,OT,2015,Kingsway,Tyne,21,Collingwood,49.231956,-123.031682
+CVS189,OT,2015,Victoria,E 38th,90,Victoria Drive,49.235934,-123.065609
+CVS190,OT,2015,Victoria,E 49th,90,Victoria Drive,49.225302,-123.065857
+CVS191,Metro Core,2015,Main,Alexander,180,Hastings Crossing,49.284037,-123.099798
+CVS192,OT,2015,Point Grey Rd,Jericho Beach Park,180,None,49.271343,-123.190941
+CVS193,OT,2015,Point Grey Rd,Alma,180,None,49.272394,-123.185693
+CVS194,Metro Core,2015,W 4th,Arbutus,180,Kitsilano 4th Avenue,49.268244,-123.152952
+CVS195,Metro Core,2015,W 4th,Vine,180,Kitsilano 4th Avenue,49.268292,-123.157327
+CVS196,Metro Core,2015,Dunlevy,Cordova,180,Strathcona,49.282314,-123.095211
+CVS197,OT,2015,Fraser,King Edward,90,None,49.248513,-123.09
+CVS198,DT,2015,Burrard,Robson,45,Robson Street,49.283133,-123.122811
