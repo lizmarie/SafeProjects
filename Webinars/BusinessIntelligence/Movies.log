@@ -1,140 +1,502 @@
-2017-10-23 15:22:58|   0.1|  0.1|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN64)
-2017-10-23 15:22:58|   0.1|  0.0|WARN  |Failed to free sufficient memory to reach the process usage limit
-2017-10-23 15:22:58|   0.1|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME111\'
-2017-10-23 15:22:58|   0.1|  0.0|INFORM|FME Smallworld Edition (node locked-crc)
-2017-10-23 15:22:58|   0.1|  0.0|INFORM|Serial Number: 12345
-2017-10-23 15:22:58|   0.1|  0.0|INFORM|Permanent License.
-2017-10-23 15:22:58|   0.1|  0.0|INFORM|Machine host name is: kc-ls-windows1
-2017-10-23 15:22:58|   0.1|  0.0|INFORM|START - ProcessID: 15164, peak process memory usage: 33132 kB, current process memory usage: 33032 kB
-2017-10-23 15:22:58|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME111\fme.exe' `C:/Users/lsanderson/Documents/SafeProjects/Webinars/BusinessIntelligence\wb-xlate-1508797378181_5464' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{88ecdb96-7889-4cfe-88e0-62786a1bdf30}' `DEBUG_PORT' `55399'
-2017-10-23 15:22:58|   0.2|  0.1|INFORM|Shared folders for formats are : C:\Program Files\FME111\datasources;C:\Users\lsanderson\Documents\FME\Plugins\R\Formats;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Formats;C:\Users\lsanderson\Documents\FME\Formats
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for transformers are : C:\Program Files\FME111\transformers;C:\Users\lsanderson\Documents\FME\Plugins\R\Transformers;C:\Users\lsanderson\Documents\FME\Transformers;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Transformers
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystems;C:\Users\lsanderson\Documents\FME\CoordinateSystems
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemExceptions;C:\Users\lsanderson\Documents\FME\CoordinateSystemExceptions
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemGridOverrides;C:\Users\lsanderson\Documents\FME\CoordinateSystemGridOverrides
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CsmapTransformationExceptions;C:\Users\lsanderson\Documents\FME\CsmapTransformationExceptions
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\lsanderson\Documents\FME\Plugins\R\TransformerCategories;C:\Users\lsanderson\Documents\FME\TransformerCategories
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Writer type is `NULL'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\lsanderson\Documents\SafeProjects\Webinars\BusinessIntelligence'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\LSANDE~1\AppData\Local\Temp\2', set from environment variable `TEMP'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME111\'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\lsanderson\Documents\SafeProjects\Webinars\BusinessIntelligence/'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Movies.fmw'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|System Status: 105.66 GB of disk space available in the FME temporary folder (C:\Users\LSANDE~1\AppData\Local\Temp\2)
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Operating System: Microsoft Windows Server 10 Server 4.0 64-bit  (Build 14393)
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Platform: WIN64
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Locale: en_US
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Process limit is 4.00 GB of physical memory
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 31.87 MB of virtual memory
-2017-10-23 15:22:58|   0.2|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 30.60 MB of virtual memory
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating writer for format: NULL (Nothing)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME111\plugins/NULL.dll'
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating reader for format: 
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding NULL Reader with keyword XLSXR_1
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding XLSXR Reader with keyword XLSXR_2
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding XLSXR Reader with keyword XLSXR_3
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating reader for format: NULL (Nothing)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME111\plugins/LogCount_func.dll'
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'BreakpointFactory' from file 'C:\Program Files\FME111\plugins/BreakpointFactory.dll'
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Feature Inspection module initialized. Workbench@55399 and FME@52431
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|... Last line repeated 15 times ...
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME111\plugins/InspectorFactory.dll'
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|... Last line repeated 5 times ...
-2017-10-23 15:22:58|   0.3|  0.0|INFORM|Creating reader for format: Microsoft Excel
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XLSXR'
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Loaded module 'XLSXR' from file 'C:\Program Files\FME111\plugins/xlsx.dll'
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|FME API version of module 'XLSXR' matches current internal version (3.8 20170315)
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Output cell formulas: 'false'
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Output cell comments: 'false'
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Force full datetime values: 'false'
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Opening dataset 'C:\Users\lsanderson\Downloads\Interactive_Map_Data.xlsx'...
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Reading sheet 'Full Map List'...
-2017-10-23 15:22:58|   0.4|  0.0|INFORM|Excel Reader: Sheet 'Full Map List' range: Start Row '4', Start Column 'A', End Row '236', End Column 'V'
-2017-10-23 15:22:58|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.5|  0.1|INFORM|Excel Reader: Closing dataset 'C:\Users\lsanderson\Downloads\Interactive_Map_Data.xlsx'...
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Creating reader for format: Microsoft Excel
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XLSXR'
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|FME API version of module 'XLSXR' matches current internal version (3.8 20170315)
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Output cell formulas: 'false'
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Output cell comments: 'false'
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Force full datetime values: 'false'
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Opening dataset 'C:\Users\lsanderson\Documents\100GreatestActorsOfAllTime-IMDB.xlsx'...
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Reading sheet 'Sheet1'...
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Sheet 'Sheet1' range: Start Row '2', Start Column 'A', End Row '101', End Column 'E'
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Excel Reader: Closing dataset 'C:\Users\lsanderson\Documents\100GreatestActorsOfAllTime-IMDB.xlsx'...
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 333 features from 3 readers
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|Emptying factory pipeline
-2017-10-23 15:22:59|   0.5|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 333 input feature(s), wrote 333 output feature(s): 333 matched merge filters, 333 were routed to output, 0 could not be routed.
-2017-10-23 15:22:59|   0.5|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |Full Map List (XLSXR_2) Splitter(TeeFactory): Cloned 233 input feature(s) into 233 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |Sheet1 (XLSXR_3) Splitter(TeeFactory): Cloned 100 input feature(s) into 100 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |ARTHOUSE AND DRAMA (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |ARTHOUSE AND DRAMA_XLSXR_1 Disabled Nuker -1 10(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |ROMANCE (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |ROMANCE_XLSXR_1 Disabled Nuker -1 13(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |HORROR (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |HORROR_XLSXR_1 Disabled Nuker -1 14(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |COMEDY (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |COMEDY_XLSXR_1 Disabled Nuker -1 15(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |CRIME (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |CRIME_XLSXR_1 Disabled Nuker -1 16(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |SCI-FI AND FANTASY (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |SCI-FI AND FANTASY_XLSXR_1 Disabled Nuker -1 17(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |ACTION (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |ACTION_XLSXR_1 Disabled Nuker -1 18(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |SubstringExtractor(TeeFactory): Cloned 100 input feature(s) into 100 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|STATS |AttributeManager_2 OUTPUT Splitter(TeeFactory): Cloned 233 input feature(s) into 466 output feature(s)
-2017-10-23 15:22:59|   0.5|  0.0|INFORM|ResourceManager: Optimizing Memory Usage.  Please wait...
-2017-10-23 15:22:59|   0.6|  0.0|STATS |FeatureMerger(ReferenceFactory): Total Results: 14 Complete Feature(s), 219 Incomplete Feature(s), 7 Referenced Feature(s), 79 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 14 Duplicate Referencee Feature(s)
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger__Rejected__Recorder(RecorderFactory): Recorded 14 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_UnusedSupplier_Recorder(RecorderFactory): Recorded 79 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_UsedSupplier_Recorder(RecorderFactory): Recorded 7 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_UnmergedRequestor_Recorder(RecorderFactory): Recorded 219 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|FeatureMerger_Merged_Recorder(RecorderFactory): Recorded 14 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.6|  0.0|STATS |Stored 566 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.fsi'
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.fsi'
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|AttributeManager_2_Output_Recorder(RecorderFactory): Recorded 233 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_152258\inspector.ffs'
-2017-10-23 15:22:59|   0.6|  0.0|STATS |AttributeManager (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.6|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
-2017-10-23 15:22:59|   0.6|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.6|  0.0|STATS |f_54(CreationFactory): Created 1 features
-2017-10-23 15:22:59|   0.6|  0.0|STATS |f_55(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
-2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2017-10-23 15:22:59|   0.6|  0.0|STATS |                            Features Read Summary
-2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2017-10-23 15:22:59|   0.6|  0.0|STATS |Full Map List                                                              233
-2017-10-23 15:22:59|   0.6|  0.0|STATS |Sheet1                                                                     100
-2017-10-23 15:22:59|   0.6|  0.0|STATS |==============================================================================
-2017-10-23 15:22:59|   0.6|  0.0|STATS |Total Features Read                                                        333
-2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2017-10-23 15:22:59|   0.6|  0.0|STATS |                           Features Written Summary
-2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2017-10-23 15:22:59|   0.6|  0.0|STATS |==============================================================================
-2017-10-23 15:22:59|   0.6|  0.0|STATS |Total Features Written                                                       0
-2017-10-23 15:22:59|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (0 feature(s) output)
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|FME Session Duration: 0.7 seconds. (CPU: 0.3s user, 0.1s system)
-2017-10-23 15:22:59|   0.6|  0.0|INFORM|END - ProcessID: 15164, peak process memory usage: 50144 kB, current process memory usage: 49800 kB
+2017-10-25 10:40:19|   0.2|  0.2|INFORM|FME 2017.1.1.1 (20171014 - Build 17652 - WIN64)
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME111\'
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Smallworld Edition (node locked-crc)
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Serial Number: 12345
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Permanent License.
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Machine host name is: kc-ls-windows1
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|START - ProcessID: 9400, peak process memory usage: 33352 kB, current process memory usage: 33252 kB
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME111\fme.exe' `C:/Users/lsanderson/Documents/SafeProjects/Webinars/BusinessIntelligence\wb-xlate-1508953217589_10216' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{7ac55fa2-4116-446b-88aa-be439dd22b29}' `DEBUG_PORT' `51911'
+2017-10-25 10:40:19|   0.2|  0.1|INFORM|Shared folders for formats are : C:\Program Files\FME111\datasources;C:\Users\lsanderson\Documents\FME\Plugins\R\Formats;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Formats;C:\Users\lsanderson\Documents\FME\Formats
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Shared folders for transformers are : C:\Program Files\FME111\transformers;C:\Users\lsanderson\Documents\FME\Plugins\R\Transformers;C:\Users\lsanderson\Documents\FME\Transformers;C:\Users\lsanderson\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystems;C:\Users\lsanderson\Documents\FME\CoordinateSystems
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemExceptions;C:\Users\lsanderson\Documents\FME\CoordinateSystemExceptions
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\lsanderson\Documents\FME\Plugins\R\CoordinateSystemGridOverrides;C:\Users\lsanderson\Documents\FME\CoordinateSystemGridOverrides
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\lsanderson\Documents\FME\Plugins\R\CsmapTransformationExceptions;C:\Users\lsanderson\Documents\FME\CsmapTransformationExceptions
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\lsanderson\Documents\FME\Plugins\R\TransformerCategories;C:\Users\lsanderson\Documents\FME\TransformerCategories
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2017-10-25 10:40:19|   0.2|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\lsanderson\Documents\SafeProjects\Webinars\BusinessIntelligence'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\LSANDE~1\AppData\Local\Temp\2', set from environment variable `TEMP'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME111\'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\lsanderson\Documents\SafeProjects\Webinars\BusinessIntelligence/'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'Movies.fmw'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2017.1.1.1'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|System Status: 108.70 GB of disk space available in the FME temporary folder (C:\Users\LSANDE~1\AppData\Local\Temp\2)
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Operating System: Microsoft Windows Server 10 Server 4.0 64-bit  (Build 14393)
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Platform: WIN64
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Locale: en_US
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: Process limit is 4.00 GB of physical memory
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 12.00 GB of virtual memory
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 9.00 GB of virtual memory
+2017-10-25 10:40:19|   0.3|  0.1|INFORM|Creating writer for format: NULL (Nothing)
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME111\plugins/NULL.dll'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Creating reader for format: 
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding NULL Reader with keyword XLSXR_1
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding NULL Reader with keyword XLSXR_2
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding NULL Reader with keyword XLSXR_3
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Adding CSV2 Reader with keyword CSV2_1
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME111\plugins/LogCount_func.dll'
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|Loaded module 'BreakpointFactory' from file 'C:\Program Files\FME111\plugins/BreakpointFactory.dll'
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|Feature Inspection module initialized. Workbench@51911 and FME@51958
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|... Last line repeated 11 times ...
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\Program Files\FME111\plugins/InspectorFactory.dll'
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'BreakpointFactory' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|... Last line repeated 7 times ...
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|... Last line repeated 4 times ...
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|Creating reader for format: NULL (Nothing)
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `NULL'
+2017-10-25 10:40:19|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.5|  0.1|INFORM|Creating reader for format: CSV (Comma Separated Value)
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|Loaded module 'CSV2' from file 'C:\Program Files\FME111\plugins/CSV2.dll'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20170315)
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Opening dataset 'C:\Users\lsanderson\Documents\SafeProjects\Webinars\BusinessIntelligence\Data\Neighborhoods.csv'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value ','
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '1'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '2'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '1000'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'No'
+2017-10-25 10:40:19|   0.6|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
+2017-10-25 10:40:20|   0.6|  0.0|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Splitting feature table
+2017-10-25 10:40:20|   0.7|  0.1|INFORM|Creating writer for format: FME Feature Store (FFS)
+2017-10-25 10:40:20|   0.8|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2017-10-25 10:40:20|   0.8|  0.1|INFORM|ListExploder(ElementFactory): No MODE specified.  Using default processing mode (CLASSIC)
+2017-10-25 10:40:20|   0.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:40:24|   2.7|  1.9|INFORM|Processed 1168 elements with mode CLASSIC
+2017-10-25 10:40:29|   4.4|  1.7|INFORM|Processed 1869 elements with mode CLASSIC
+2017-10-25 10:40:34|   5.7|  1.3|INFORM|Processed 2424 elements with mode CLASSIC
+2017-10-25 10:40:39|   7.3|  1.6|INFORM|Processed 3130 elements with mode CLASSIC
+2017-10-25 10:40:39|   7.6|  0.3|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 4 of 195 features
+2017-10-25 10:40:40|   7.9|  0.3|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:40:44|   9.5|  1.6|INFORM|Processed 6681 elements with mode CLASSIC
+2017-10-25 10:40:49|  11.4|  1.8|INFORM|Processed 7827 elements with mode CLASSIC
+2017-10-25 10:40:49|  11.4|  0.1|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 25 of 195 features
+2017-10-25 10:40:49|  11.5|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:40:54|  13.2|  1.8|INFORM|Processed 9612 elements with mode CLASSIC
+2017-10-25 10:40:59|  14.8|  1.6|INFORM|Processed 10340 elements with mode CLASSIC
+2017-10-25 10:41:04|  16.7|  1.9|INFORM|Processed 11250 elements with mode CLASSIC
+2017-10-25 10:41:04|  17.0|  0.3|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 32 of 195 features
+2017-10-25 10:41:05|  17.0|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:41:09|  19.2|  2.1|INFORM|Processed 15534 elements with mode CLASSIC
+2017-10-25 10:41:09|  19.2|  0.1|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 52 of 195 features
+2017-10-25 10:41:10|  20.1|  0.8|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:41:13|  21.8|  1.7|STATS |Stored 21376 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216.ffs'
+2017-10-25 10:41:16|  21.8|  0.0|INFORM|Processed 21135 elements with mode CLASSIC
+2017-10-25 10:41:16|  21.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_1.ffs'
+2017-10-25 10:41:16|  21.9|  0.1|STATS |Stored 21268 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:41:16|  21.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_1.ffs'
+2017-10-25 10:41:16|  21.9|  0.0|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 81 of 195 features
+2017-10-25 10:41:16|  22.0|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:41:21|  24.6|  2.6|INFORM|Processed 24865 elements with mode CLASSIC
+2017-10-25 10:41:23|  25.0|  0.4|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 96 of 195 features
+2017-10-25 10:41:23|  25.1|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:41:26|  26.4|  1.3|INFORM|Processed 27700 elements with mode CLASSIC
+2017-10-25 10:41:31|  28.4|  2.0|INFORM|Processed 29655 elements with mode CLASSIC
+2017-10-25 10:41:31|  28.6|  0.2|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 109 of 195 features
+2017-10-25 10:41:31|  28.6|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:41:36|  30.5|  1.8|INFORM|Processed 32825 elements with mode CLASSIC
+2017-10-25 10:41:39|  31.6|  1.2|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 120 of 195 features
+2017-10-25 10:41:39|  31.7|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:41:41|  32.4|  0.7|INFORM|Processed 34487 elements with mode CLASSIC
+2017-10-25 10:41:46|  34.0|  1.6|INFORM|Processed 35105 elements with mode CLASSIC
+2017-10-25 10:41:51|  35.6|  1.6|INFORM|Processed 35697 elements with mode CLASSIC
+2017-10-25 10:41:56|  37.1|  1.5|INFORM|Processed 36263 elements with mode CLASSIC
+2017-10-25 10:42:01|  38.8|  1.7|INFORM|Processed 36897 elements with mode CLASSIC
+2017-10-25 10:42:06|  40.5|  1.7|INFORM|Processed 37532 elements with mode CLASSIC
+2017-10-25 10:42:06|  40.8|  0.3|STATS |Stored 16631 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_1.ffs'
+2017-10-25 10:42:09|  40.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_2.ffs'
+2017-10-25 10:42:09|  40.9|  0.1|STATS |Stored 16407 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_1.ffs'
+2017-10-25 10:42:09|  40.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_2.ffs'
+2017-10-25 10:42:09|  41.2|  0.2|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 123 of 195 features
+2017-10-25 10:42:09|  41.2|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:42:11|  42.2|  1.0|INFORM|Processed 38056 elements with mode CLASSIC
+2017-10-25 10:42:16|  43.5|  1.3|INFORM|Processed 38438 elements with mode CLASSIC
+2017-10-25 10:42:21|  45.1|  1.5|INFORM|Processed 38885 elements with mode CLASSIC
+2017-10-25 10:42:26|  46.6|  1.5|INFORM|Processed 39324 elements with mode CLASSIC
+2017-10-25 10:42:31|  48.2|  1.6|INFORM|Processed 39810 elements with mode CLASSIC
+2017-10-25 10:42:36|  49.8|  1.6|INFORM|Processed 40254 elements with mode CLASSIC
+2017-10-25 10:42:41|  51.4|  1.5|INFORM|Processed 40700 elements with mode CLASSIC
+2017-10-25 10:42:46|  52.9|  1.5|INFORM|Processed 41135 elements with mode CLASSIC
+2017-10-25 10:42:51|  54.6|  1.7|INFORM|Processed 41608 elements with mode CLASSIC
+2017-10-25 10:42:56|  56.2|  1.6|INFORM|Processed 42055 elements with mode CLASSIC
+2017-10-25 10:42:58|  56.8|  0.5|STATS |Stored 4571 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_2.ffs'
+2017-10-25 10:43:00|  56.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_3.ffs'
+2017-10-25 10:43:00|  56.9|  0.1|STATS |Stored 4562 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_2.ffs'
+2017-10-25 10:43:00|  56.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_3.ffs'
+2017-10-25 10:43:00|  57.5|  0.6|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 124 of 195 features
+2017-10-25 10:43:00|  57.5|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:43:01|  57.5|  0.0|INFORM|Processed 42410 elements with mode CLASSIC
+2017-10-25 10:43:06|  59.7|  2.2|INFORM|Processed 43622 elements with mode CLASSIC
+2017-10-25 10:43:11|  61.2|  1.5|INFORM|Processed 44492 elements with mode CLASSIC
+2017-10-25 10:43:11|  61.3|  0.1|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 125 of 195 features
+2017-10-25 10:43:11|  61.4|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:43:16|  63.4|  2.0|INFORM|Processed 47104 elements with mode CLASSIC
+2017-10-25 10:43:19|  64.5|  1.1|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 135 of 195 features
+2017-10-25 10:43:19|  64.5|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:43:21|  65.1|  0.5|INFORM|Processed 48584 elements with mode CLASSIC
+2017-10-25 10:43:26|  67.0|  1.9|INFORM|Processed 49870 elements with mode CLASSIC
+2017-10-25 10:43:26|  67.1|  0.2|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 138 of 195 features
+2017-10-25 10:43:26|  67.1|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:43:31|  68.9|  1.7|INFORM|Processed 50664 elements with mode CLASSIC
+2017-10-25 10:43:36|  70.7|  1.8|INFORM|Processed 50933 elements with mode CLASSIC
+2017-10-25 10:43:41|  72.3|  1.6|INFORM|Processed 51175 elements with mode CLASSIC
+2017-10-25 10:43:46|  74.0|  1.8|INFORM|Processed 51444 elements with mode CLASSIC
+2017-10-25 10:43:48|  74.9|  0.9|STATS |Stored 9410 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_3.ffs'
+2017-10-25 10:43:50|  74.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_4.ffs'
+2017-10-25 10:43:51|  75.0|  0.1|INFORM|Processed 51581 elements with mode CLASSIC
+2017-10-25 10:43:51|  75.1|  0.1|STATS |Stored 9352 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_3.ffs'
+2017-10-25 10:43:51|  75.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_4.ffs'
+2017-10-25 10:43:56|  77.1|  2.0|INFORM|Processed 51902 elements with mode CLASSIC
+2017-10-25 10:44:01|  78.9|  1.7|INFORM|Processed 52172 elements with mode CLASSIC
+2017-10-25 10:44:06|  80.7|  1.8|INFORM|Processed 52441 elements with mode CLASSIC
+2017-10-25 10:44:11|  82.3|  1.6|INFORM|Processed 52688 elements with mode CLASSIC
+2017-10-25 10:44:16|  83.8|  1.5|INFORM|Processed 52925 elements with mode CLASSIC
+2017-10-25 10:44:21|  85.5|  1.7|INFORM|Processed 53192 elements with mode CLASSIC
+2017-10-25 10:44:26|  87.1|  1.6|INFORM|Processed 53443 elements with mode CLASSIC
+2017-10-25 10:44:31|  88.7|  1.6|INFORM|Processed 53688 elements with mode CLASSIC
+2017-10-25 10:44:36|  90.3|  1.7|INFORM|Processed 53948 elements with mode CLASSIC
+2017-10-25 10:44:39|  91.7|  1.3|STATS |Stored 2585 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_4.ffs'
+2017-10-25 10:44:41|  91.7|  0.0|INFORM|Processed 54152 elements with mode CLASSIC
+2017-10-25 10:44:41|  91.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_5.ffs'
+2017-10-25 10:44:41|  91.8|  0.2|STATS |Stored 2585 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_4.ffs'
+2017-10-25 10:44:41|  91.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_5.ffs'
+2017-10-25 10:44:46|  93.7|  1.8|INFORM|Processed 54460 elements with mode CLASSIC
+2017-10-25 10:44:51|  95.3|  1.7|INFORM|Processed 54716 elements with mode CLASSIC
+2017-10-25 10:44:56|  96.9|  1.6|INFORM|Processed 54972 elements with mode CLASSIC
+2017-10-25 10:45:01|  98.6|  1.7|INFORM|Processed 55235 elements with mode CLASSIC
+2017-10-25 10:45:06| 100.0|  1.4|INFORM|Processed 55457 elements with mode CLASSIC
+2017-10-25 10:45:11| 101.9|  1.9|INFORM|Processed 55735 elements with mode CLASSIC
+2017-10-25 10:45:16| 103.7|  1.8|INFORM|Processed 56008 elements with mode CLASSIC
+2017-10-25 10:45:21| 105.5|  1.8|INFORM|Processed 56257 elements with mode CLASSIC
+2017-10-25 10:45:26| 107.1|  1.6|INFORM|Processed 56480 elements with mode CLASSIC
+2017-10-25 10:45:30| 108.9|  1.8|STATS |Stored 2585 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_5.ffs'
+2017-10-25 10:45:32| 109.0|  0.0|INFORM|Processed 56737 elements with mode CLASSIC
+2017-10-25 10:45:32| 109.0|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_6.ffs'
+2017-10-25 10:45:33| 109.2|  0.2|STATS |Stored 2585 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_5.ffs'
+2017-10-25 10:45:33| 109.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_6.ffs'
+2017-10-25 10:45:37| 111.1|  1.9|INFORM|Processed 57051 elements with mode CLASSIC
+2017-10-25 10:45:42| 112.4|  1.4|INFORM|Processed 57288 elements with mode CLASSIC
+2017-10-25 10:45:47| 113.7|  1.3|INFORM|Processed 57520 elements with mode CLASSIC
+2017-10-25 10:45:52| 115.2|  1.5|INFORM|Processed 57773 elements with mode CLASSIC
+2017-10-25 10:45:57| 116.7|  1.5|INFORM|Processed 58042 elements with mode CLASSIC
+2017-10-25 10:46:02| 118.2|  1.5|INFORM|Processed 58307 elements with mode CLASSIC
+2017-10-25 10:46:07| 119.5|  1.3|INFORM|Processed 58529 elements with mode CLASSIC
+2017-10-25 10:46:08| 120.1|  0.6|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 141 of 195 features
+2017-10-25 10:46:08| 120.2|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:46:12| 121.9|  1.7|INFORM|Processed 61893 elements with mode CLASSIC
+2017-10-25 10:46:13| 122.3|  0.5|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 151 of 195 features
+2017-10-25 10:46:13| 122.3|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:46:17| 123.7|  1.4|INFORM|Processed 63697 elements with mode CLASSIC
+2017-10-25 10:46:21| 125.3|  1.5|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 153 of 195 features
+2017-10-25 10:46:21| 125.4|  0.2|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:46:22| 125.5|  0.0|INFORM|Processed 65102 elements with mode CLASSIC
+2017-10-25 10:46:22| 125.7|  0.2|STATS |Stored 8608 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_6.ffs'
+2017-10-25 10:46:24| 125.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_7.ffs'
+2017-10-25 10:46:24| 125.9|  0.2|STATS |Stored 8759 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_6.ffs'
+2017-10-25 10:46:24| 125.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_7.ffs'
+2017-10-25 10:46:27| 127.5|  1.6|INFORM|Processed 66470 elements with mode CLASSIC
+2017-10-25 10:46:32| 129.0|  1.5|INFORM|Processed 67109 elements with mode CLASSIC
+2017-10-25 10:46:37| 130.4|  1.4|INFORM|Processed 67710 elements with mode CLASSIC
+2017-10-25 10:46:42| 131.9|  1.5|INFORM|Processed 68330 elements with mode CLASSIC
+2017-10-25 10:46:47| 133.6|  1.8|INFORM|Processed 69028 elements with mode CLASSIC
+2017-10-25 10:46:48| 134.2|  0.6|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 157 of 195 features
+2017-10-25 10:46:48| 134.2|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:46:52| 135.4|  1.2|INFORM|Processed 70168 elements with mode CLASSIC
+2017-10-25 10:46:57| 137.1|  1.7|INFORM|Processed 71131 elements with mode CLASSIC
+2017-10-25 10:46:59| 138.2|  1.0|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 159 of 195 features
+2017-10-25 10:46:59| 138.2|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:47:02| 139.0|  0.8|INFORM|Processed 72550 elements with mode CLASSIC
+2017-10-25 10:47:07| 140.8|  1.8|INFORM|Processed 73680 elements with mode CLASSIC
+2017-10-25 10:47:08| 141.4|  0.6|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 162 of 195 features
+2017-10-25 10:47:08| 141.4|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:47:12| 142.4|  1.0|INFORM|Processed 74996 elements with mode CLASSIC
+2017-10-25 10:47:13| 142.8|  0.4|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 164 of 195 features
+2017-10-25 10:47:13| 142.9|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:47:13| 142.9|  0.0|STATS |Stored 10467 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_7.ffs'
+2017-10-25 10:47:15| 142.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_8.ffs'
+2017-10-25 10:47:15| 143.3|  0.3|STATS |Stored 10842 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_7.ffs'
+2017-10-25 10:47:15| 143.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_8.ffs'
+2017-10-25 10:47:17| 144.7|  1.5|INFORM|Processed 77645 elements with mode CLASSIC
+2017-10-25 10:47:22| 146.2|  1.4|INFORM|Processed 78468 elements with mode CLASSIC
+2017-10-25 10:47:25| 147.4|  1.3|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 171 of 195 features
+2017-10-25 10:47:25| 147.4|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:47:27| 148.2|  0.8|INFORM|Processed 80408 elements with mode CLASSIC
+2017-10-25 10:47:32| 150.0|  1.8|INFORM|Processed 81600 elements with mode CLASSIC
+2017-10-25 10:47:37| 151.4|  1.4|INFORM|Processed 82401 elements with mode CLASSIC
+2017-10-25 10:47:40| 152.5|  1.1|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 177 of 195 features
+2017-10-25 10:47:40| 152.5|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:47:42| 153.4|  0.9|INFORM|Processed 84685 elements with mode CLASSIC
+2017-10-25 10:47:47| 155.1|  1.7|INFORM|Processed 85974 elements with mode CLASSIC
+2017-10-25 10:47:48| 155.6|  0.5|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 183 of 195 features
+2017-10-25 10:47:48| 155.7|  0.1|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:47:52| 157.6|  1.9|INFORM|Processed 88505 elements with mode CLASSIC
+2017-10-25 10:47:57| 159.2|  1.6|INFORM|Processed 88638 elements with mode CLASSIC
+2017-10-25 10:48:02| 160.9|  1.7|INFORM|Processed 88786 elements with mode CLASSIC
+2017-10-25 10:48:04| 161.7|  0.8|STATS |Stored 13192 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_8.ffs'
+2017-10-25 10:48:06| 161.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_9.ffs'
+2017-10-25 10:48:06| 162.1|  0.3|STATS |Stored 12509 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_8.ffs'
+2017-10-25 10:48:06| 162.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_9.ffs'
+2017-10-25 10:48:07| 162.1|  0.0|INFORM|Processed 88873 elements with mode CLASSIC
+2017-10-25 10:48:12| 164.7|  2.5|INFORM|Processed 89064 elements with mode CLASSIC
+2017-10-25 10:48:17| 166.7|  2.1|INFORM|Processed 89214 elements with mode CLASSIC
+2017-10-25 10:48:22| 168.5|  1.7|INFORM|Processed 89342 elements with mode CLASSIC
+2017-10-25 10:48:27| 170.3|  1.8|INFORM|Processed 89482 elements with mode CLASSIC
+2017-10-25 10:48:32| 172.3|  1.9|INFORM|Processed 89630 elements with mode CLASSIC
+2017-10-25 10:48:37| 174.3|  2.0|INFORM|Processed 89775 elements with mode CLASSIC
+2017-10-25 10:48:42| 176.1|  1.8|INFORM|Processed 89909 elements with mode CLASSIC
+2017-10-25 10:48:47| 178.2|  2.1|INFORM|Processed 90057 elements with mode CLASSIC
+2017-10-25 10:48:52| 179.9|  1.7|INFORM|Processed 90177 elements with mode CLASSIC
+2017-10-25 10:48:54| 181.2|  1.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_9.ffs'
+2017-10-25 10:48:56| 181.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_10.ffs'
+2017-10-25 10:48:56| 181.6|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_9.ffs'
+2017-10-25 10:48:56| 181.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_10.ffs'
+2017-10-25 10:48:57| 181.9|  0.3|INFORM|Processed 90316 elements with mode CLASSIC
+2017-10-25 10:49:02| 184.0|  2.1|INFORM|Processed 90459 elements with mode CLASSIC
+2017-10-25 10:49:07| 186.1|  2.1|INFORM|Processed 90607 elements with mode CLASSIC
+2017-10-25 10:49:12| 188.0|  1.9|INFORM|Processed 90743 elements with mode CLASSIC
+2017-10-25 10:49:17| 189.9|  1.9|INFORM|Processed 90875 elements with mode CLASSIC
+2017-10-25 10:49:22| 192.0|  2.1|INFORM|Processed 91021 elements with mode CLASSIC
+2017-10-25 10:49:27| 194.2|  2.2|INFORM|Processed 91169 elements with mode CLASSIC
+2017-10-25 10:49:32| 196.2|  2.0|INFORM|Processed 91303 elements with mode CLASSIC
+2017-10-25 10:49:37| 198.1|  1.9|INFORM|Processed 91436 elements with mode CLASSIC
+2017-10-25 10:49:42| 200.2|  2.1|INFORM|Processed 91583 elements with mode CLASSIC
+2017-10-25 10:49:45| 201.7|  1.5|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_10.ffs'
+2017-10-25 10:49:48| 201.7|  0.0|INFORM|Processed 91690 elements with mode CLASSIC
+2017-10-25 10:49:48| 201.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_11.ffs'
+2017-10-25 10:49:48| 202.1|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_10.ffs'
+2017-10-25 10:49:48| 202.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_11.ffs'
+2017-10-25 10:49:53| 204.8|  2.7|INFORM|Processed 91909 elements with mode CLASSIC
+2017-10-25 10:49:58| 206.7|  1.9|INFORM|Processed 92040 elements with mode CLASSIC
+2017-10-25 10:50:03| 208.6|  1.9|INFORM|Processed 92174 elements with mode CLASSIC
+2017-10-25 10:50:08| 210.5|  1.9|INFORM|Processed 92309 elements with mode CLASSIC
+2017-10-25 10:50:13| 212.5|  2.1|INFORM|Processed 92457 elements with mode CLASSIC
+2017-10-25 10:50:18| 214.5|  2.0|INFORM|Processed 92600 elements with mode CLASSIC
+2017-10-25 10:50:23| 216.3|  1.7|INFORM|Processed 92732 elements with mode CLASSIC
+2017-10-25 10:50:28| 218.0|  1.8|INFORM|Processed 92871 elements with mode CLASSIC
+2017-10-25 10:50:33| 219.9|  1.9|INFORM|Processed 93019 elements with mode CLASSIC
+2017-10-25 10:50:36| 221.1|  1.2|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_11.ffs'
+2017-10-25 10:50:38| 221.2|  0.0|INFORM|Processed 93111 elements with mode CLASSIC
+2017-10-25 10:50:38| 221.2|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_12.ffs'
+2017-10-25 10:50:38| 221.5|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_11.ffs'
+2017-10-25 10:50:38| 221.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_12.ffs'
+2017-10-25 10:50:43| 223.5|  2.0|INFORM|Processed 93286 elements with mode CLASSIC
+2017-10-25 10:50:48| 225.0|  1.5|INFORM|Processed 93406 elements with mode CLASSIC
+2017-10-25 10:50:53| 226.9|  1.9|INFORM|Processed 93552 elements with mode CLASSIC
+2017-10-25 10:50:58| 228.9|  1.9|INFORM|Processed 93700 elements with mode CLASSIC
+2017-10-25 10:51:03| 230.6|  1.7|INFORM|Processed 93839 elements with mode CLASSIC
+2017-10-25 10:51:08| 232.0|  1.4|INFORM|Processed 93967 elements with mode CLASSIC
+2017-10-25 10:51:13| 233.7|  1.7|INFORM|Processed 94115 elements with mode CLASSIC
+2017-10-25 10:51:18| 235.4|  1.7|INFORM|Processed 94263 elements with mode CLASSIC
+2017-10-25 10:51:23| 237.0|  1.5|INFORM|Processed 94397 elements with mode CLASSIC
+2017-10-25 10:51:28| 238.5|  1.5|INFORM|Processed 94529 elements with mode CLASSIC
+2017-10-25 10:51:28| 238.5|  0.0|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_12.ffs'
+2017-10-25 10:51:30| 238.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_13.ffs'
+2017-10-25 10:51:30| 238.8|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_12.ffs'
+2017-10-25 10:51:30| 238.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_13.ffs'
+2017-10-25 10:51:33| 240.3|  1.5|INFORM|Processed 94687 elements with mode CLASSIC
+2017-10-25 10:51:38| 241.7|  1.4|INFORM|Processed 94809 elements with mode CLASSIC
+2017-10-25 10:51:43| 243.4|  1.8|INFORM|Processed 94958 elements with mode CLASSIC
+2017-10-25 10:51:48| 244.9|  1.5|INFORM|Processed 95092 elements with mode CLASSIC
+2017-10-25 10:51:53| 246.6|  1.7|INFORM|Processed 95240 elements with mode CLASSIC
+2017-10-25 10:51:58| 248.4|  1.7|INFORM|Processed 95388 elements with mode CLASSIC
+2017-10-25 10:52:03| 249.8|  1.4|INFORM|Processed 95514 elements with mode CLASSIC
+2017-10-25 10:52:08| 251.4|  1.6|INFORM|Processed 95654 elements with mode CLASSIC
+2017-10-25 10:52:13| 253.1|  1.7|INFORM|Processed 95802 elements with mode CLASSIC
+2017-10-25 10:52:18| 254.8|  1.7|INFORM|Processed 95945 elements with mode CLASSIC
+2017-10-25 10:52:18| 254.8|  0.1|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_13.ffs'
+2017-10-25 10:52:20| 254.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_14.ffs'
+2017-10-25 10:52:21| 255.1|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_13.ffs'
+2017-10-25 10:52:21| 255.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_14.ffs'
+2017-10-25 10:52:23| 256.3|  1.2|INFORM|Processed 96085 elements with mode CLASSIC
+2017-10-25 10:52:28| 257.7|  1.4|INFORM|Processed 96205 elements with mode CLASSIC
+2017-10-25 10:52:33| 259.4|  1.7|INFORM|Processed 96335 elements with mode CLASSIC
+2017-10-25 10:52:38| 261.3|  2.0|INFORM|Processed 96483 elements with mode CLASSIC
+2017-10-25 10:52:43| 263.1|  1.8|INFORM|Processed 96633 elements with mode CLASSIC
+2017-10-25 10:52:48| 264.4|  1.3|INFORM|Processed 96749 elements with mode CLASSIC
+2017-10-25 10:52:53| 266.1|  1.7|INFORM|Processed 96897 elements with mode CLASSIC
+2017-10-25 10:52:58| 267.8|  1.7|INFORM|Processed 97045 elements with mode CLASSIC
+2017-10-25 10:53:03| 269.3|  1.5|INFORM|Processed 97174 elements with mode CLASSIC
+2017-10-25 10:53:08| 270.9|  1.6|INFORM|Processed 97312 elements with mode CLASSIC
+2017-10-25 10:53:10| 271.6|  0.7|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_14.ffs'
+2017-10-25 10:53:12| 271.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_15.ffs'
+2017-10-25 10:53:12| 271.9|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_14.ffs'
+2017-10-25 10:53:12| 271.9|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_15.ffs'
+2017-10-25 10:53:13| 272.2|  0.3|INFORM|Processed 97421 elements with mode CLASSIC
+2017-10-25 10:53:18| 274.2|  2.0|INFORM|Processed 97608 elements with mode CLASSIC
+2017-10-25 10:53:23| 275.7|  1.4|INFORM|Processed 97732 elements with mode CLASSIC
+2017-10-25 10:53:28| 277.3|  1.6|INFORM|Processed 97874 elements with mode CLASSIC
+2017-10-25 10:53:33| 279.0|  1.7|INFORM|Processed 98022 elements with mode CLASSIC
+2017-10-25 10:53:38| 280.5|  1.5|INFORM|Processed 98159 elements with mode CLASSIC
+2017-10-25 10:53:43| 282.0|  1.5|INFORM|Processed 98293 elements with mode CLASSIC
+2017-10-25 10:53:48| 283.7|  1.7|INFORM|Processed 98437 elements with mode CLASSIC
+2017-10-25 10:53:53| 285.4|  1.7|INFORM|Processed 98585 elements with mode CLASSIC
+2017-10-25 10:53:58| 287.0|  1.6|INFORM|Processed 98721 elements with mode CLASSIC
+2017-10-25 10:54:01| 287.8|  0.9|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_15.ffs'
+2017-10-25 10:54:03| 287.8|  0.0|INFORM|Processed 98795 elements with mode CLASSIC
+2017-10-25 10:54:03| 287.8|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_16.ffs'
+2017-10-25 10:54:03| 288.1|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_15.ffs'
+2017-10-25 10:54:03| 288.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_16.ffs'
+2017-10-25 10:54:08| 290.1|  2.0|INFORM|Processed 98993 elements with mode CLASSIC
+2017-10-25 10:54:13| 291.6|  1.5|INFORM|Processed 99130 elements with mode CLASSIC
+2017-10-25 10:54:18| 293.0|  1.4|INFORM|Processed 99251 elements with mode CLASSIC
+2017-10-25 10:54:23| 294.7|  1.7|INFORM|Processed 99399 elements with mode CLASSIC
+2017-10-25 10:54:28| 296.2|  1.5|INFORM|Processed 99536 elements with mode CLASSIC
+2017-10-25 10:54:33| 298.0|  1.7|INFORM|Processed 99680 elements with mode CLASSIC
+2017-10-25 10:54:38| 299.6|  1.7|INFORM|Processed 99824 elements with mode CLASSIC
+2017-10-25 10:54:43| 301.0|  1.4|INFORM|Processed 99947 elements with mode CLASSIC
+2017-10-25 10:54:48| 302.8|  1.8|INFORM|Processed 100106 elements with mode CLASSIC
+2017-10-25 10:54:52| 304.1|  1.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_16.ffs'
+2017-10-25 10:54:53| 304.1|  0.0|INFORM|Processed 100216 elements with mode CLASSIC
+2017-10-25 10:54:53| 304.1|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_17.ffs'
+2017-10-25 10:54:53| 304.4|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_16.ffs'
+2017-10-25 10:54:54| 304.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_17.ffs'
+2017-10-25 10:54:58| 306.1|  1.7|INFORM|Processed 100385 elements with mode CLASSIC
+2017-10-25 10:55:03| 307.5|  1.4|INFORM|Processed 100509 elements with mode CLASSIC
+2017-10-25 10:55:08| 309.2|  1.8|INFORM|Processed 100657 elements with mode CLASSIC
+2017-10-25 10:55:13| 311.0|  1.7|INFORM|Processed 100805 elements with mode CLASSIC
+2017-10-25 10:55:18| 312.6|  1.7|INFORM|Processed 100942 elements with mode CLASSIC
+2017-10-25 10:55:23| 314.1|  1.5|INFORM|Processed 101072 elements with mode CLASSIC
+2017-10-25 10:55:28| 315.8|  1.7|INFORM|Processed 101220 elements with mode CLASSIC
+2017-10-25 10:55:33| 317.5|  1.8|INFORM|Processed 101368 elements with mode CLASSIC
+2017-10-25 10:55:38| 319.1|  1.5|INFORM|Processed 101499 elements with mode CLASSIC
+2017-10-25 10:55:43| 320.7|  1.6|INFORM|Processed 101634 elements with mode CLASSIC
+2017-10-25 10:55:43| 320.7|  0.0|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_17.ffs'
+2017-10-25 10:55:45| 320.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_18.ffs'
+2017-10-25 10:55:45| 321.0|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_17.ffs'
+2017-10-25 10:55:45| 321.0|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_18.ffs'
+2017-10-25 10:55:48| 322.5|  1.5|INFORM|Processed 101795 elements with mode CLASSIC
+2017-10-25 10:55:53| 323.8|  1.3|INFORM|Processed 101912 elements with mode CLASSIC
+2017-10-25 10:55:58| 325.4|  1.6|INFORM|Processed 102049 elements with mode CLASSIC
+2017-10-25 10:56:03| 327.1|  1.7|INFORM|Processed 102197 elements with mode CLASSIC
+2017-10-25 10:56:08| 328.8|  1.7|INFORM|Processed 102345 elements with mode CLASSIC
+2017-10-25 10:56:13| 330.4|  1.6|INFORM|Processed 102482 elements with mode CLASSIC
+2017-10-25 10:56:18| 331.9|  1.5|INFORM|Processed 102611 elements with mode CLASSIC
+2017-10-25 10:56:23| 333.7|  1.8|INFORM|Processed 102759 elements with mode CLASSIC
+2017-10-25 10:56:28| 335.5|  1.8|INFORM|Processed 102911 elements with mode CLASSIC
+2017-10-25 10:56:33| 337.1|  1.6|INFORM|Processed 103041 elements with mode CLASSIC
+2017-10-25 10:56:33| 337.3|  0.2|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_18.ffs'
+2017-10-25 10:56:35| 337.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_19.ffs'
+2017-10-25 10:56:35| 337.6|  0.3|STATS |Stored 1421 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_18.ffs'
+2017-10-25 10:56:35| 337.7|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_19.ffs'
+2017-10-25 10:56:38| 338.8|  1.1|INFORM|Processed 103178 elements with mode CLASSIC
+2017-10-25 10:56:42| 340.5|  1.7|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 193 of 195 features
+2017-10-25 10:56:42| 340.5|  0.0|INFORM|Processing attribute 2 for LEAN or LEAN_AND_MEAN usage
+2017-10-25 10:56:43| 340.5|  0.1|INFORM|Processed 103539 elements with mode CLASSIC
+2017-10-25 10:56:48| 342.3|  1.8|INFORM|Processed 104675 elements with mode CLASSIC
+2017-10-25 10:56:53| 343.9|  1.5|INFORM|Processed 105623 elements with mode CLASSIC
+2017-10-25 10:56:53| 343.9|  0.1|INFORM|CSV_CSV2_1 Break Point -1 50(BreakpointFactory): Processed 195 of 195 features
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|MULTI_READER(MULTI_READER): Done reading 195 features from 4 readers
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|Emptying factory pipeline
+2017-10-25 10:56:53| 343.9|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 195 input feature(s), wrote 195 output feature(s): 195 matched merge filters, 195 were routed to output, 0 could not be routed.
+2017-10-25 10:56:53| 343.9|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |Full Map List (XLSXR_2) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |CSV (CSV2_1) Splitter(TeeFactory): Cloned 195 input feature(s) into 195 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |Sheet1 (XLSXR_3) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ARTHOUSE AND DRAMA (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ARTHOUSE AND DRAMA_XLSXR_1 Disabled Nuker -1 10(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ROMANCE (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ROMANCE_XLSXR_1 Disabled Nuker -1 13(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ACTION (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ACTION_XLSXR_1 Disabled Nuker -1 18(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |SCI-FI AND FANTASY (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |SCI-FI AND FANTASY_XLSXR_1 Disabled Nuker -1 17(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |HORROR (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |HORROR_XLSXR_1 Disabled Nuker -1 14(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |COMEDY (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |COMEDY_XLSXR_1 Disabled Nuker -1 15(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |CRIME (XLSXR_1) Splitter(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |CRIME_XLSXR_1 Disabled Nuker -1 16(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |SubstringExtractor_2(TeeFactory): Cloned 195 input feature(s) into 195 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |AttributeSplitter(TeeFactory): Cloned 195 input feature(s) into 195 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ListExploder(ElementFactory): Split out 105667 list elements from 195 input features, using mode CLASSIC
+2017-10-25 10:56:53| 343.9|  0.0|STATS |ListExploder_<REJECTED> Feature Counter -1 2147680307(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|SubstringExtractor_2_Output_Recorder(RecorderFactory): Recorded 105667 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:56:53| 343.9|  0.0|STATS |SubstringExtractor (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |AttributeManager_2 (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|STATS |FeatureMerger(ReferenceFactory): Total Results: 0 Complete Feature(s), 0 Incomplete Feature(s), 0 Referenced Feature(s), 0 Unreferenced Feature(s), 0 Referencer Feature(s) (NO REFERENCES), 0 Referencee Feature(s) (NO Referencee fields defined), and 0 Duplicate Referencee Feature(s)
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|FeatureMerger__Rejected__Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|FeatureMerger_UnusedSupplier_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|FeatureMerger_UsedSupplier_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|FeatureMerger_UnmergedRequestor_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:56:53| 343.9|  0.0|STATS |Stored 2588 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector_19.ffs'
+2017-10-25 10:56:53| 343.9|  0.0|INFORM|Saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.fsi'
+2017-10-25 10:56:53| 344.0|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.fsi'
+2017-10-25 10:56:53| 344.0|  0.0|INFORM|FeatureMerger_Merged_Recorder(RecorderFactory): Recorded 0 feature(s) to file `C:\Users\LSANDE~1\AppData\Local\Temp\2\Movies_104019\inspector.ffs'
+2017-10-25 10:56:53| 344.0|  0.0|STATS |AttributeManager_2_Output (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 344.0|  0.0|STATS |AttributeManager (Disabled) Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 344.0|  0.0|STATS |AttributeManager_OUTPUT Feature Counter -1 2147614729(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 344.0|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2017-10-25 10:56:53| 344.0|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 344.0|  0.0|STATS |f_64(CreationFactory): Created 1 features
+2017-10-25 10:56:53| 344.0|  0.0|STATS |f_65(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2017-10-25 10:56:53| 344.0|  0.1|STATS |Stored 2617 feature(s) to FME feature store file `C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216_19.ffs'
+2017-10-25 10:56:54| 344.0|  0.0|INFORM|Saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216.fsi'
+2017-10-25 10:56:54| 344.0|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\LSANDE~1\AppData\Local\Temp\2\no-conn-ffs-150895321954_10216.fsi'
+2017-10-25 10:56:54| 344.0|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|INFORM|Feature output statistics for `FFS' writer using keyword `W_1':
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |                               Features Written
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |AttributeSplitter_OUTPUT                                                   195
+2017-10-25 10:56:54| 344.0|  0.0|STATS |CSV_CSV2_1                                                                 195
+2017-10-25 10:56:54| 344.0|  0.0|STATS |ListExploder_ELEMENTS                                                   105667
+2017-10-25 10:56:54| 344.0|  0.0|STATS |SubstringExtractor_2_OUTPUT                                                195
+2017-10-25 10:56:54| 344.0|  0.0|STATS |==============================================================================
+2017-10-25 10:56:54| 344.0|  0.0|STATS |Total Features Written                                                  106252
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |                            Features Read Summary
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |CSV                                                                        195
+2017-10-25 10:56:54| 344.0|  0.0|STATS |==============================================================================
+2017-10-25 10:56:54| 344.0|  0.0|STATS |Total Features Read                                                        195
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |                           Features Written Summary
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|STATS |==============================================================================
+2017-10-25 10:56:54| 344.0|  0.0|STATS |Total Features Written                                                       0
+2017-10-25 10:56:54| 344.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2017-10-25 10:56:54| 344.0|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2017-10-25 10:56:54| 344.0|  0.0|WARN  |-~                                                                             ~-
+2017-10-25 10:56:54| 344.0|  0.0|WARN  |-~       Features have been recorded at every stage of the translation.        ~-
+2017-10-25 10:56:54| 344.0|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2017-10-25 10:56:54| 344.0|  0.0|WARN  |-~      double-click the feature count numbers on connections and ports.       ~-
+2017-10-25 10:56:54| 344.0|  0.0|WARN  |-~                                                                             ~-
+2017-10-25 10:56:54| 344.0|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2017-10-25 10:56:54| 344.0|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (0 feature(s) output)
+2017-10-25 10:56:54| 344.0|  0.0|INFORM|FME Session Duration: 16 minutes 35.3 seconds. (CPU: 199.8s user, 144.1s system)
+2017-10-25 10:56:54| 344.0|  0.0|INFORM|END - ProcessID: 9400, peak process memory usage: 116172 kB, current process memory usage: 70872 kB
