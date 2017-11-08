@@ -5,56 +5,56 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME111\fme.exe" C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\CSVAttributes.fmw
+#    C:\apps\FME(32bit)\fme.exe C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\AttributesCSV\CSVAttributes.fmw
 #          --SourceDataset_CSV2_3 "C:\FMEData2017\ArticleData\CellSignal-Small.csv"
-#          --DestDataset_MITAB "C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\AttributesCSV"
+#          --DestDataset_MITAB "C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\AttributesCSV\AttributesCSV"
 #    
 #    
-#!   LAST_SAVE_DATE="2017-11-03T16:05:44"
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN64)"
-#!   PYTHON_COMPATIBILITY="27"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   PASSWORD=""
-#!   HISTORY=""
-#!   TERMINATE_REJECTED="NO"
 #!   FME_REPROJECTION_ENGINE="FME"
-#!   FME_DOCUMENT_PRIORGUID="ce8589b3-4ed9-41d9-ba86-7f4355ef299b,098d6fc6-6d5d-45a1-b4a9-63d7d2630a0b"
-#!   DESTINATION="NONE"
-#!   SOURCE="NONE"
-#!   IGNORE_READER_FAILURE="No"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   LOG_FILE=""
-#!   MARKDOWN_USAGE=""
-#!   USAGE=""
-#!   WORKSPACE_VERSION="1"
-#!   END_TCL=""
-#!   FME_SERVER_SERVICES=""
-#!   SHOW_ANNOTATIONS="true"
-#!   BEGIN_TCL=""
-#!   BEGIN_PYTHON=""
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   MARKDOWN_DESCRIPTION=""
-#!   DOC_TOP_LEFT="-692.977 -1343.41"
-#!   FME_BUILD_NUM="17652"
-#!   DOC_EXTENTS="6345.25 1383.05"
-#!   CATEGORY=""
-#!   VIEW_POSITION="1035.17 390.629"
-#!   ZOOM_SCALE="80"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   DESCRIPTION=""
+#!   PASSWORD=""
 #!   DESTINATION_ROUTING_FILE=""
-#!   END_PYTHON=""
+#!   VIEW_POSITION="-1515.64 144.533"
+#!   BEGIN_PYTHON=""
+#!   LAST_SAVE_DATE="2017-11-06T14:04:56"
+#!   DOC_TOP_LEFT="-692.977 -1343.41"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   MARKDOWN_USAGE=""
+#!   LOG_FILE=""
+#!   FME_BUILD_NUM="17652"
+#!   DESCRIPTION=""
+#!   FME_SERVER_SERVICES=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
 #!   SHOW_INFO_NODES="true"
-#!   TITLE=""
-#!   FME_DOCUMENT_GUID="164b9ef3-a390-4e44-a733-7a31f8236b98"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   MAX_LOG_FEATURES="200"
-#!   SOURCE_ROUTING_FILE=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   USE_MARKDOWN=""
+#!   FME_DOCUMENT_GUID="1c8875cc-b555-4992-9ed5-fda09fef4b83"
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN32)"
+#!   WORKSPACE_VERSION="1"
+#!   DOC_EXTENTS="6333.53 1383.05"
+#!   HISTORY=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   MAX_LOG_FEATURES="200"
+#!   USE_MARKDOWN=""
+#!   REDIRECT_TERMINATORS="NONE"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SOURCE_ROUTING_FILE=""
+#!   TITLE=""
+#!   SOURCE="NONE"
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_DOCUMENT_PRIORGUID="ce8589b3-4ed9-41d9-ba86-7f4355ef299b,098d6fc6-6d5d-45a1-b4a9-63d7d2630a0b,164b9ef3-a390-4e44-a733-7a31f8236b98"
+#!   DESTINATION="NONE"
+#!   CATEGORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   BEGIN_TCL=""
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   ZOOM_SCALE="80"
+#!   PYTHON_COMPATIBILITY="27"
+#!   TERMINATE_REJECTED="NO"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   USAGE=""
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -70,7 +70,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_geometry fme_char(50) fme_text_string string fme_fill_color string fme_basename string csv_number_of_fields uint32 csv_type string fme_primary_axis string fme_feature_type string multi_reader_full_id string csv_total_number_of_columns uint32 multi_reader_id string fme_dataset string multi_reader_type string fme_type string fme_start_angle string csv_line_number uint64 multi_reader_keyword string fme_rotation string csv_skipped_line string fme_text_size string fme_sweep_angle string fme_secondary_axis string fme_color string"
+#!   EXPOSABLE_ATTRS="fme_text_string string fme_type string fme_sweep_angle string fme_feature_type string fme_rotation string multi_reader_keyword string csv_type string fme_secondary_axis string fme_start_angle string csv_skipped_line string fme_geometry fme_char(50) multi_reader_type string fme_primary_axis string fme_fill_color string fme_color string multi_reader_id string csv_number_of_fields uint32 fme_basename string fme_dataset string csv_total_number_of_columns uint32 fme_text_size string csv_line_number uint64 multi_reader_full_id string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -79,20 +79,28 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILEDIR"
 #!   GENERATE_FME_BUILD_NUM="17652"
-#!   START_FEATURE=""
-#!   MIN_FEATURES=""
-#!   MAX_FEATURES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
-#!   FEATURE_TYPES=""
+#!   MAX_FEATURES=""
 #!   COORDSYS="LL84"
+#!   START_FEATURE=""
+#!   FEATURE_TYPES=""
+#!   MIN_FEATURES=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
 #!   VALUE="File1"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the CSV file"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="READER_DATASET_HINT"
 #!   VALUE="Select the CSV file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="csv file"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DEFAULT_ATTR_TYPE"
@@ -103,16 +111,8 @@
 #!   VALUE="CSV File"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="DATASET_NAME"
-#!   VALUE="csv file"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="ATTRIBUTE_READING"
 #!   VALUE="DEFLINE"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the CSV file"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -128,7 +128,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="mapinfo_text_justification char(30) mapinfo_symbol_file_name char(255) mapinfo_sweep_angle float fme_fill_color char(50) mapinfo_text_fontstyle_shadow char(10) mapinfo_text_string char(255) mapinfo_rotation float mapinfo_text_fontstyle_inverse char(10) mapinfo_text_fontstyle_bold char(10) mapinfo_metadata{}.name char(255) mapinfo_text_fontstyle smallint mapinfo_text_linetype integer mapinfo_symbol_font char(50) mapinfo_pen_pattern smallint fme_type char(50) mapinfo_center_xcoord float mapinfo_text_fontfgcolor integer mapinfo_text_fontstyle_allcaps char(10) mapinfo_text_spacing smallint mapinfo_text_fontstyle_opaque char(10) mapinfo_smooth logical mapinfo_pen_width smallint fme_basename char(50) mapinfo_text_fontstyle_italic char(10) mapinfo_brush_transparent logical mapinfo_brush_background integer fme_feature_type char(50) mapinfo_primary_axis float mapinfo_brush_pattern smallint mapinfo_rounding float mapinfo_start_angle float mapinfo_secondary_axis float mapinfo_text_fontstyle_expanded char(10) mapinfo_symbol_shape integer fme_text_string char(50) mapinfo_text_line_pen_color integer mapinfo_type char(25) fme_primary_axis float mapinfo_symbol_angle float fme_text_size float fme_color char(50) mapinfo_center_ycoord float mapinfo_text_width float mapinfo_text_line_end_y float mapinfo_text_fontstyle_strikeout char(10) fme_secondary_axis float fme_geometry fme_char(50) mapinfo_metadata{}.value char(255) mapinfo_centroid_x float mapinfo_centroid_y float mapinfo_text_line_end_x float mapinfo_text_height float mapinfo_text_fontstyle_blink char(10) mapinfo_symbol_color integer mapinfo_text_line_pen_width integer mapinfo_text_fontstyle_halo char(10) mapinfo_text_line_pen_pattern integer fme_sweep_angle float mapinfo_text_fontsize float mapinfo_pen_color integer mapinfo_text_fontstyle_underline char(10) mapinfo_brush_foreground integer mapinfo_text_fontname char(50) mapinfo_symbol_style smallint fme_rotation float mapinfo_text_fontbgcolor integer mapinfo_symbol_size integer fme_start_angle float fme_dataset char(50) mapinfo_text_fontstyle_outline char(10)"
+#!   EXPOSABLE_ATTRS="mapinfo_text_fontstyle_italic char(10) mapinfo_text_line_pen_width integer mapinfo_brush_background integer mapinfo_text_height float fme_geometry fme_char(50) mapinfo_brush_transparent logical mapinfo_text_fontstyle_blink char(10) mapinfo_text_string char(255) mapinfo_smooth logical fme_feature_type char(50) mapinfo_secondary_axis float mapinfo_symbol_file_name char(255) fme_sweep_angle float mapinfo_rounding float mapinfo_text_line_end_y float fme_text_size float mapinfo_pen_color integer fme_fill_color char(50) fme_type char(50) mapinfo_brush_foreground integer mapinfo_metadata{}.value char(255) mapinfo_text_fontstyle_bold char(10) mapinfo_text_fontname char(50) mapinfo_text_spacing smallint fme_start_angle float mapinfo_symbol_style smallint mapinfo_center_xcoord float mapinfo_text_line_pen_color integer mapinfo_text_fontstyle_shadow char(10) mapinfo_text_fontstyle_underline char(10) fme_dataset char(50) mapinfo_pen_width smallint fme_secondary_axis float mapinfo_centroid_y float mapinfo_rotation float mapinfo_text_fontstyle_halo char(10) mapinfo_text_fontbgcolor integer fme_primary_axis float mapinfo_symbol_shape integer mapinfo_text_fontstyle smallint mapinfo_text_fontstyle_expanded char(10) mapinfo_symbol_size integer mapinfo_text_fontstyle_opaque char(10) mapinfo_text_fontstyle_strikeout char(10) mapinfo_type char(25) mapinfo_text_line_pen_pattern integer mapinfo_start_angle float mapinfo_text_fontfgcolor integer mapinfo_pen_pattern smallint mapinfo_center_ycoord float mapinfo_text_linetype integer mapinfo_symbol_angle float mapinfo_text_width float mapinfo_metadata{}.name char(255) mapinfo_centroid_x float mapinfo_symbol_color integer fme_color char(50) mapinfo_brush_pattern smallint fme_text_string char(50) mapinfo_text_line_end_x float mapinfo_text_fontsize float mapinfo_symbol_font char(50) mapinfo_text_fontstyle_inverse char(10) mapinfo_primary_axis float mapinfo_sweep_angle float mapinfo_text_fontstyle_allcaps char(10) mapinfo_text_justification char(30) fme_basename char(50) fme_rotation float mapinfo_text_fontstyle_outline char(10)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS="\\/&quot;:?*&lt;&gt;|[]= %~!@$&amp;#()^&apos;+-.,`;"
@@ -138,20 +138,20 @@
 #!   DATASET_TYPE="FILEDIR"
 #!   GENERATE_FME_BUILD_NUM="17652"
 #!   FANOUT_EXPRESSION=""
-#!   FANOUT_GROUP="NO"
 #!   COORDSYS=""
+#!   FANOUT_GROUP="NO"
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
 #!   VALUE="Table1"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the MITAB files"
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the MITAB file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Table"
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the MITAB files"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="ADVANCED_PARMS"
@@ -162,8 +162,8 @@
 #!   VALUE="tab file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the MITAB file"
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Table"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -769,14 +769,14 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="Table1"
+#!   NODE_NAME="CellSignals"
 #!   FEATURE_TYPE_NAME=""
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="68"
-#!   FEAT_GEOMTYPE="&lt;NO_GEOMETRY&gt;"
-#!   POSITION="5652.27 -772.974"
-#!   BOUNDING_RECT="5652.27 -772.974 -1 -1"
+#!   FEAT_GEOMTYPE="All"
+#!   POSITION="5640.55 -362.814"
+#!   BOUNDING_RECT="5640.55 -362.814 -1 -1"
 #!   ORDER="5e+14"
 #!   COLLAPSED="false"
 #!   KEYWORD="MITAB_1"
@@ -784,6 +784,17 @@
 #!   ENABLED="true"
 #!   SCHEMA_ATTRIBUTE_SOURCE="0"
 #! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="QualityOfSignal" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="codeValue" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="longitude" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="latitude" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="StationID" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Power" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="Quality" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="num_measures" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="record_tstamp" ATTR_TYPE="char(254)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="codeTag" ATTR_TYPE="char(200)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="fme_color" ATTR_TYPE="char(50)"  EXPOSABLE_ATTR="true" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -807,8 +818,8 @@
 #! <BOOKMARKS>
 #! <BOOKMARK
 #!   IDENTIFIER="19"
-#!   NAME="New Bookmark"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   NAME="Test out nulls"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-129.513 39.6412"
 #!   BOTTOM_RIGHT="445.493 -472.485"
 #!   BOUNDING_RECT="-129.513 39.6412 575.006 512.126"
@@ -818,8 +829,8 @@
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="23"
-#!   NAME="New Bookmark"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   NAME="Remove duplicate values"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-129.513 -542.998"
 #!   BOTTOM_RIGHT="445.317 -1036.75"
 #!   BOUNDING_RECT="-129.513 -542.998 574.83 493.755"
@@ -829,46 +840,46 @@
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="24"
-#!   NAME="New Bookmark"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   NAME="Seperate out codeTag and codeValue"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="1198.45 39.6412"
 #!   BOTTOM_RIGHT="1796.2 -650.242"
 #!   BOUNDING_RECT="1198.45 39.6412 597.75 689.883"
 #!   STICKY="true"
-#!   COLOUR="0.686275,0.427451,0.168627"
-#!   CONTENTS="14 16 18 21 17 "
+#!   COLOUR="0.686275,0.427451,0.164706"
+#!   CONTENTS="18 17 14 21 16 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="64"
 #!   NAME="Condensed Method"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="2494.34 -1047.41"
 #!   BOTTOM_RIGHT="3602.34 -1343.41"
 #!   BOUNDING_RECT="2494.34 -1047.41 1108 296"
 #!   STICKY="true"
-#!   COLOUR="0.803922,0.788235,0.2"
-#!   CONTENTS="61 31 62 "
+#!   COLOUR="0.803922,0.784314,0.2"
+#!   CONTENTS="61 62 31 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="65"
 #!   NAME="Method outlined in the Article "
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="2509.18 39.6412"
 #!   BOTTOM_RIGHT="4324.26 -792.977"
 #!   BOUNDING_RECT="2509.18 39.6412 1815.08 832.618"
 #!   STICKY="true"
-#!   COLOUR="0.862745,0.654902,0.0666667"
-#!   CONTENTS="40 58 43 50 57 42 56 59 54 60 52 55 49 "
+#!   COLOUR="0.858824,0.654902,0.0666667"
+#!   CONTENTS="49 56 52 57 60 50 55 43 40 59 58 42 54 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="66"
-#!   NAME="New Bookmark"
-#!   DESCRIPTION=""
+#!   NAME="Convert the date"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="575.006 39.6412"
 #!   BOTTOM_RIGHT="1129.01 -453.13"
 #!   BOUNDING_RECT="575.006 39.6412 554 492.771"
 #!   STICKY="true"
-#!   COLOUR="0.6,0.768627,0.243137"
+#!   COLOUR="0.6,0.764706,0.239216"
 #!   CONTENTS="27 "
 #! />
 #! </BOOKMARKS>
@@ -877,8 +888,8 @@
 #!   IDENTIFIER="2"
 #!   TYPE="NullAttributeMapper"
 #!   VERSION="1"
-#!   POSITION="-34.5069 -50.3589"
-#!   BOUNDING_RECT="-34.5069 -50.3589 -1 -1"
+#!   POSITION="-65.7572 -54.2652"
+#!   BOUNDING_RECT="-65.7572 -54.2652 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -894,17 +905,17 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="Missing"/>
-#!     <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP2" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRLIST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="NullAttributeMapper"/>
 #!     <XFORM_PARM PARM_NAME="SOURCE_ATTR_VAL" PARM_VALUE="Null Empty &quot;Missing (Selected Attributes Only)&quot;"/>
-#!     <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRCHOICE" PARM_VALUE="All Attributes"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OTHER_VALUE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REG_EXP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NEW_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_TREATMENT" PARM_VALUE="Missing"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="7"
@@ -937,13 +948,13 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="Test&lt;space&gt;for&lt;space&gt;missing&lt;space&gt;values&lt;space&gt;that&lt;space&gt;were&lt;space&gt;mapped"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST Power NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST Quality NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST num_measures NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST latitude NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST longitude NOT_ATTRIBUTE_IS_MISSING &quot;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST Power NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST Quality NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST num_measures NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST latitude NOT_ATTRIBUTE_IS_MISSING &quot;&quot;&#10;TEST longitude NOT_ATTRIBUTE_IS_MISSING &quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="6"
@@ -976,11 +987,11 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="KEYATTR" PARM_VALUE="longitude latitude"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DuplicateFilter"/>
+#!     <XFORM_PARM PARM_NAME="INPUT_ORDERED_CHOICE" PARM_VALUE="No"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INPUT_ORDERED_CHOICE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="KEYATTR" PARM_VALUE="longitude latitude"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="14"
@@ -1014,16 +1025,16 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="STRING_TO_SEARCH" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;Code&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="MATCHED_RESULT_ATTR" PARM_VALUE="codeTag"/>
-#!     <XFORM_PARM PARM_NAME="MATCHED_PARTS_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MATCHES_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringSearcher"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="&lt;openbracket&gt;A-Z&lt;closebracket&gt;&lt;openbracket&gt;A-Z&lt;closebracket&gt;&lt;openbracket&gt;A-Z&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringSearcher"/>
+#!     <XFORM_PARM PARM_NAME="MATCHED_RESULT_ATTR" PARM_VALUE="codeTag"/>
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MATCHES_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="STRING_TO_SEARCH" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;Code&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MATCHED_PARTS_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="17"
@@ -1047,16 +1058,16 @@
 #!     <XFORM_ATTR ATTR_NAME="Code" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Code"/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;openbracket&gt;A-Z&lt;closebracket&gt;&lt;openbracket&gt;A-Z&lt;closebracket&gt;&lt;openbracket&gt;A-Z&lt;closebracket&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="Code"/>
+#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;openbracket&gt;A-Z&lt;closebracket&gt;&lt;openbracket&gt;A-Z&lt;closebracket&gt;&lt;openbracket&gt;A-Z&lt;closebracket&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="16"
@@ -1080,10 +1091,10 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRenamer"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="Code codeValue RENAME_SET_DEFAULT "/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="25"
@@ -1162,12 +1173,12 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="ABC,ABD,&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="codeTag"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_VALUES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="ABC,ABD,&lt;lt&gt;Empty&lt;gt&gt;,&lt;lt&gt;Missing&lt;gt&gt;,&lt;lt&gt;Null&lt;gt&gt;,&lt;lt&gt;Unfiltered&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="codeTag"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="27"
@@ -1201,19 +1212,19 @@
 #!     <XFORM_ATTR ATTR_NAME="Code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="REFERENCE_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="TEST_RESULT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeConverter"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REPAIR_INPUT" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="IN_FORMAT" PARM_VALUE="%e&lt;solidus&gt;%N&lt;solidus&gt;%Y&lt;space&gt;%k:%M"/>
 #!     <XFORM_PARM PARM_NAME="TEST_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="record_tstamp"/>
-#!     <XFORM_PARM PARM_NAME="REFERENCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeConverter"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="OUT_FORMAT" PARM_VALUE="%m&lt;solidus&gt;%d&lt;solidus&gt;%Y"/>
 #!     <XFORM_PARM PARM_NAME="TEST_INPUT_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_INPUT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="IN_FORMAT" PARM_VALUE="%e&lt;solidus&gt;%N&lt;solidus&gt;%Y&lt;space&gt;%k:%M"/>
+#!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="record_tstamp"/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="REPAIR_INPUT" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_RESULT" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="31"
@@ -1238,44 +1249,44 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; QualityOfSignal SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -20;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= 0;TEST &lt;at&gt;Value&lt;openparen&gt;Power&lt;closeparen&gt; RANGE &lt;openbracket&gt;-100&lt;comma&gt;-90&lt;closebracket&gt;&apos;Best&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -40;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= -20;TEST &lt;at&gt;Value&lt;openparen&gt;Power&lt;closeparen&gt; RANGE &lt;openbracket&gt;-90&lt;comma&gt;-80&lt;closebracket&gt;&apos;Resonable&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -60;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= -40;TEST &lt;at&gt;Value&lt;openparen&gt;Power&lt;closeparen&gt; RANGE &lt;openbracket&gt;-80&lt;comma&gt;-70&lt;closebracket&gt;&apos;Worst&apos;FME_NUM_CONDITIONS4___&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="41"
 #!   TYPE="Inspector"
 #!   VERSION="5"
-#!   POSITION="5652.27 -362.729"
-#!   BOUNDING_RECT="5652.27 -362.729 -1 -1"
+#!   POSITION="5597.58 -65.984"
+#!   BOUNDING_RECT="5597.58 -65.984 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17652"
 #! >
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_Output"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_Output"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
+#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="28"
@@ -1314,13 +1325,13 @@
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
-#!     <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Add Point"/>
+#!     <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="@Value(latitude)"/>
+#!     <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(longitude)"/>
 #!     <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(longitude)"/>
-#!     <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="@Value(latitude)"/>
+#!     <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Add Point"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="36"
@@ -1346,14 +1357,14 @@
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_color" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="fme_color"/>
-#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VALUE_MAP_TABLE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SRC" PARM_VALUE="QualityOfSignal"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="Best,0&lt;comma&gt;0.666667&lt;comma&gt;0,Reasonable,1&lt;comma&gt;1&lt;comma&gt;0,Worst,1&lt;comma&gt;0&lt;comma&gt;0"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeValueMapper"/>
+#!     <XFORM_PARM PARM_NAME="VAL_ATTR" PARM_VALUE="fme_color"/>
+#!     <XFORM_PARM PARM_NAME="VALUE_MAP_TABLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC" PARM_VALUE="QualityOfSignal"/>
+#!     <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="Best,0&lt;comma&gt;0.666667&lt;comma&gt;0,Reasonable,1&lt;comma&gt;1&lt;comma&gt;0,Worst,1&lt;comma&gt;0&lt;comma&gt;0"/>
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DIRECTION" PARM_VALUE="Forward (Source To Destination)"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1411,12 +1422,12 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="-100,-90,Very&lt;space&gt;High,-90,-80,High,-80,-70,Medium"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeRangeFilter"/>
+#!     <XFORM_PARM PARM_NAME="LUT" PARM_VALUE="-100,-90,Very&lt;space&gt;High,-90,-80,High,-80,-70,Medium"/>
+#!     <XFORM_PARM PARM_NAME="RANGEMAP_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="Power"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="IN_ATTR" PARM_VALUE="Power"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="49"
@@ -1441,16 +1452,16 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; QualityOfSignal SET_TO Best"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="40"
@@ -1475,16 +1486,16 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; QualityOfSignal SET_TO Reasonable"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="54"
@@ -1509,16 +1520,16 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; QualityOfSignal SET_TO Worst"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="42"
@@ -1553,13 +1564,13 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -20&#10;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= 0"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -20&#10;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= 0"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="55"
@@ -1594,13 +1605,13 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -40&#10;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= -20"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -40&#10;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= -20"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="57"
@@ -1635,13 +1646,13 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_4"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -60&#10;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= -40"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &gt; -60&#10;TEST &lt;at&gt;Value&lt;openparen&gt;Quality&lt;closeparen&gt; &lt;= -40"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="61"
@@ -1678,13 +1689,13 @@
 #!     <XFORM_ATTR ATTR_NAME="num_measures" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="record_tstamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="codeTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_5"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;QualityOfSignal&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;QualityOfSignal&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -1821,13 +1832,24 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="69"
+#!   SOURCE_NODE="36"
+#!   TARGET_NODE="68"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="38"
 #!   SOURCE_NODE="36"
 #!   TARGET_NODE="41"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
-#!   EXECUTION_IDX="0"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -1847,6 +1869,17 @@
 #!   SOURCE_NODE="42"
 #!   TARGET_NODE="49"
 #!   SOURCE_PORT_DESC="fo 0 PASSED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="50"
+#!   SOURCE_NODE="43"
+#!   TARGET_NODE="42"
+#!   SOURCE_PORT_DESC="fo 0 Very&lt;space&gt;High"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -1906,7 +1939,7 @@
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
-#!   EXTRA_POINTS="4386 -1253"
+#!   EXTRA_POINTS="4394 -1226"
 #! />
 #! <FEAT_LINK
 #!   IDENTIFIER="44"
@@ -1927,17 +1960,6 @@
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="50"
-#!   SOURCE_NODE="43"
-#!   TARGET_NODE="42"
-#!   SOURCE_PORT_DESC="fo 0 Very&lt;space&gt;High"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -2226,8 +2248,8 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "CellSignal-Small (CSV2_1) Splitter"   
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-Tcl2 proc NullAttributeMapper_5cc3445e_1df9_4b59_8f15_d4a122f2641319_null_replacer { otherValue newValue regExp } {    set attrs [split {<Unused>} { }];    set decode true;    if { {ALL} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {DELETEATTR};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE CellSignal-Small_CSV2_1    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_5cc3445e_1df9_4b59_8f15_d4a122f2641319_null_replacer {} {<Unused>} {}")
+Tcl2 proc NullAttributeMapper_f1a672da_919b_47c6_a882_7dd57104c2600_null_replacer { otherValue newValue regExp } {    set attrs [split {<Unused>} { }];    set decode true;    if { {ALL} == {ALL} } {       set attrs [FME_AttributeNames];       set decode false; 	 };    set decodedVal [FME_DecodeText $otherValue];    set decodedRegExp [FME_DecodeText $regExp];    foreach attr $attrs {      set act {NOOP};      if {$decode} {        set attr [FME_DecodeText $attr];      };      if {[FME_AttributeExists $attr]} {          set attrVal [FME_GetAttribute $attr];          if {[FME_IsAttributeNull $attr] } {             if {[string first {SETNULL} {SETNULL EMPTY MISSINGATTR}] != -1} {                 set act {DELETEATTR};             };          }          elseif { [string first {EMPTY} {SETNULL EMPTY MISSINGATTR}] != -1 && $attrVal == {}} {             set act {DELETEATTR};          }          elseif { $otherValue != {} && [string equal $attrVal $decodedVal]} {             set act {DELETEATTR};          }          elseif { $decodedRegExp != {} && [regexp $decodedRegExp $attrVal]==1 }          {             set act {DELETEATTR};          };      }      elseif {[string first {MISSINGATTR} {SETNULL EMPTY MISSINGATTR}] != -1} {             set act {DELETEATTR};      };      if {$act == {DELETEATTR} } {         FME_UnsetAttributes $attr;      } elseif { $act == {SETVALUE} } {         FME_SetAttribute $attr [FME_DecodeText $newValue];      } elseif { $act == {SETNULL} } {         FME_SetAttributeNull $attr;      } elseif { $act == {EMPTY} }      {         FME_SetAttribute $attr {};      };   }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME NullAttributeMapper    INPUT  FEATURE_TYPE CellSignal-Small_CSV2_1    OUTPUT FEATURE_TYPE NullAttributeMapper_OUTPUT         @Tcl2("NullAttributeMapper_f1a672da_919b_47c6_a882_7dd57104c2600_null_replacer {} {<Unused>} {}")
 
 # -------------------------------------------------------------------------
 
@@ -2248,15 +2270,15 @@ FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_2    INPUT FEATURE_T
 
 MACRO casemac
 INCLUDE [ if { {no} == {no} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringSearcher_d1c78a13_7e72_44c9_9748_e81cf2bf60af16_doGrep { stringToSearch regExp matchedChars matches matchedParts } {   set subMatches 1;   set matches [FME_DecodeText $matches];   set matchedParts [FME_DecodeText $matchedParts];   set results [FME_GetRegex $(casemac) [FME_DecodeText $regExp] [FME_DecodeText $stringToSearch]];   if {[llength [lindex $results 0]] > 0} {      set attrName [FME_DecodeText $matchedChars];      FME_SetAttribute $attrName [lindex [lindex [lindex $results 0] 0] 0];      set index 0;      set parts [lindex $results 1];      foreach part $parts {         if {[llength $matchedParts] > 0} {             set attrName "$matchedParts{$index}.part";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matchedParts{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         incr index;      };      set index 0;      set regexMatches [lindex $results 0];      foreach part $regexMatches {         if {[llength $matches] > 0} {             set attrName "$matches{$index}.match";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matches{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         set isFirstMatch 0;         incr index;      };      return $index;   };   return -1; }
-FACTORY_DEF * TestFactory    FACTORY_NAME StringSearcher    INPUT  FEATURE_TYPE DateTimeConverter_OUTPUT    TEST @Tcl2("StringSearcher_d1c78a13_7e72_44c9_9748_e81cf2bf60af16_doGrep {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Code<closeparen>,StringSearcher)} {<openbracket>A-Z<closebracket><openbracket>A-Z<closebracket><openbracket>A-Z<closebracket>} {codeTag} {} {}") > 0    OUTPUT PASSED FEATURE_TYPE StringSearcher_MATCHED
+Tcl2 proc StringSearcher_623d334e_1ad6_405c_b1d5_7721243e269f0_doGrep { stringToSearch regExp matchedChars matches matchedParts } {   set subMatches 1;   set matches [FME_DecodeText $matches];   set matchedParts [FME_DecodeText $matchedParts];   set results [FME_GetRegex $(casemac) [FME_DecodeText $regExp] [FME_DecodeText $stringToSearch]];   if {[llength [lindex $results 0]] > 0} {      set attrName [FME_DecodeText $matchedChars];      FME_SetAttribute $attrName [lindex [lindex [lindex $results 0] 0] 0];      set index 0;      set parts [lindex $results 1];      foreach part $parts {         if {[llength $matchedParts] > 0} {             set attrName "$matchedParts{$index}.part";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matchedParts{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         incr index;      };      set index 0;      set regexMatches [lindex $results 0];      foreach part $regexMatches {         if {[llength $matches] > 0} {             set attrName "$matches{$index}.match";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matches{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         set isFirstMatch 0;         incr index;      };      return $index;   };   return -1; }
+FACTORY_DEF * TestFactory    FACTORY_NAME StringSearcher    INPUT  FEATURE_TYPE DateTimeConverter_OUTPUT    TEST @Tcl2("StringSearcher_623d334e_1ad6_405c_b1d5_7721243e269f0_doGrep {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>Code<closeparen>,StringSearcher)} {<openbracket>A-Z<closebracket><openbracket>A-Z<closebracket><openbracket>A-Z<closebracket>} {codeTag} {} {}") > 0    OUTPUT PASSED FEATURE_TYPE StringSearcher_MATCHED
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_04e0c796_c2ea_499b_ac2f_55b53272a34816_replacer { findText replaceText invalidValue} {     set attrs [split \"Code\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{YES} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE StringSearcher_MATCHED    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_04e0c796_c2ea_499b_ac2f_55b53272a34816_replacer {<openbracket>A-Z<closebracket><openbracket>A-Z<closebracket><openbracket>A-Z<closebracket>} {} {_FME_NO_OP_}")
+Tcl2 proc StringReplacer_6fb2d285_7796_4e4d_bffe_bfc3bcd2d6680_replacer { findText replaceText invalidValue} {     set attrs [split \"Code\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{YES} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE StringSearcher_MATCHED    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_6fb2d285_7796_4e4d_bffe_bfc3bcd2d6680_replacer {<openbracket>A-Z<closebracket><openbracket>A-Z<closebracket><openbracket>A-Z<closebracket>} {} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
@@ -2304,13 +2326,13 @@ FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeCreator_2    INPUT  FEAT
 
 
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeFilter_ABD_0_GeSRhg7UVLQ=   INPUT FEATURE_TYPE AttributeFilter_ABC_0_snNucl/d8rY=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeFilter_ABC_0_snNucl/d8rY=   INPUT FEATURE_TYPE AttributeFilter_ABD_0_GeSRhg7UVLQ=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeCreator_OUTPUT Disabled Nuker -1 62"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_5 (Disabled) Nuker"   INPUT FEATURE_TYPE AttributeCreator_OUTPUT
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME VertexCreator    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE Tester_5_PASSED    MODE ADD    INDEX "<Unused>"    CONTINUE_ON_ERROR YES    XVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>longitude<closeparen>,VertexCreator)"    YVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>latitude<closeparen>,VertexCreator)"    OUTPUT OUTPUT FEATURE_TYPE VertexCreator_OUTPUT
+FACTORY_DEF * VertexCreatorFactory    FACTORY_NAME VertexCreator    INPUT  FEATURE_TYPE AttributeCreator_3_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_2_OUTPUT    INPUT  FEATURE_TYPE AttributeCreator_4_OUTPUT    INPUT  FEATURE_TYPE Tester_5_PASSED    MODE ADD    INDEX "<Unused>"    CONTINUE_ON_ERROR YES    XVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>longitude<closeparen>,VertexCreator)"    YVAL "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>latitude<closeparen>,VertexCreator)"    OUTPUT OUTPUT FEATURE_TYPE VertexCreator_OUTPUT
 
 # -------------------------------------------------------------------------
 Lookup AttributeValueMapper_LOOKUP_TABLE   Best            0<comma>0.666667<comma>0   Reasonable      1<comma>1<comma>0   Worst           1<comma>0<comma>0   ""              ""   ENCODED_SUPPORTUNICODE
@@ -2318,11 +2340,12 @@ Lookup AttributeValueMapper_LOOKUP_TABLE   Best            0<comma>0.666667<comm
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeValueMapper    INPUT  FEATURE_TYPE VertexCreator_OUTPUT    OUTPUT FEATURE_TYPE AttributeValueMapper_OUTPUT         @Lookup(AttributeValueMapper_LOOKUP_TABLE,"QualityOfSignal",FORWARD|ENCODED_ATTR|REAL_NULL_SUPPORT, fme_color)
 
 
+FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeValueMapper OUTPUT Splitter"   INPUT FEATURE_TYPE AttributeValueMapper_OUTPUT   OUTPUT FEATURE_TYPE AttributeValueMapper_OUTPUT_0_QInrT6iEB8o=   OUTPUT FEATURE_TYPE AttributeValueMapper_OUTPUT_1_fKNhKDmasv0=
 # -------------------------------------------------------------------------
 
 # Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
 DEFAULT_MACRO WORKSPACE_TEMP_DIR
-FACTORY_DEF * InspectorFactory    FACTORY_NAME AttributeCreator_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeValueMapper_OUTPUT    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX AttributeCreator_Output    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
+FACTORY_DEF * InspectorFactory    FACTORY_NAME AttributeCreator_Output_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE AttributeValueMapper_OUTPUT_1_fKNhKDmasv0=    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY    GROUP_ATTRIBUTE_PREFIX AttributeCreator_Output    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
 
@@ -2336,7 +2359,7 @@ FACTORY_DEF * RecorderFactory    FACTORY_NAME AttributeCreator_Output_Recorder  
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeValueMapper_OUTPUT_0_QInrT6iEB8o= TO MITAB __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>CellSignals<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
@@ -2346,4 +2369,4 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYP
 FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS $theFile & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
 FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
 # -------------------------------------------------------------------------
-MITAB_1_DEF Table1
+MITAB_1_DEF CellSignals   QualityOfSignal              char(200)   codeValue                    char(200)   longitude                    char(254)   latitude                     char(254)   StationID                    char(254)   Power                        char(254)   Quality                      char(254)   num_measures                 char(254)   record_tstamp                char(254)   codeTag                      char(200)

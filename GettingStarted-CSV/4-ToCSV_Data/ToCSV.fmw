@@ -5,58 +5,58 @@
 #    Command-line to run this workspace:
 #    
 #    
-#    "C:\Program Files\FME111\fme.exe" C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\ToCSV_Data\ToCSV.fmw
+#    C:\apps\FME(32bit)\fme.exe C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\ToCSV_Data\ToCSV.fmw
 #          --SourceDataset_ESRISHAPE "C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\ToCSV_Data\rapid_transit_line.shp"
 #          --DestDataset_CSV2 "C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\ToCSV_Data"
 #          --SourceDataset_XLSXR "C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\ToCSV_Data\CensusLocalAreaProfiles2011.xls"
 #          --DestDataset_CSV2_4 "C:\Users\lsanderson\Documents\SafeProjects\GettingStarted-CSV\ToCSV_Data"
 #    
 #    
-#!   TITLE=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   CATEGORY=""
-#!   IGNORE_READER_FAILURE="No"
-#!   VIEW_POSITION="-3912.08 1160.31"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   END_TCL=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   FME_SERVER_SERVICES=""
-#!   HISTORY=""
-#!   BEGIN_PYTHON=""
-#!   SOURCE_ROUTING_FILE=""
-#!   WORKSPACE_VERSION="1"
-#!   DOC_TOP_LEFT="-2178.84 -1177.67"
-#!   DESCRIPTION=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   PASSWORD=""
-#!   DOC_EXTENTS="3176.39 1705.8"
-#!   LOG_MAX_RECORDED_FEATURES="200"
-#!   FME_BUILD_NUM="17652"
-#!   MAX_LOG_FEATURES="200"
-#!   BEGIN_TCL=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   LAST_SAVE_DATE="2017-10-27T12:16:53"
-#!   MARKDOWN_USAGE=""
+#!   DOC_EXTENTS="3176.39 1526.4"
 #!   USE_MARKDOWN=""
-#!   TERMINATE_REJECTED="YES"
-#!   FME_DOCUMENT_PRIORGUID="1d86edcd-deff-4b32-974d-e62afe5af48f,7ccede1f-b5d2-43f9-8d92-81f26964ebc4,aacb4003-e9c1-4125-9f12-daa43e471a12,77309522-b317-437b-98a7-e8813d5e3920,7363c0ef-4a5d-48cc-a574-e1218486dabd,49eef98a-34c4-4815-8896-694232497e2c,6c952bad-6a90-4e89-8fb3-2fef9a1035b6,143775b8-9d0a-4eda-ac85-3f1d814bead2,a06adfc3-a649-466d-8270-82b8151abae3"
-#!   END_PYTHON=""
-#!   SHOW_ANNOTATIONS="true"
-#!   FME_STROKE_MAX_DEVIATION="0"
-#!   DESTINATION="NONE"
-#!   SOURCE="NONE"
-#!   USAGE=""
-#!   MARKDOWN_DESCRIPTION=""
-#!   FME_DOCUMENT_GUID="41bf22ce-da23-4456-a227-1d03e0d0e3eb"
-#!   SHOW_INFO_NODES="true"
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN64)"
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   ZOOM_SCALE="108"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   MARKDOWN_USAGE=""
+#!   SOURCE_ROUTING_FILE=""
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2017.1.1.1 (20171014 - Build 17652 - WIN32)"
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   PASSWORD=""
+#!   BEGIN_TCL=""
+#!   FME_DOCUMENT_PRIORGUID="1d86edcd-deff-4b32-974d-e62afe5af48f,7ccede1f-b5d2-43f9-8d92-81f26964ebc4,aacb4003-e9c1-4125-9f12-daa43e471a12,77309522-b317-437b-98a7-e8813d5e3920,7363c0ef-4a5d-48cc-a574-e1218486dabd,49eef98a-34c4-4815-8896-694232497e2c,6c952bad-6a90-4e89-8fb3-2fef9a1035b6,143775b8-9d0a-4eda-ac85-3f1d814bead2,a06adfc3-a649-466d-8270-82b8151abae3,41bf22ce-da23-4456-a227-1d03e0d0e3eb"
+#!   DESTINATION_ROUTING_FILE=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_SERVER_SERVICES=""
+#!   TERMINATE_REJECTED="YES"
+#!   HISTORY=""
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   END_PYTHON=""
+#!   USAGE=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   END_TCL=""
+#!   MAX_LOG_FEATURES="200"
+#!   DOC_TOP_LEFT="-4265.09 -622.113"
+#!   TITLE=""
+#!   DESCRIPTION=""
+#!   FME_BUILD_NUM="17652"
+#!   CATEGORY=""
+#!   LAST_SAVE_DATE="2017-11-06T11:43:18"
+#!   SOURCE="NONE"
+#!   VIEW_POSITION="-4803.29 1221.08"
+#!   ZOOM_SCALE="108"
+#!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   LOG_FILE=""
+#!   DESTINATION="NONE"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   FME_DOCUMENT_GUID="a011e036-57b0-4f76-820a-98bd561a3715"
+#!   BEGIN_PYTHON=""
+#!   WORKSPACE_VERSION="1"
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   REDIRECT_TERMINATORS="NONE"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -72,7 +72,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="shape_measures char(254) shape_geometry_error{} char(254) fme_start_angle double multi_reader_type char(50) fme_text_string char(50) multi_reader_full_id long multi_reader_keyword char(50) fme_primary_axis double fme_sweep_angle double fme_text_size double multi_reader_id long fme_fill_color char(50) fme_color char(50) fme_geometry fme_char(50) fme_rotation double fme_secondary_axis double fme_type char(50) fme_feature_type char(50) fme_dataset char(50) fme_basename char(50) SHAPE_GEOMETRY char(50)"
+#!   EXPOSABLE_ATTRS="multi_reader_type char(50) fme_rotation double fme_text_string char(50) fme_primary_axis double fme_sweep_angle double fme_fill_color char(50) shape_geometry_error{} char(254) fme_feature_type char(50) fme_dataset char(50) SHAPE_GEOMETRY char(50) fme_type char(50) fme_geometry fme_char(50) multi_reader_id long fme_basename char(50) multi_reader_full_id long fme_text_size double shape_measures char(254) fme_color char(50) fme_secondary_axis double multi_reader_keyword char(50) fme_start_angle double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -81,24 +81,16 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILEDIR"
 #!   GENERATE_FME_BUILD_NUM="17539"
-#!   FEATURE_TYPES=""
-#!   MIN_FEATURES=""
-#!   COORDSYS="UTM83-10"
-#!   MAX_FEATURES=""
 #!   START_FEATURE=""
+#!   MAX_FEATURES=""
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   COORDSYS="UTM83-10"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="ESRISHAPE_IN_ENCODING ESRISHAPE_IN_TRIM_PRECEDING_SPACES ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY ESRISHAPE_IN_MEASURES_AS_Z ESRISHAPE_IN_DISSOLVE_HOLES ESRISHAPE_IN_REPORT_BAD_GEOMETRY ESRISHAPE_OUT_STRICT_COMPATIBILITY ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE ESRISHAPE_OUT_MEASURES_AS_Z"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the Esri Shapefile(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the Esri Shapefile"
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Shapefile"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
@@ -109,12 +101,20 @@
 #!   VALUE="Shapefile1"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Shapefile"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="DEFAULT_GEOMETRY_TYPE"
 #!   VALUE="shape_first_feature"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Esri Shapefile(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="ESRISHAPE_IN_ENCODING ESRISHAPE_IN_TRIM_PRECEDING_SPACES ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY ESRISHAPE_IN_MEASURES_AS_Z ESRISHAPE_IN_DISSOLVE_HOLES ESRISHAPE_IN_REPORT_BAD_GEOMETRY ESRISHAPE_OUT_STRICT_COMPATIBILITY ESRISHAPE_OUT_PRESERVE_RING_VERTEX_ORDER ESRISHAPE_OUT_SURFACE_AND_SOLID_STORAGE ESRISHAPE_OUT_MEASURES_AS_Z"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the Esri Shapefile"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -130,7 +130,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="xlsx_start_row &quot;&quot; xlsx_end_row &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) multi_reader_type char(50) fme_text_string char(50) multi_reader_full_id number(11,0) multi_reader_keyword char(50) fme_primary_axis number(31,15) fme_sweep_angle number(31,15) fme_text_size number(31,15) multi_reader_id number(11,0) fme_fill_color char(50) fme_color char(50) fme_geometry fme_char(50) fme_rotation number(31,15) fme_secondary_axis number(31,15) fme_type char(50) fme_feature_type char(50) fme_dataset char(50) xlsx_row_id number(11,0) fme_basename char(50)"
+#!   EXPOSABLE_ATTRS="multi_reader_type char(50) fme_rotation number(31,15) fme_text_string char(50) fme_primary_axis number(31,15) fme_sweep_angle number(31,15) fme_feature_type char(50) fme_fill_color char(50) fme_dataset char(50) fme_type char(50) fme_geometry fme_char(50) multi_reader_id number(11,0) fme_basename char(50) multi_reader_full_id number(11,0) fme_text_size number(31,15) fme_color char(50) fme_secondary_axis number(31,15) xlsx_row_id number(11,0) multi_reader_keyword char(50) fme_start_angle number(31,15)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP xlsx_table_settings_group xlsx_start_row%xlsx_end_row Table&quot; &quot;&quot; &quot;GUI FORCE_DEFS OPTIONAL INTEGER xlsx_start_row Start Row:&quot; &quot;&quot; &quot;GUI FORCE_DEFS OPTIONAL INTEGER xlsx_end_row End Row:&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -139,40 +139,40 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="17652"
-#!   FEATURE_TYPES=""
-#!   MIN_FEATURES=""
-#!   COORDSYS=""
-#!   MAX_FEATURES=""
 #!   START_FEATURE=""
+#!   MAX_FEATURES=""
+#!   MIN_FEATURES=""
+#!   FEATURE_TYPES=""
 #!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   COORDSYS=""
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="XLSXR_IN_READ_BLANK_AS XLSXR_IN_EXPAND_MERGED_CELLS XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the Excel file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="MIME_TYPE"
-#!   VALUE="application/vnd.ms-excel ADD_DISPOSITION"
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="Sheet"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="xlsx file"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="ATTRIBUTE_READING"
+#!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Excel file(s)"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="ALLOW_DATASET_CONFLICT"
 #!   VALUE="YES"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="Sheet"
+#!   NAME="MIME_TYPE"
+#!   VALUE="application/vnd.ms-excel ADD_DISPOSITION"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="ATTRIBUTE_READING"
-#!   VALUE="DEFLINE"
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="XLSXR_IN_READ_BLANK_AS XLSXR_IN_EXPAND_MERGED_CELLS XLSXR_IN_SCAN_SCHEMA_IF_DYNAMIC"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -188,7 +188,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="csv_existing_file_handling Yes csv_write_field_names firstrow"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis string fme_sweep_angle string fme_color string fme_type string fme_text_string string fme_feature_type string fme_dataset string csv_type string fme_rotation string fme_secondary_axis string fme_basename string fme_fill_color string fme_text_size string fme_geometry fme_char(50) fme_start_angle string"
+#!   EXPOSABLE_ATTRS="csv_type string fme_geometry fme_char(50) fme_primary_axis string fme_type string fme_text_size string fme_sweep_angle string fme_feature_type string fme_rotation string fme_fill_color string fme_start_angle string fme_dataset string fme_color string fme_basename string fme_text_string string fme_secondary_axis string"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP csv_dataset_group csv_existing_file_handling Dataset&quot; &quot;&quot; &quot;GUI CHOICE csv_existing_file_handling Yes%No Overwrite Existing File&quot; Yes &quot;GUI OPTIONAL NAMEDGROUP csv_fields_group csv_write_field_names Fields&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE csv_write_field_names If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no Write Field Names Row&quot; firstrow "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS="&quot;*{}$"
@@ -197,41 +197,41 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILEDIR"
 #!   GENERATE_FME_BUILD_NUM="17539"
-#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
-#!   FANOUT_GROUP="NO"
 #!   COORDSYS=""
+#!   FANOUT_GROUP="NO"
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="CSV2_OUT_QUALIFY_FIELD_NAMES CSV2_OUT_QUALIFY_FIELD_VALUES CSV2_OUT_FIELD_QUALIFIER_CHARACTER CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER CSV2_OUT_ROW_TERMINATION CSV2_OUT_WRITE_SCHEMA_FILE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the CSV file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the CSV file"
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="CSV File"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="csv file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="DEFAULT_ATTR_TYPE"
-#!   VALUE="string"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
 #!   VALUE="File1"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="CSV File"
+#!   NAME="DEFAULT_ATTR_TYPE"
+#!   VALUE="string"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="ATTRIBUTE_READING"
 #!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the CSV file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="CSV2_OUT_QUALIFY_FIELD_NAMES CSV2_OUT_QUALIFY_FIELD_VALUES CSV2_OUT_FIELD_QUALIFIER_CHARACTER CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER CSV2_OUT_ROW_TERMINATION CSV2_OUT_WRITE_SCHEMA_FILE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the CSV file"
 #! />
 #! </DATASET>
 #! <DATASET
@@ -247,7 +247,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="csv_existing_file_handling Yes csv_write_field_names firstrow"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis string fme_sweep_angle string fme_color string fme_type string fme_text_string string fme_feature_type string fme_dataset string csv_type string fme_rotation string fme_secondary_axis string fme_basename string fme_fill_color string fme_text_size string fme_geometry fme_char(50) fme_start_angle string"
+#!   EXPOSABLE_ATTRS="csv_type string fme_geometry fme_char(50) fme_primary_axis string fme_type string fme_text_size string fme_sweep_angle string fme_feature_type string fme_rotation string fme_fill_color string fme_start_angle string fme_dataset string fme_color string fme_basename string fme_text_string string fme_secondary_axis string"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP csv_dataset_group csv_existing_file_handling Dataset&quot; &quot;&quot; &quot;GUI CHOICE csv_existing_file_handling Yes%No Overwrite Existing File&quot; Yes &quot;GUI OPTIONAL NAMEDGROUP csv_fields_group csv_write_field_names Fields&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE csv_write_field_names If&lt;space&gt;Writing&lt;space&gt;First&lt;space&gt;Row,firstrow%Yes,yes%No,no Write Field Names Row&quot; firstrow "
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS="&quot;*{}$"
@@ -256,41 +256,41 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILEDIR"
 #!   GENERATE_FME_BUILD_NUM="17652"
-#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
-#!   FANOUT_GROUP="NO"
 #!   COORDSYS=""
+#!   FANOUT_GROUP="NO"
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
 #! >
 #! <METAFILE_PARAMETER
-#!   NAME="ADVANCED_PARMS"
-#!   VALUE="CSV2_OUT_QUALIFY_FIELD_NAMES CSV2_OUT_QUALIFY_FIELD_VALUES CSV2_OUT_FIELD_QUALIFIER_CHARACTER CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER CSV2_OUT_ROW_TERMINATION CSV2_OUT_WRITE_SCHEMA_FILE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the CSV file(s)"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="WRITER_DATASET_HINT"
-#!   VALUE="Specify a folder for the CSV file"
+#!   NAME="FEATURE_TYPE_NAME"
+#!   VALUE="CSV File"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="DATASET_NAME"
 #!   VALUE="csv file"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="DEFAULT_ATTR_TYPE"
-#!   VALUE="string"
-#! />
-#! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
 #!   VALUE="File1"
 #! />
 #! <METAFILE_PARAMETER
-#!   NAME="FEATURE_TYPE_NAME"
-#!   VALUE="CSV File"
+#!   NAME="DEFAULT_ATTR_TYPE"
+#!   VALUE="string"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="ATTRIBUTE_READING"
 #!   VALUE="DEFLINE"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the CSV file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="ADVANCED_PARMS"
+#!   VALUE="CSV2_OUT_QUALIFY_FIELD_NAMES CSV2_OUT_QUALIFY_FIELD_VALUES CSV2_OUT_FIELD_QUALIFIER_CHARACTER CSV2_OUT_FIELD_QUALIFIER_ESCAPE_CHARACTER CSV2_OUT_ROW_TERMINATION CSV2_OUT_WRITE_SCHEMA_FILE CSV2_OUT_EXISTING_SCHEMA_FILE_HANDLING"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a folder for the CSV file"
 #! />
 #! </DATASET>
 #! </DATASETS>
@@ -1123,8 +1123,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="shape_polyline"
-#!   POSITION="-2116.59 -812.947"
-#!   BOUNDING_RECT="-2116.59 -812.947 500.255 71"
+#!   POSITION="-4202.84 -257.386"
+#!   BOUNDING_RECT="-4202.84 -257.386 500.255 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="ESRISHAPE_1"
@@ -1146,8 +1146,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="4"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="278.795 -812.947"
-#!   BOUNDING_RECT="278.795 -812.947 550.163 71"
+#!   POSITION="-1807.45 -257.386"
+#!   BOUNDING_RECT="-1807.45 -257.386 550.163 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="CSV2_1"
@@ -1159,9 +1159,9 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Longitude" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Latitude" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="csv_fields_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="csv_dataset_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="csv_write_field_names" PARM_VALUE="firstrow"/>
 #!     <DEFLINE_PARM PARM_NAME="csv_existing_file_handling" PARM_VALUE="Yes"/>
-#!     <DEFLINE_PARM PARM_NAME="csv_dataset_group" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
@@ -1171,8 +1171,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="12"
 #!   FEAT_GEOMTYPE="xlsx_none"
-#!   POSITION="-2069.58 288.543"
-#!   BOUNDING_RECT="-2069.58 288.543 577.09 71"
+#!   POSITION="-4155.83 664.704"
+#!   BOUNDING_RECT="-4155.83 664.704 577.09 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="XLSXR_1"
@@ -1211,9 +1211,9 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Vancouver CSD (City)" ATTR_TYPE="char(7)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="CMA of Vancouver" ATTR_TYPE="char(8)" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <NON_GUI_DEFLINE_PARM VALUE="xlsx_schema_start_row,5;xlsx_schema_end_col,0;xlsx_header_row,4;xlsx_schema_start_col,0;xlsx_schema_end_row,0"/>
-#!     <DEFLINE_PARM PARM_NAME="xlsx_start_row" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="xlsx_end_row" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="xlsx_table_settings_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="xlsx_start_row" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
@@ -1223,8 +1223,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="20"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="-162.81 228.543"
-#!   BOUNDING_RECT="-162.81 228.543 593.616 71"
+#!   POSITION="-2249.06 604.704"
+#!   BOUNDING_RECT="-2249.06 604.704 593.616 71"
 #!   ORDER="5e+14"
 #!   COLLAPSED="true"
 #!   KEYWORD="CSV2_2"
@@ -1258,9 +1258,9 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="Vancouver CSD (City)" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="CMA of Vancouver" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="csv_fields_group" PARM_VALUE=""/>
+#!     <DEFLINE_PARM PARM_NAME="csv_dataset_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="csv_write_field_names" PARM_VALUE="firstrow"/>
 #!     <DEFLINE_PARM PARM_NAME="csv_existing_file_handling" PARM_VALUE="Yes"/>
-#!     <DEFLINE_PARM PARM_NAME="csv_dataset_group" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
@@ -1291,10 +1291,10 @@
 #! <COMMENT
 #!   IDENTIFIER="22"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2011 Local Areas: CensusLocalAreaProfiles2011 [XLSXR]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-2069.58 122.712"
-#!   TOP_LEFT="-2069.58 122.712"
-#!   BOTTOM_RIGHT="-2070.58 123.712"
-#!   BOUNDING_RECT="-2069.58 122.712 -1 -1"
+#!   POSITION="-4155.83 498.873"
+#!   TOP_LEFT="-4155.83 498.873"
+#!   BOTTOM_RIGHT="-4156.83 499.873"
+#!   BOUNDING_RECT="-4155.83 498.873 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1306,10 +1306,10 @@
 #! <COMMENT
 #!   IDENTIFIER="26"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tests for &amp;lt;missing&amp;gt; attributes&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-843.18 438.127"
-#!   TOP_LEFT="-843.18 438.127"
-#!   BOTTOM_RIGHT="-844.18 439.127"
-#!   BOUNDING_RECT="-843.18 438.127 -1 -1"
+#!   POSITION="-2929.43 814.288"
+#!   TOP_LEFT="-2929.43 814.288"
+#!   BOTTOM_RIGHT="-2930.43 815.288"
+#!   BOUNDING_RECT="-2929.43 814.288 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1321,10 +1321,10 @@
 #! <COMMENT
 #!   IDENTIFIER="27"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;VancouverCensus2011: GettingStarted-CSV [CSV2]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-487.16 70.8137"
-#!   TOP_LEFT="-487.16 70.8137"
-#!   BOTTOM_RIGHT="-488.16 71.8137"
-#!   BOUNDING_RECT="-487.16 70.8137 -1 -1"
+#!   POSITION="-2573.41 446.975"
+#!   TOP_LEFT="-2573.41 446.975"
+#!   BOTTOM_RIGHT="-2574.41 447.975"
+#!   BOUNDING_RECT="-2573.41 446.975 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1336,10 +1336,10 @@
 #! <COMMENT
 #!   IDENTIFIER="28"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rename A to CensusType&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1414.54 438.127"
-#!   TOP_LEFT="-1414.54 438.127"
-#!   BOTTOM_RIGHT="-1415.54 439.127"
-#!   BOUNDING_RECT="-1414.54 438.127 -1 -1"
+#!   POSITION="-3500.79 814.288"
+#!   TOP_LEFT="-3500.79 814.288"
+#!   BOTTOM_RIGHT="-3501.79 815.288"
+#!   BOUNDING_RECT="-3500.79 814.288 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1351,10 +1351,10 @@
 #! <COMMENT
 #!   IDENTIFIER="30"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;rapid_transit_line: rapid_transit_line [ESRISHAPE]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-2158.59 -665.696"
-#!   TOP_LEFT="-2158.59 -665.696"
-#!   BOTTOM_RIGHT="-2159.59 -664.696"
-#!   BOUNDING_RECT="-2158.59 -665.696 -1 -1"
+#!   POSITION="-4244.84 -110.135"
+#!   TOP_LEFT="-4244.84 -110.135"
+#!   BOTTOM_RIGHT="-4245.84 -109.135"
+#!   BOUNDING_RECT="-4244.84 -110.135 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1366,10 +1366,10 @@
 #! <COMMENT
 #!   IDENTIFIER="31"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;rapid_transit_line: GettingStarted-CSV [CSV2]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="55.1399 -639.654"
-#!   TOP_LEFT="55.1399 -639.654"
-#!   BOTTOM_RIGHT="54.1399 -638.654"
-#!   BOUNDING_RECT="55.1399 -639.654 -1 -1"
+#!   POSITION="-2031.11 -84.0929"
+#!   TOP_LEFT="-2031.11 -84.0929"
+#!   BOTTOM_RIGHT="-2032.11 -83.0929"
+#!   BOUNDING_RECT="-2031.11 -84.0929 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1381,10 +1381,10 @@
 #! <COMMENT
 #!   IDENTIFIER="32"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Remove _element_index and z&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Rename x and y to Longitude and Latitude&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-278.908 -984.778"
-#!   TOP_LEFT="-278.908 -984.778"
-#!   BOTTOM_RIGHT="-279.908 -983.778"
-#!   BOUNDING_RECT="-278.908 -984.778 -1 -1"
+#!   POSITION="-2365.16 -429.217"
+#!   TOP_LEFT="-2365.16 -429.217"
+#!   BOTTOM_RIGHT="-2366.16 -428.217"
+#!   BOUNDING_RECT="-2365.16 -429.217 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1396,10 +1396,10 @@
 #! <COMMENT
 #!   IDENTIFIER="34"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;List Attribute: _indices{}&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-936.486 -684.196"
-#!   TOP_LEFT="-936.486 -684.196"
-#!   BOTTOM_RIGHT="-937.486 -683.196"
-#!   BOUNDING_RECT="-936.486 -684.196 -1 -1"
+#!   POSITION="-3022.73 -128.635"
+#!   TOP_LEFT="-3022.73 -128.635"
+#!   BOTTOM_RIGHT="-3023.73 -127.635"
+#!   BOUNDING_RECT="-3022.73 -128.635 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1411,10 +1411,10 @@
 #! <COMMENT
 #!   IDENTIFIER="33"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Extracts coordinates into a attribute called _indices{}&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-1970.63 -984.778"
-#!   TOP_LEFT="-1970.63 -984.778"
-#!   BOTTOM_RIGHT="-1971.63 -983.778"
-#!   BOUNDING_RECT="-1970.63 -984.778 -1 -1"
+#!   POSITION="-4056.88 -429.217"
+#!   TOP_LEFT="-4056.88 -429.217"
+#!   BOTTOM_RIGHT="-4057.88 -428.217"
+#!   BOUNDING_RECT="-4056.88 -429.217 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1431,23 +1431,23 @@
 #!   IDENTIFIER="11"
 #!   NAME="Part 2: Spatial Shapfile to Spatial CSV"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-2178.84 -517.366"
-#!   BOTTOM_RIGHT="997.55 -1177.67"
-#!   BOUNDING_RECT="-2178.84 -517.366 3176.39 660.308"
+#!   TOP_LEFT="-4265.09 38.1951"
+#!   BOTTOM_RIGHT="-1088.7 -622.113"
+#!   BOUNDING_RECT="-4265.09 38.1951 3176.39 660.308"
 #!   STICKY="true"
 #!   COLOUR="0.6,0.764706,0.247059"
-#!   CONTENTS="9 10 31 33 32 30 17 14 2 34 4 8 16 13 "
+#!   CONTENTS="10 4 9 17 14 34 8 13 32 30 31 2 16 33 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="29"
 #!   NAME="Part 1: Tabular to Tabular CSV"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-2178.84 528.127"
-#!   BOTTOM_RIGHT="570.03 -83.913"
-#!   BOUNDING_RECT="-2178.84 528.127 2748.87 612.04"
+#!   TOP_LEFT="-4265.09 904.288"
+#!   BOTTOM_RIGHT="-1516.22 292.248"
+#!   BOUNDING_RECT="-4265.09 904.288 2748.87 612.04"
 #!   STICKY="true"
-#!   COLOUR="0.541176,0.14902,0.929412"
-#!   CONTENTS="27 22 12 23 19 26 21 20 25 24 28 "
+#!   COLOUR="0.537255,0.14902,0.929412"
+#!   CONTENTS="22 28 23 20 19 26 21 27 25 24 12 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -1455,8 +1455,8 @@
 #!   IDENTIFIER="8"
 #!   TYPE="CoordinateExtractor"
 #!   VERSION="2"
-#!   POSITION="-1480.2 -812.947"
-#!   BOUNDING_RECT="-1480.2 -812.947 -1 -1"
+#!   POSITION="-3566.45 -257.386"
+#!   BOUNDING_RECT="-3566.45 -257.386 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1468,25 +1468,25 @@
 #!     <XFORM_ATTR ATTR_NAME="_indices{}.x" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_indices{}.y" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_indices{}.z" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="IND" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="Z_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MODE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="All Coordinates"/>
-#!     <XFORM_PARM PARM_NAME="X_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateExtractor"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_indices"/>
-#!     <XFORM_PARM PARM_NAME="Z_DEFAULT" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="Z_DEFAULT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="All Coordinates"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="_indices"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateExtractor"/>
+#!     <XFORM_PARM PARM_NAME="MODE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="INDEX_ATTRIBUTES_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
 #!     <XFORM_PARM PARM_NAME="ALL_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="X_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="IND" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="Y_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="Z_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="13"
 #!   TYPE="ListExploder"
 #!   VERSION="6"
-#!   POSITION="-890.611 -812.947"
-#!   BOUNDING_RECT="-890.611 -812.947 -1 -1"
+#!   POSITION="-2976.86 -257.386"
+#!   BOUNDING_RECT="-2976.86 -257.386 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1506,22 +1506,22 @@
 #!     <XFORM_ATTR ATTR_NAME="y" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="z" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_indices{}"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use List Attribute Values"/>
 #!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="_indices{}"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use List Attribute Values"/>
 #!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="16"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="-278.908 -812.947"
-#!   BOUNDING_RECT="-278.908 -812.947 -1 -1"
+#!   POSITION="-2365.16 -257.386"
+#!   BOUNDING_RECT="-2365.16 -257.386 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1532,23 +1532,23 @@
 #!     <XFORM_ATTR ATTR_NAME="LINE" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="LINE LINE  NO_OP x Longitude  RENAME_SET_VALUE y Latitude  RENAME_SET_VALUE z z  REMOVE _element_index _element_index  REMOVE"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="LINE LINE  NO_OP x Longitude  RENAME_SET_VALUE y Latitude  RENAME_SET_VALUE z z  REMOVE _element_index _element_index  REMOVE"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="19"
 #!   TYPE="Tester"
 #!   VERSION="2"
-#!   POSITION="-742.79 288.543"
-#!   BOUNDING_RECT="-742.79 288.543 -1 -1"
+#!   POSITION="-2829.04 664.704"
+#!   BOUNDING_RECT="-2829.04 664.704 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1608,20 +1608,20 @@
 #!     <XFORM_ATTR ATTR_NAME="West Point Grey" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vancouver CSD (City)" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="CMA of Vancouver" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST A ATTRIBUTE_IS_MISSING &quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="Tests&lt;space&gt;for&lt;space&gt;&lt;lt&gt;missing&lt;gt&gt;&lt;space&gt;attributes&lt;space&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST A ATTRIBUTE_IS_MISSING &quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="Tests&lt;space&gt;for&lt;space&gt;&lt;lt&gt;missing&lt;gt&gt;&lt;space&gt;attributes&lt;space&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="21"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="-1326.13 288.543"
-#!   BOUNDING_RECT="-1326.13 288.543 -1 -1"
+#!   POSITION="-3412.38 664.704"
+#!   BOUNDING_RECT="-3412.38 664.704 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1654,16 +1654,16 @@
 #!     <XFORM_ATTR ATTR_NAME="West Point Grey" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vancouver CSD (City)" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="CMA of Vancouver" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="A CensusType  RENAME_SET_VALUE Arbutus-Ridge Arbutus-Ridge  NO_OP Downtown Downtown  NO_OP Dunbar-Southlands Dunbar-Southlands  NO_OP Fairview Fairview  NO_OP Grandview-Woodland Grandview-Woodland  NO_OP Hastings-Sunrise Hastings-Sunrise  NO_OP Kensington-Cedar&lt;space&gt;Cottage Kensington-Cedar&lt;space&gt;Cottage  NO_OP Kerrisdale Kerrisdale  NO_OP Killarney Killarney  NO_OP Kitsilano Kitsilano  NO_OP Marpole Marpole  NO_OP Mount&lt;space&gt;Pleasant Mount&lt;space&gt;Pleasant  NO_OP Oakridge Oakridge  NO_OP Renfrew-Collingwood Renfrew-Collingwood  NO_OP Riley&lt;space&gt;Park Riley&lt;space&gt;Park  NO_OP Shaughnessy Shaughnessy  NO_OP South&lt;space&gt;Cambie South&lt;space&gt;Cambie  NO_OP Strathcona Strathcona  NO_OP Sunset Sunset  NO_OP Victoria-Fraserview Victoria-Fraserview  NO_OP West&lt;space&gt;End West&lt;space&gt;End  NO_OP West&lt;space&gt;Point&lt;space&gt;Grey West&lt;space&gt;Point&lt;space&gt;Grey  NO_OP Vancouver&lt;space&gt;CSD&lt;space&gt;&lt;openparen&gt;City&lt;closeparen&gt; Vancouver&lt;space&gt;CSD&lt;space&gt;&lt;openparen&gt;City&lt;closeparen&gt;  NO_OP CMA&lt;space&gt;of&lt;space&gt;Vancouver CMA&lt;space&gt;of&lt;space&gt;Vancouver  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="A CensusType  RENAME_SET_VALUE Arbutus-Ridge Arbutus-Ridge  NO_OP Downtown Downtown  NO_OP Dunbar-Southlands Dunbar-Southlands  NO_OP Fairview Fairview  NO_OP Grandview-Woodland Grandview-Woodland  NO_OP Hastings-Sunrise Hastings-Sunrise  NO_OP Kensington-Cedar&lt;space&gt;Cottage Kensington-Cedar&lt;space&gt;Cottage  NO_OP Kerrisdale Kerrisdale  NO_OP Killarney Killarney  NO_OP Kitsilano Kitsilano  NO_OP Marpole Marpole  NO_OP Mount&lt;space&gt;Pleasant Mount&lt;space&gt;Pleasant  NO_OP Oakridge Oakridge  NO_OP Renfrew-Collingwood Renfrew-Collingwood  NO_OP Riley&lt;space&gt;Park Riley&lt;space&gt;Park  NO_OP Shaughnessy Shaughnessy  NO_OP South&lt;space&gt;Cambie South&lt;space&gt;Cambie  NO_OP Strathcona Strathcona  NO_OP Sunset Sunset  NO_OP Victoria-Fraserview Victoria-Fraserview  NO_OP West&lt;space&gt;End West&lt;space&gt;End  NO_OP West&lt;space&gt;Point&lt;space&gt;Grey West&lt;space&gt;Point&lt;space&gt;Grey  NO_OP Vancouver&lt;space&gt;CSD&lt;space&gt;&lt;openparen&gt;City&lt;closeparen&gt; Vancouver&lt;space&gt;CSD&lt;space&gt;&lt;openparen&gt;City&lt;closeparen&gt;  NO_OP CMA&lt;space&gt;of&lt;space&gt;Vancouver CMA&lt;space&gt;of&lt;space&gt;Vancouver  NO_OP"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2132,7 +2132,7 @@ ESRISHAPE_1_DEF rapid_transit_line   SHAPE_GEOMETRY               shape_polyline
 
 FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE ESRISHAPE ESRISHAPE_1::rapid_transit_line multi_reader_keyword,$(DATASET_KEYWORD_ESRISHAPE_1) TO FME_GENERIC ::rapid_transit_line ALIAS_GEOMETRY    ROUTE XLSXR "XLSXR_1::2011 Local Areas" multi_reader_keyword,$(DATASET_KEYWORD_XLSXR_1) TO FME_GENERIC "::2011 Local Areas" ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 ESRISHAPE_1_MERGE_DEF ESRISHAPE_1::rapid_transit_line EXACT rapid_transit_line
-XLSXR_1_MERGE_DEF "XLSXR_1::2011 Local Areas" EXACT 2011<space>Local<space>Areas DEFLINE xlsx_start_row,,xlsx_end_row,,xlsx_schema_start_row,5,xlsx_schema_end_col,0,xlsx_header_row,4,xlsx_schema_end_row,0,xlsx_schema_start_col,0,fme_attribute_reading,defined,A,char<openparen>102<closeparen>,Arbutus-Ridge,number<openparen>8<comma>1<closeparen>,Downtown,number<openparen>8<comma>1<closeparen>,Dunbar-Southlands,number<openparen>8<comma>1<closeparen>,Fairview,number<openparen>8<comma>1<closeparen>,Grandview-Woodland,number<openparen>8<comma>1<closeparen>,Hastings-Sunrise,number<openparen>8<comma>1<closeparen>,Kensington-Cedar<space>Cottage,number<openparen>8<comma>1<closeparen>,Kerrisdale,number<openparen>8<comma>1<closeparen>,Killarney,number<openparen>8<comma>1<closeparen>,Kitsilano,number<openparen>8<comma>1<closeparen>,Marpole,number<openparen>8<comma>1<closeparen>,Mount<space>Pleasant,number<openparen>8<comma>1<closeparen>,Oakridge,number<openparen>8<comma>1<closeparen>,Renfrew-Collingwood,number<openparen>8<comma>1<closeparen>,Riley<space>Park,number<openparen>8<comma>1<closeparen>,Shaughnessy,number<openparen>7<comma>1<closeparen>,South<space>Cambie,number<openparen>7<comma>1<closeparen>,Strathcona,number<openparen>8<comma>1<closeparen>,Sunset,number<openparen>8<comma>1<closeparen>,Victoria-Fraserview,number<openparen>8<comma>1<closeparen>,West<space>End,number<openparen>8<comma>1<closeparen>,West<space>Point<space>Grey,number<openparen>8<comma>1<closeparen>,Vancouver<space>CSD<space><openparen>City<closeparen>,char<openparen>7<closeparen>,CMA<space>of<space>Vancouver,char<openparen>8<closeparen>
+XLSXR_1_MERGE_DEF "XLSXR_1::2011 Local Areas" EXACT 2011<space>Local<space>Areas DEFLINE xlsx_start_row,,xlsx_end_row,,xlsx_schema_start_row,5,xlsx_schema_end_col,0,xlsx_header_row,4,xlsx_schema_start_col,0,xlsx_schema_end_row,0,fme_attribute_reading,defined,A,char<openparen>102<closeparen>,Arbutus-Ridge,number<openparen>8<comma>1<closeparen>,Downtown,number<openparen>8<comma>1<closeparen>,Dunbar-Southlands,number<openparen>8<comma>1<closeparen>,Fairview,number<openparen>8<comma>1<closeparen>,Grandview-Woodland,number<openparen>8<comma>1<closeparen>,Hastings-Sunrise,number<openparen>8<comma>1<closeparen>,Kensington-Cedar<space>Cottage,number<openparen>8<comma>1<closeparen>,Kerrisdale,number<openparen>8<comma>1<closeparen>,Killarney,number<openparen>8<comma>1<closeparen>,Kitsilano,number<openparen>8<comma>1<closeparen>,Marpole,number<openparen>8<comma>1<closeparen>,Mount<space>Pleasant,number<openparen>8<comma>1<closeparen>,Oakridge,number<openparen>8<comma>1<closeparen>,Renfrew-Collingwood,number<openparen>8<comma>1<closeparen>,Riley<space>Park,number<openparen>8<comma>1<closeparen>,Shaughnessy,number<openparen>7<comma>1<closeparen>,South<space>Cambie,number<openparen>7<comma>1<closeparen>,Strathcona,number<openparen>8<comma>1<closeparen>,Sunset,number<openparen>8<comma>1<closeparen>,Victoria-Fraserview,number<openparen>8<comma>1<closeparen>,West<space>End,number<openparen>8<comma>1<closeparen>,West<space>Point<space>Grey,number<openparen>8<comma>1<closeparen>,Vancouver<space>CSD<space><openparen>City<closeparen>,char<openparen>7<closeparen>,CMA<space>of<space>Vancouver,char<openparen>8<closeparen>
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "2011 Local Areas (XLSXR_1) Splitter"    INPUT FEATURE_TYPE "2011 Local Areas"    OUTPUT FEATURE_TYPE "2011 Local Areas_XLSXR_1"
