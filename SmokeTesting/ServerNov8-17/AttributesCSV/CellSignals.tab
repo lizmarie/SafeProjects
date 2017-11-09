@@ -1,0 +1,17 @@
+!table
+!version 900
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 10
+    QualityOfSignal Char (200) ;
+    codeValue Char (200) ;
+    longitude Char (254) ;
+    latitude Char (254) ;
+    StationID Char (254) ;
+    Power Char (254) ;
+    Quality Char (254) ;
+    num_measures Char (254) ;
+    record_tstamp Char (254) ;
+    codeTag Char (200) ;
